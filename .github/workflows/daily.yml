@@ -1,0 +1,34 @@
+name: Daily FPE Holdings Snapshot
+
+on:
+  schedule:
+    - cron: '30 12 * * 1-5'  # 7:30 AM ET (EST); 8:30 AM in summer (EDT)
+  workflow_dispatch:          # allow manual runs from GitHub UI
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tracker
+        run: python fpe_tracker.py --no-browser --no-html
+
+      - name: Commit and push snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          TODAY=$(date +%Y-%m-%d)
+          git add "data/fpe_${TODAY}.json"
+          git diff --cached --quiet || git commit -m "Daily snapshot ${TODAY}"
+          git push
