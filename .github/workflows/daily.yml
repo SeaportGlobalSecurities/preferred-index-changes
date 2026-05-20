@@ -22,13 +22,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run tracker
-        run: python fpe_tracker.py --no-browser --no-html
+        run: python fpe_tracker.py --no-browser
 
       - name: Commit and push snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           TODAY=$(date +%Y-%m-%d)
-          git add "data/fpe_${TODAY}.json"
+          PREV=$(date -d "yesterday" +%Y-%m-%d)
+          git add "data/fpe_${TODAY}.json" "data/fpe_report_${PREV}_to_${TODAY}.html" 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Daily snapshot ${TODAY}"
           git push
