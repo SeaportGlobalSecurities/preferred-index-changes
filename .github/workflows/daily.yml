@@ -24,12 +24,17 @@ jobs:
       - name: Run tracker
         run: python fpe_tracker.py --no-browser
 
-      - name: Commit and push snapshot
+      - name: Publish to GitHub Pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           TODAY=$(date +%Y-%m-%d)
           PREV=$(date -d "yesterday" +%Y-%m-%d)
-          git add "data/fpe_${TODAY}.json" "data/fpe_report_${PREV}_to_${TODAY}.html" 2>/dev/null || true
+          REPORT="data/fpe_report_${PREV}_to_${TODAY}.html"
+          mkdir -p docs
+          if [ -f "$REPORT" ]; then
+            cp "$REPORT" docs/index.html
+          fi
+          git add "data/fpe_${TODAY}.json" docs/index.html
           git diff --cached --quiet || git commit -m "Daily snapshot ${TODAY}"
           git push
