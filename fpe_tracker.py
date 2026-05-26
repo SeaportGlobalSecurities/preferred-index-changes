@@ -1,5 +1,5 @@
 """
-FPE ETF Holdings Tracker
+FPE / FPEI ETF Holdings Tracker
 Fetches current holdings, saves a daily snapshot, and diffs against the prior day.
 """
 
@@ -14,7 +14,13 @@ import requests
 from bs4 import BeautifulSoup
 
 DATA_DIR = Path(__file__).parent / "data"
-URL = "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=FPE"
+DOCS_DIR = Path(__file__).parent / "docs"
+
+TICKERS = {
+    "FPE":  "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=FPE",
+    "FPEI": "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=FPEI",
+}
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -29,9 +35,9 @@ HEADERS = {
 #  FETCH / SNAPSHOT
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def fetch_holdings() -> tuple[str, list[dict]]:
+def fetch_holdings(url: str) -> tuple[str, list[dict]]:
     """Fetch and parse holdings table. Returns (as_of_date_str, list_of_holdings)."""
-    resp = requests.get(URL, headers=HEADERS, timeout=30)
+    resp = requests.get(url, headers=HEADERS, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
@@ -73,37 +79,37 @@ def fetch_holdings() -> tuple[str, list[dict]]:
     return as_of.strip(), holdings
 
 
-def snapshot_path(for_date: date) -> Path:
-    return DATA_DIR / f"fpe_{for_date.isoformat()}.json"
+def snapshot_path(for_date: date, ticker: str) -> Path:
+    return DATA_DIR / f"{ticker.lower()}_{for_date.isoformat()}.json"
 
 
-def save_snapshot(holdings: list[dict], as_of: str, for_date: date) -> Path:
+def save_snapshot(holdings: list[dict], as_of: str, for_date: date, ticker: str) -> Path:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    path = snapshot_path(for_date)
-    payload = {"as_of": as_of, "fetch_date": for_date.isoformat(), "holdings": holdings}
+    path = snapshot_path(for_date, ticker)
+    payload = {"as_of": as_of, "fetch_date": for_date.isoformat(), "ticker": ticker, "holdings": holdings}
     path.write_text(json.dumps(payload, indent=2))
     return path
 
 
-def load_snapshot(for_date: date) -> list[dict] | None:
-    path = snapshot_path(for_date)
+def load_snapshot(for_date: date, ticker: str) -> list[dict] | None:
+    path = snapshot_path(for_date, ticker)
     if not path.exists():
         return None
     return json.loads(path.read_text())["holdings"]
 
 
-def load_snapshot_full(for_date: date) -> dict | None:
-    path = snapshot_path(for_date)
+def load_snapshot_full(for_date: date, ticker: str) -> dict | None:
+    path = snapshot_path(for_date, ticker)
     if not path.exists():
         return None
     return json.loads(path.read_text())
 
 
-def find_prior_snapshot(before_date: date) -> tuple[date, list[dict]] | tuple[None, None]:
+def find_prior_snapshot(before_date: date, ticker: str) -> tuple[date, list[dict]] | tuple[None, None]:
     """Walk backwards up to 10 days to find the most recent saved snapshot."""
     for i in range(1, 11):
         d = before_date - timedelta(days=i)
-        snap = load_snapshot(d)
+        snap = load_snapshot(d, ticker)
         if snap is not None:
             return d, snap
     return None, None
@@ -137,6 +143,13 @@ def _shares(holding: dict) -> float:
         return 0.0
 
 
+def _mktval(holding: dict) -> float:
+    raw = holding.get("Market Value", "0").replace("$", "").replace(",", "").strip()
+    try:
+        return float(raw)
+    except ValueError:
+        return 0.0
+
 
 def compare(current: list[dict], prior: list[dict]) -> dict:
     cur_map = {_key(h): h for h in current}
@@ -169,9 +182,9 @@ def compare(current: list[dict], prior: list[dict]) -> dict:
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def print_report(diff: dict, today: date, prior_date: date,
-                 today_count: int, prior_count: int):
+                 today_count: int, prior_count: int, ticker: str = "FPE"):
     print("=" * 70)
-    print("  FPE ETF Holdings Change Report")
+    print(f"  {ticker} ETF Holdings Change Report")
     print(f"  Comparing: {prior_date} ({prior_count} holdings)  ->  {today} ({today_count} holdings)")
     print("=" * 70)
 
@@ -200,7 +213,7 @@ def print_report(diff: dict, today: date, prior_date: date,
             print(f"  {name:<50}  {cusip:<15}  {_shares(h):>15,.0f}")
 
     if changed:
-        print(f"\n  CHANGED POSITIONS ({len(changed)}) - sorted by |mktval delta|:")
+        print(f"\n  CHANGED POSITIONS ({len(changed)}) - sorted by |shares delta|:")
         print(f"  {'Security':<50}  {'CUSIP':<15}  {'Prior':>15}  {'Current':>15}  {'Delta':>15}")
         print(f"  {'-'*50}  {'-'*15}  {'-'*15}  {'-'*15}  {'-'*15}")
         for c in changed:
@@ -250,6 +263,9 @@ _PAGE_CSS = """<style>
 body{margin:0;padding:24px 36px;background:#0d0d0d;color:#e0e0e0;
   font-family:"Courier New",Courier,monospace;font-size:13px;}
 h1{color:#f7a700;margin:0 0 4px 0;font-size:22px;letter-spacing:.5px;}
+h2{color:#f7a700;margin:24px 0 4px 0;font-size:18px;letter-spacing:.5px;
+  border-top:1px solid #333;padding-top:20px;}
+h2:first-of-type{border-top:none;padding-top:0;}
 .sub{color:#888;font-size:13px;margin:0 0 20px 0;}
 .stat-bar{display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;
   background:#111827;border:1px solid #333;border-radius:6px;margin:0 0 20px 0;}
@@ -287,7 +303,7 @@ tbody td{padding:6px 10px;border-bottom:1px solid #252525;white-space:nowrap;}
 def _tid() -> str:
     global _TABLE_CTR
     _TABLE_CTR += 1
-    return f"fpe_tbl_{_TABLE_CTR}"
+    return f"tbl_{_TABLE_CTR}"
 
 
 def _e(v: object) -> str:
@@ -301,13 +317,11 @@ def _td(content: str, sort: str = "", cls: str = "") -> str:
 
 
 def _ss(v: float) -> tuple[str, str]:
-    """Signed shares."""
     if v == 0:
         return '<span class="muted">—</span>', "0"
     sign = "+" if v > 0 else ""
     css  = "pos" if v > 0 else "neg"
     return f'<span class="{css}">{sign}{v:,.0f}</span>', str(v)
-
 
 
 def _build_table(headers: list[str], rows: list[str]) -> str:
@@ -328,7 +342,7 @@ def _holding_row_html(h: dict) -> str:
     name  = h.get("Security Name", "")
     ident = h.get("Identifier", "") or ""
     cusip = h.get("CUSIP", "") or ""
-    w, s, mv = _weight(h), _shares(h), _mktval(h)
+    s     = _shares(h)
     id_html    = _e(ident) if ident else (_e(cusip) if cusip else '<span class="muted">—</span>')
     cusip_html = _e(cusip) if cusip else '<span class="muted">—</span>'
     return (
@@ -369,7 +383,8 @@ def _section_html(title: str, subtitle: str, body: str, open_: bool = True) -> s
     )
 
 
-def build_html_report(
+def _build_etf_body(
+    ticker: str,
     diff: dict,
     today: date,
     prior_date: date,
@@ -377,9 +392,7 @@ def build_html_report(
     prior_count: int,
     as_of: str = "",
 ) -> str:
-    global _TABLE_CTR
-    _TABLE_CTR = 0
-
+    """Build the inner HTML for one ETF section (no <html>/<head> wrapper)."""
     added, removed, changed = diff["added"], diff["removed"], diff["changed"]
 
     as_of_stat = (
@@ -437,21 +450,42 @@ def build_html_report(
         content = f"{new_sec}\n{rem_sec}\n{chg_sec}"
 
     return (
-        '<!DOCTYPE html>\n<html lang="en">\n<head>\n'
-        '<meta charset="UTF-8">\n'
-        f'<title>FPE Holdings — {today}</title>\n'
-        f'{_PAGE_CSS}\n'
-        '</head>\n<body>\n'
-        f'{_SORT_JS}\n'
-        '<h1>FPE ETF Holdings Change Report</h1>\n'
+        f'<h2>{_e(ticker)} ETF Holdings Change Report</h2>\n'
         f'<p class="sub">'
         f'Comparing: <strong>{prior_date}</strong> ({prior_count:,} holdings) '
         f'&rarr; <strong>{today}</strong> ({today_count:,} holdings)'
         f'</p>\n'
         f'{stat_bar}\n'
         f'{content}\n'
+    )
+
+
+def _wrap_html(title: str, body: str) -> str:
+    return (
+        '<!DOCTYPE html>\n<html lang="en">\n<head>\n'
+        '<meta charset="UTF-8">\n'
+        f'<title>{_e(title)}</title>\n'
+        f'{_PAGE_CSS}\n'
+        '</head>\n<body>\n'
+        f'{_SORT_JS}\n'
+        f'{body}'
         '</body>\n</html>'
     )
+
+
+def build_html_report(
+    diff: dict,
+    today: date,
+    prior_date: date,
+    today_count: int,
+    prior_count: int,
+    as_of: str = "",
+    ticker: str = "FPE",
+) -> str:
+    global _TABLE_CTR
+    _TABLE_CTR = 0
+    body = _build_etf_body(ticker, diff, today, prior_date, today_count, prior_count, as_of)
+    return _wrap_html(f"{ticker} Holdings — {today}", body)
 
 
 def write_html_report(
@@ -461,16 +495,81 @@ def write_html_report(
     today_count: int,
     prior_count: int,
     as_of: str = "",
+    ticker: str = "FPE",
 ) -> Path:
-    content = build_html_report(diff, today, prior_date, today_count, prior_count, as_of)
-    path = DATA_DIR / f"fpe_report_{prior_date}_to_{today}.html"
+    content = build_html_report(diff, today, prior_date, today_count, prior_count, as_of, ticker)
+    path = DATA_DIR / f"{ticker.lower()}_report_{prior_date}_to_{today}.html"
     path.write_text(content, encoding="utf-8")
+    return path
+
+
+def write_combined_html(ticker_results: list[dict], today: date) -> Path:
+    """Generate docs/index.html combining all tickers."""
+    global _TABLE_CTR
+    _TABLE_CTR = 0
+
+    sections = []
+    for r in ticker_results:
+        sections.append(
+            _build_etf_body(
+                r["ticker"], r["diff"], today, r["prior_date"],
+                r["today_count"], r["prior_count"], r.get("as_of", ""),
+            )
+        )
+
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    path = DOCS_DIR / "index.html"
+    path.write_text(
+        _wrap_html(
+            f"ETF Holdings — {today}",
+            f'<h1>ETF Holdings Change Reports — {_e(str(today))}</h1>\n' + "\n".join(sections),
+        ),
+        encoding="utf-8",
+    )
     return path
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
 #  MAIN
 # ═══════════════════════════════════════════════════════════════════════════════
+
+def run_ticker(ticker: str, url: str, today: date, force_refetch: bool) -> dict | None:
+    """Snapshot + diff for one ticker. Returns result dict or None if no prior snapshot."""
+    as_of = ""
+    todays_holdings = None if force_refetch else load_snapshot(today, ticker)
+    if todays_holdings is None:
+        print(f"Fetching {ticker} holdings for {today}...")
+        as_of, todays_holdings = fetch_holdings(url)
+        path = save_snapshot(todays_holdings, as_of, today, ticker)
+        print(f"  Saved {len(todays_holdings)} holdings -> {path.name}")
+    else:
+        snap = load_snapshot_full(today, ticker)
+        if snap:
+            as_of = snap.get("as_of", "")
+        print(f"Loaded cached snapshot for {ticker} {today} ({len(todays_holdings)} holdings).")
+
+    prior_date, prior_holdings = find_prior_snapshot(today, ticker)
+
+    if prior_holdings is None:
+        print(f"  No prior snapshot found for {ticker} (checked last 10 days). Run again tomorrow to see changes.\n")
+        return None
+
+    diff = compare(todays_holdings, prior_holdings)
+    print_report(diff, today, prior_date, len(todays_holdings), len(prior_holdings), ticker)
+
+    diff_path = DATA_DIR / f"{ticker.lower()}_diff_{prior_date}_to_{today}.json"
+    diff_path.write_text(json.dumps(diff, indent=2))
+    print(f"  Diff saved -> {diff_path.name}")
+
+    return {
+        "ticker":      ticker,
+        "diff":        diff,
+        "prior_date":  prior_date,
+        "today_count": len(todays_holdings),
+        "prior_count": len(prior_holdings),
+        "as_of":       as_of,
+    }
+
 
 def main():
     today = date.today()
@@ -481,43 +580,28 @@ def main():
 
     force_refetch = "--force" in sys.argv
 
-    as_of         = ""
-    todays_holdings = None if force_refetch else load_snapshot(today)
-    if todays_holdings is None:
-        print(f"Fetching FPE holdings for {today}...")
-        as_of, todays_holdings = fetch_holdings()
-        path = save_snapshot(todays_holdings, as_of, today)
-        print(f"Saved {len(todays_holdings)} holdings -> {path.name}")
-    else:
-        snap = load_snapshot_full(today)
-        if snap:
-            as_of = snap.get("as_of", "")
-        print(f"Loaded cached snapshot for {today} ({len(todays_holdings)} holdings).")
+    ticker_results = []
+    for ticker, url in TICKERS.items():
+        result = run_ticker(ticker, url, today, force_refetch)
+        if result:
+            ticker_results.append(result)
 
-    prior_date, prior_holdings = find_prior_snapshot(today)
-
-    if prior_holdings is None:
-        print(
-            f"\nNo prior snapshot found (checked last 10 days).\n"
-            f"Run this script again tomorrow to see changes.\n"
-            f"Current snapshot saved for {today}."
-        )
+    if not ticker_results:
         return
 
-    diff = compare(todays_holdings, prior_holdings)
-    print_report(diff, today, prior_date, len(todays_holdings), len(prior_holdings))
-
-    diff_path = DATA_DIR / f"fpe_diff_{prior_date}_to_{today}.json"
-    diff_path.write_text(json.dumps(diff, indent=2))
-    print(f"  Diff saved -> {diff_path.name}")
-
     if "--no-html" not in sys.argv:
-        html_path = write_html_report(
-            diff, today, prior_date, len(todays_holdings), len(prior_holdings), as_of
-        )
-        print(f"  HTML report -> {html_path.name}")
+        for r in ticker_results:
+            html_path = write_html_report(
+                r["diff"], today, r["prior_date"],
+                r["today_count"], r["prior_count"], r["as_of"], r["ticker"],
+            )
+            print(f"  HTML report -> {html_path.name}")
+
+        combined_path = write_combined_html(ticker_results, today)
+        print(f"  Combined report -> {combined_path}")
+
         if "--no-browser" not in sys.argv:
-            webbrowser.open(html_path.as_uri())
+            webbrowser.open(combined_path.as_uri())
 
 
 if __name__ == "__main__":

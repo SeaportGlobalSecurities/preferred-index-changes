@@ -35,12 +35,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           TODAY=$(date +%Y-%m-%d)
-          PREV=$(date -d "yesterday" +%Y-%m-%d)
-          REPORT="data/fpe_report_${PREV}_to_${TODAY}.html"
-          mkdir -p docs
-          if [ -f "$REPORT" ]; then
-            cp "$REPORT" docs/index.html
-          fi
-          git add "data/fpe_${TODAY}.json" docs/index.html
+          git add data/ docs/index.html
           git diff --cached --quiet || git commit -m "Daily snapshot ${TODAY}"
           git push
