@@ -2,7 +2,7 @@ name: Daily FPE Holdings Snapshot
 
 on:
   schedule:
-    - cron: '30 10 * * 1-5'  # 6:30 AM ET (EDT/summer); 5:30 AM in winter (EST)
+    - cron: '0 11 * * 1-5'   # 7:00 AM ET (EDT/summer); 6:00 AM in winter (EST)
   workflow_dispatch:          # allow manual runs from GitHub UI
 
 jobs:
