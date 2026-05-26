@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": 17670194.0,
+      "shares_current": 18223455.0,
+      "shares_delta": 553261.0
+    },
+    {
+      "key": "30190A609",
+      "name": "F&G Annuities & Life, Inc., 7.30%, Due 01/15/2065",
+      "shares_prior": 2757740.0,
+      "shares_current": 2757451.0,
+      "shares_delta": -289.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": 18223455.0,
+      "shares_current": -12189790.0,
+      "shares_delta": -30413245.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "shares_prior": 592311.0,
+      "shares_current": 589037.0,
+      "shares_delta": -3274.0
+    }
+  ]
+}

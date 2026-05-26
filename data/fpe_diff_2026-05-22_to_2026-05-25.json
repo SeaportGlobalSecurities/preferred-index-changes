@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": -12189790.0,
+      "shares_current": -10534379.0,
+      "shares_delta": 1655411.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "shares_prior": 2897745.0,
+      "shares_current": 2899301.0,
+      "shares_delta": 1556.0
+    }
+  ]
+}
