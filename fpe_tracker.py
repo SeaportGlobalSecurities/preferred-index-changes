@@ -533,6 +533,11 @@ def write_combined_html(ticker_results: list[dict], today: date) -> Path:
 #  MAIN
 # ═══════════════════════════════════════════════════════════════════════════════
 
+def _holdings_identical(a: list[dict], b: list[dict]) -> bool:
+    return sorted(json.dumps(h, sort_keys=True) for h in a) == \
+           sorted(json.dumps(h, sort_keys=True) for h in b)
+
+
 def run_ticker(ticker: str, url: str, today: date, force_refetch: bool) -> dict | None:
     """Snapshot + diff for one ticker. Returns result dict or None if no prior snapshot."""
     as_of = ""
@@ -540,6 +545,13 @@ def run_ticker(ticker: str, url: str, today: date, force_refetch: bool) -> dict 
     if todays_holdings is None:
         print(f"Fetching {ticker} holdings for {today}...")
         as_of, todays_holdings = fetch_holdings(url)
+
+        # Don't save if data is unchanged from prior snapshot (e.g. holiday/market closed)
+        prior_date_check, prior_check = find_prior_snapshot(today, ticker)
+        if prior_check is not None and _holdings_identical(todays_holdings, prior_check):
+            print(f"  Holdings unchanged from {prior_date_check} (likely holiday) — skipping save.")
+            return None
+
         path = save_snapshot(todays_holdings, as_of, today, ticker)
         print(f"  Saved {len(todays_holdings)} holdings -> {path.name}")
     else:
