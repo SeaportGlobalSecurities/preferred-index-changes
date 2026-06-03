@@ -151,6 +151,16 @@ def _mktval(holding: dict) -> float:
         return 0.0
 
 
+def _to_changed_record(h: dict, delta: float) -> dict:
+    return {
+        "key":          _key(h),
+        "name":         h.get("Security Name", _key(h)),
+        "cusip":        h.get("CUSIP", ""),
+        "identifier":   h.get("Identifier", ""),
+        "shares_delta": delta,
+    }
+
+
 def compare(current: list[dict], prior: list[dict]) -> dict:
     cur_map = {_key(h): h for h in current}
     pri_map = {_key(h): h for h in prior}
@@ -166,15 +176,24 @@ def compare(current: list[dict], prior: list[dict]) -> dict:
         ds = _shares(c) - _shares(p)
         if abs(ds) > 0:
             changed.append({
-                "key": k,
-                "name": c.get("Security Name", k),
-                "shares_prior":   _shares(p),
-                "shares_current": _shares(c),
-                "shares_delta":   ds,
+                "key":          k,
+                "name":         c.get("Security Name", k),
+                "cusip":        c.get("CUSIP", ""),
+                "identifier":   c.get("Identifier", ""),
+                "shares_delta": ds,
             })
 
     changed.sort(key=lambda x: abs(x["shares_delta"]), reverse=True)
     return {"added": added, "removed": removed, "changed": changed}
+
+
+def _all_changed(diff: dict) -> list[dict]:
+    """Merge added/removed into changed list, sorted by |delta|."""
+    records = list(diff["changed"])
+    records += [_to_changed_record(h,  _shares(h)) for h in diff["added"]]
+    records += [_to_changed_record(h, -_shares(h)) for h in diff["removed"]]
+    records.sort(key=lambda x: abs(x["shares_delta"]), reverse=True)
+    return records
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -196,33 +215,37 @@ def print_report(diff: dict, today: date, prior_date: date,
 
     if added:
         print(f"\n  NEW POSITIONS ({len(added)}):")
-        print(f"  {'Security':<50}  {'CUSIP':<15}  {'Shares':>15}")
-        print(f"  {'-'*50}  {'-'*15}  {'-'*15}")
+        print(f"  {'CUSIP':<15}  {'Security':<50}  {'Identifier':<20}")
+        print(f"  {'-'*15}  {'-'*50}  {'-'*20}")
         for h in sorted(added, key=_shares, reverse=True):
+            cusip = h.get("CUSIP", "")[:15]
             name  = h.get("Security Name", "")[:50]
-            cusip = h.get("CUSIP", h.get("Identifier", ""))[:15]
-            print(f"  {name:<50}  {cusip:<15}  {_shares(h):>15,.0f}")
+            ident = h.get("Identifier", "")[:20]
+            print(f"  {cusip:<15}  {name:<50}  {ident:<20}")
 
     if removed:
         print(f"\n  REMOVED POSITIONS ({len(removed)}):")
-        print(f"  {'Security':<50}  {'CUSIP':<15}  {'Shares':>15}")
-        print(f"  {'-'*50}  {'-'*15}  {'-'*15}")
+        print(f"  {'CUSIP':<15}  {'Security':<50}  {'Identifier':<20}")
+        print(f"  {'-'*15}  {'-'*50}  {'-'*20}")
         for h in sorted(removed, key=_shares, reverse=True):
+            cusip = h.get("CUSIP", "")[:15]
             name  = h.get("Security Name", "")[:50]
-            cusip = h.get("CUSIP", h.get("Identifier", ""))[:15]
-            print(f"  {name:<50}  {cusip:<15}  {_shares(h):>15,.0f}")
+            ident = h.get("Identifier", "")[:20]
+            print(f"  {cusip:<15}  {name:<50}  {ident:<20}")
 
-    if changed:
-        print(f"\n  CHANGED POSITIONS ({len(changed)}) - sorted by |shares delta|:")
-        print(f"  {'Security':<50}  {'CUSIP':<15}  {'Prior':>15}  {'Current':>15}  {'Delta':>15}")
-        print(f"  {'-'*50}  {'-'*15}  {'-'*15}  {'-'*15}  {'-'*15}")
-        for c in changed:
-            ds_s = "+" if c["shares_delta"] > 0 else ""
+    all_chg = _all_changed(diff)
+    if all_chg:
+        print(f"\n  CHANGED POSITIONS ({len(all_chg)}) - sorted by |shares delta|:")
+        print(f"  {'CUSIP':<15}  {'Security':<50}  {'Identifier':<20}  {'Delta':>15}")
+        print(f"  {'-'*15}  {'-'*50}  {'-'*20}  {'-'*15}")
+        for c in all_chg:
+            ds_s  = "+" if c["shares_delta"] > 0 else ""
+            cusip = c.get("cusip", "")[:15]
+            ident = c.get("identifier", "")[:20]
             print(
-                f"  {c['name'][:50]:<50}  "
-                f"{c['key'][:15]:<15}  "
-                f"{c['shares_prior']:>15,.0f}  "
-                f"{c['shares_current']:>15,.0f}  "
+                f"  {cusip:<15}  "
+                f"{c['name'][:50]:<50}  "
+                f"{ident:<20}  "
                 f"{ds_s}{c['shares_delta']:>15,.0f}"
             )
 
@@ -285,14 +308,16 @@ details[open]>summary::before{content:'▼ '}
 .sum-sub{color:#aaa;font-weight:normal;font-size:12px}
 .sec-body{padding:12px 14px 14px}
 .tbl-wrap{overflow-x:auto}
-table{border-collapse:collapse;width:100%;font-size:12px;
+table{border-collapse:collapse;width:auto;font-size:12px;
   font-family:"Courier New",Courier,monospace;color:#e0e0e0;}
-thead th{text-align:left;padding:6px 10px;border-bottom:2px solid #f7a700;
+thead th{text-align:left;padding:4px 8px;border-bottom:2px solid #f7a700;
   color:#f7a700;font-size:11px;text-transform:uppercase;
   letter-spacing:.5px;white-space:nowrap;cursor:pointer;user-select:none;}
+thead th:last-child{text-align:right}
 tbody tr:hover{background:#1a1a2e}
-tbody td{padding:6px 10px;border-bottom:1px solid #252525;white-space:nowrap;}
-.nm{white-space:normal;word-wrap:break-word;max-width:340px;}
+tbody td{padding:4px 8px;border-bottom:1px solid #252525;white-space:nowrap;}
+tbody td:last-child{text-align:right}
+.nm{white-space:normal;word-wrap:break-word;max-width:220px;}
 .pos{color:#2ecc71;font-weight:bold}
 .neg{color:#e74c3c;font-weight:bold}
 .muted{color:#555}
@@ -342,30 +367,29 @@ def _holding_row_html(h: dict) -> str:
     name  = h.get("Security Name", "")
     ident = h.get("Identifier", "") or ""
     cusip = h.get("CUSIP", "") or ""
-    s     = _shares(h)
-    id_html    = _e(ident) if ident else (_e(cusip) if cusip else '<span class="muted">—</span>')
     cusip_html = _e(cusip) if cusip else '<span class="muted">—</span>'
+    id_html    = _e(ident) if ident else '<span class="muted">—</span>'
     return (
         "<tr>"
-        + _td(_e(name), sort=name, cls="nm")
-        + _td(id_html, sort=ident or cusip)
         + _td(cusip_html, sort=cusip)
-        + _td(f"{s:,.0f}", sort=str(s))
+        + _td(_e(name), sort=name, cls="nm")
+        + _td(id_html, sort=ident)
         + "</tr>"
     )
 
 
 def _changed_row_html(c: dict) -> str:
-    name     = c["name"]
-    key      = c["key"]
-    key_html = _e(key) if key != name else '<span class="muted">—</span>'
+    name       = c["name"]
+    cusip      = c.get("cusip", "") or ""
+    ident      = c.get("identifier", "") or ""
+    cusip_html = _e(cusip) if cusip else '<span class="muted">—</span>'
+    id_html    = _e(ident) if ident else '<span class="muted">—</span>'
     ds_h, ds_s = _ss(c["shares_delta"])
     return (
         "<tr>"
+        + _td(cusip_html, sort=cusip)
         + _td(_e(name), sort=name, cls="nm")
-        + _td(key_html, sort=key if key != name else "")
-        + _td(f"{c['shares_prior']:,.0f}", sort=str(c["shares_prior"]))
-        + _td(f"{c['shares_current']:,.0f}", sort=str(c["shares_current"]))
+        + _td(id_html, sort=ident)
         + _td(ds_h, sort=ds_s)
         + "</tr>"
     )
@@ -416,8 +440,8 @@ def _build_etf_body(
         f"</div>"
     )
 
-    hdrs_h = ["Name", "Identifier", "CUSIP", "Shares"]
-    hdrs_c = ["Name", "CUSIP / ID", "Prior Shares", "Current Shares", "Delta"]
+    hdrs_h = ["CUSIP", "Security Name", "Identifier"]
+    hdrs_c = ["CUSIP", "Security Name", "Identifier", "Delta"]
 
     if added:
         rows    = [_holding_row_html(h) for h in sorted(added, key=_shares, reverse=True)]
@@ -433,11 +457,12 @@ def _build_etf_body(
         rem_sec = _section_html("Removed Positions", "0 removed",
                                 '<p class="empty">No removed positions.</p>', open_=False)
 
-    if changed:
-        rows    = [_changed_row_html(c) for c in changed]
+    all_chg = _all_changed(diff)
+    if all_chg:
+        rows    = [_changed_row_html(c) for c in all_chg]
         chg_sec = _section_html(
             "Changed Positions",
-            f"{len(changed)} changed — sorted by |shares delta|",
+            f"{len(all_chg)} — sorted by |shares delta|",
             _build_table(hdrs_c, rows),
         )
     else:
