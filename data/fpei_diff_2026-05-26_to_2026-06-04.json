@@ -1,0 +1,74 @@
+{
+  "added": [
+    {
+      "Security Name": "BANCO SANTANDER SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971KAY5",
+      "Shares / Quantity": "5,500,000",
+      "Market Value": "$5,514,381.68",
+      "Weighting": "0.30%"
+    },
+    {
+      "Security Name": "PRUDENTIAL FINANCIAL INC Variable rate, due 06/15/2056",
+      "Identifier": "",
+      "CUSIP": "744320BQ4",
+      "Shares / Quantity": "3,670,000",
+      "Market Value": "$3,684,446.96",
+      "Weighting": "0.20%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "PNC FINANCIAL SERVICES Variable rate",
+      "Identifier": "",
+      "CUSIP": "693475BF1",
+      "Shares / Quantity": "9,525,000",
+      "Market Value": "$9,642,157.50",
+      "Weighting": "0.52%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 9356656.0
+    },
+    {
+      "key": "0641598S8",
+      "name": "BANK OF NOVA SCOTIA Variable rate, due 10/27/2082",
+      "cusip": "0641598S8",
+      "identifier": "",
+      "shares_delta": -2800000.0
+    },
+    {
+      "key": "404280FA2",
+      "name": "HSBC HOLDINGS PLC Variable rate",
+      "cusip": "404280FA2",
+      "identifier": "",
+      "shares_delta": 1600000.0
+    },
+    {
+      "key": "404280EH8",
+      "name": "HSBC HOLDINGS PLC Variable rate",
+      "cusip": "404280EH8",
+      "identifier": "",
+      "shares_delta": -1600000.0
+    },
+    {
+      "key": "00912XBQ6",
+      "name": "SUMISHO AIR LEASE CORP Variable rate",
+      "cusip": "00912XBQ6",
+      "identifier": "",
+      "shares_delta": -1050000.0
+    },
+    {
+      "key": "89117F8Z5",
+      "name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2082",
+      "cusip": "89117F8Z5",
+      "identifier": "",
+      "shares_delta": -900000.0
+    }
+  ]
+}
