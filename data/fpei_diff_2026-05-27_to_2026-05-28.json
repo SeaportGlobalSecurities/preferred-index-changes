@@ -1,0 +1,31 @@
+{
+  "added": [
+    {
+      "Security Name": "BANCO SANTANDER SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971KAY5",
+      "Shares / Quantity": "5,500,000",
+      "Market Value": "$5,500,000.00",
+      "Weighting": "0.30%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "PNC FINANCIAL SERVICES Variable rate",
+      "Identifier": "",
+      "CUSIP": "693475BF1",
+      "Shares / Quantity": "9,525,000",
+      "Market Value": "$9,615,468.45",
+      "Weighting": "0.52%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": 5172212.0,
+      "shares_current": 9724464.0,
+      "shares_delta": 4552252.0
+    }
+  ]
+}

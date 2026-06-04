@@ -1,0 +1,104 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": -11426611.0,
+      "shares_current": -12292517.0,
+      "shares_delta": -865906.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "shares_prior": 2899301.0,
+      "shares_current": 2911076.0,
+      "shares_delta": 11775.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "shares_prior": 817442.0,
+      "shares_current": 825252.0,
+      "shares_delta": 7810.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "shares_prior": 1275749.0,
+      "shares_current": 1283212.0,
+      "shares_delta": 7463.0
+    },
+    {
+      "key": "G05384204",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "shares_prior": 2070697.0,
+      "shares_current": 2075475.0,
+      "shares_delta": 4778.0
+    },
+    {
+      "key": "03939A107",
+      "name": "Arch Capital Group Ltd., Series F, 5.450%",
+      "shares_prior": 58015.0,
+      "shares_current": 62774.0,
+      "shares_delta": 4759.0
+    },
+    {
+      "key": "59156R850",
+      "name": "MetLife, Inc., Series F, 4.750%",
+      "shares_prior": 47135.0,
+      "shares_current": 51570.0,
+      "shares_delta": 4435.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "shares_prior": 1261518.0,
+      "shares_current": 1258222.0,
+      "shares_delta": -3296.0
+    },
+    {
+      "key": "744320870",
+      "name": "Prudential Financial, Inc., 5.950%, Due 09/01/2062",
+      "shares_prior": 6908.0,
+      "shares_current": 9885.0,
+      "shares_delta": 2977.0
+    },
+    {
+      "key": "04621X306",
+      "name": "Assurant, Inc., 5.250%, Due 01/15/2061",
+      "shares_prior": 772426.0,
+      "shares_current": 774407.0,
+      "shares_delta": 1981.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "shares_prior": 278088.0,
+      "shares_current": 279836.0,
+      "shares_delta": 1748.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "shares_prior": 374456.0,
+      "shares_current": 375289.0,
+      "shares_delta": 833.0
+    },
+    {
+      "key": "25401T306",
+      "name": "DigitalBridge Group, Inc., Series J, 7.125%",
+      "shares_prior": 371318.0,
+      "shares_current": 371622.0,
+      "shares_delta": 304.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "shares_prior": 612334.0,
+      "shares_current": 612386.0,
+      "shares_delta": 52.0
+    }
+  ]
+}

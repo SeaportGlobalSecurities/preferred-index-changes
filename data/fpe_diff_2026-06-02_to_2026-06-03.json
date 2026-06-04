@@ -1,0 +1,107 @@
+{
+  "added": [
+    {
+      "Security Name": "Bank of America Corporation, Series LL, 5.000%",
+      "Identifier": "BAC.N",
+      "CUSIP": "06055H202",
+      "Shares / Quantity": "25,979",
+      "Market Value": "$514,285.48",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "Wells Fargo & Company, Series AA, 4.700%",
+      "Identifier": "WFC.A",
+      "CUSIP": "94988U128",
+      "Shares / Quantity": "11,858",
+      "Market Value": "$217,306.15",
+      "Weighting": "0.00%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 15343617.0
+    },
+    {
+      "key": "89117F8Z5",
+      "name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2082",
+      "cusip": "89117F8Z5",
+      "identifier": "",
+      "shares_delta": -13300000.0
+    },
+    {
+      "key": "744320BQ4",
+      "name": "PRUDENTIAL FINANCIAL INC Variable rate, due 06/15/2056",
+      "cusip": "744320BQ4",
+      "identifier": "",
+      "shares_delta": -5300000.0
+    },
+    {
+      "key": "46138E511",
+      "name": "Invesco Preferred ETF",
+      "cusip": "46138E511",
+      "identifier": "PGX",
+      "shares_delta": 190176.0
+    },
+    {
+      "key": "06055H871",
+      "name": "Bank of America Corporation, Series SS, 4.750%",
+      "cusip": "06055H871",
+      "identifier": "BAC.S",
+      "shares_delta": 65497.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "cusip": "48128B549",
+      "identifier": "JPM.L",
+      "shares_delta": 33665.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 27032.0
+    },
+    {
+      "key": "48128B622",
+      "name": "JPMorgan Chase & Co., Series GG, 4.750%",
+      "cusip": "48128B622",
+      "identifier": "JPM.J",
+      "shares_delta": 24257.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "cusip": "65339K829",
+      "identifier": "NEE.W",
+      "shares_delta": 9846.0
+    },
+    {
+      "key": "06053U601",
+      "name": "Bank of America Corporation, Series KK, 5.375%",
+      "cusip": "06053U601",
+      "identifier": "BAC.M",
+      "shares_delta": 9320.0
+    },
+    {
+      "key": "65339K837",
+      "name": "NextEra Energy Capital Holdings, Inc., Series U, 6.500%, Due 06/01/2085",
+      "cusip": "65339K837",
+      "identifier": "NEE.U",
+      "shares_delta": -6484.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 3565.0
+    }
+  ]
+}

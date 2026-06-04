@@ -1,0 +1,13 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": 10805727.0,
+      "shares_current": 11133702.0,
+      "shares_delta": 327975.0
+    }
+  ]
+}

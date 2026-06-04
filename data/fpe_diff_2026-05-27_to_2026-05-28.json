@@ -1,0 +1,95 @@
+{
+  "added": [
+    {
+      "Security Name": "BANCO SANTANDER SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971KAY5",
+      "Shares / Quantity": "18,600,000",
+      "Market Value": "$18,600,000.00",
+      "Weighting": "0.30%"
+    },
+    {
+      "Security Name": "Prudential Financial, Inc., 5.950%, Due 09/01/2062",
+      "Identifier": "PRH",
+      "CUSIP": "744320870",
+      "Shares / Quantity": "6,908",
+      "Market Value": "$159,298.48",
+      "Weighting": "0.00%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "PNC FINANCIAL SERVICES Variable rate",
+      "Identifier": "",
+      "CUSIP": "693475BF1",
+      "Shares / Quantity": "11,423,000",
+      "Market Value": "$11,531,495.65",
+      "Weighting": "0.18%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": -5287779.0,
+      "shares_current": -11426611.0,
+      "shares_delta": -6138832.0
+    },
+    {
+      "key": "759351885",
+      "name": "Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052",
+      "shares_prior": 122057.0,
+      "shares_current": 117492.0,
+      "shares_delta": -4565.0
+    },
+    {
+      "key": "G05384204",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "shares_prior": 2066925.0,
+      "shares_current": 2070697.0,
+      "shares_delta": 3772.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "shares_prior": 275418.0,
+      "shares_current": 278088.0,
+      "shares_delta": 2670.0
+    },
+    {
+      "key": "59156R850",
+      "name": "MetLife, Inc., Series F, 4.750%",
+      "shares_prior": 45376.0,
+      "shares_current": 47135.0,
+      "shares_delta": 1759.0
+    },
+    {
+      "key": "00775V104",
+      "name": "Aegon Funding Company LLC, 5.100%, Due 12/15/2049",
+      "shares_prior": 3189266.0,
+      "shares_current": 3190061.0,
+      "shares_delta": 795.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "shares_prior": 1261866.0,
+      "shares_current": 1261518.0,
+      "shares_delta": -348.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "shares_prior": 612024.0,
+      "shares_current": 612334.0,
+      "shares_delta": 310.0
+    },
+    {
+      "key": "G05384162",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "shares_prior": 519975.0,
+      "shares_current": 520190.0,
+      "shares_delta": 215.0
+    }
+  ]
+}

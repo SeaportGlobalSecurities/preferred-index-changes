@@ -1,0 +1,120 @@
+{
+  "added": [
+    {
+      "Security Name": "Invesco Preferred ETF",
+      "Identifier": "PGX",
+      "CUSIP": "46138E511",
+      "Shares / Quantity": "564,409",
+      "Market Value": "$6,214,143.09",
+      "Weighting": "0.10%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "89117F8Z5",
+      "name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2082",
+      "shares_prior": 43430000.0,
+      "shares_current": 35630000.0,
+      "shares_delta": -7800000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": -12292517.0,
+      "shares_current": -4633396.0,
+      "shares_delta": 7659121.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "shares_prior": 279836.0,
+      "shares_current": 290479.0,
+      "shares_delta": 10643.0
+    },
+    {
+      "key": "744320870",
+      "name": "Prudential Financial, Inc., 5.950%, Due 09/01/2062",
+      "shares_prior": 9885.0,
+      "shares_current": 18689.0,
+      "shares_delta": 8804.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "shares_prior": 3263139.0,
+      "shares_current": 3271894.0,
+      "shares_delta": 8755.0
+    },
+    {
+      "key": "G05384204",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "shares_prior": 2075475.0,
+      "shares_current": 2083284.0,
+      "shares_delta": 7809.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "shares_prior": 2911076.0,
+      "shares_current": 2917280.0,
+      "shares_delta": 6204.0
+    },
+    {
+      "key": "59156R850",
+      "name": "MetLife, Inc., Series F, 4.750%",
+      "shares_prior": 51570.0,
+      "shares_current": 57249.0,
+      "shares_delta": 5679.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "shares_prior": 825252.0,
+      "shares_current": 830442.0,
+      "shares_delta": 5190.0
+    },
+    {
+      "key": "03939A107",
+      "name": "Arch Capital Group Ltd., Series F, 5.450%",
+      "shares_prior": 62774.0,
+      "shares_current": 67642.0,
+      "shares_delta": 4868.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "shares_prior": 612386.0,
+      "shares_current": 616707.0,
+      "shares_delta": 4321.0
+    },
+    {
+      "key": "759351885",
+      "name": "Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052",
+      "shares_prior": 117492.0,
+      "shares_current": 115315.0,
+      "shares_delta": -2177.0
+    },
+    {
+      "key": "04621X306",
+      "name": "Assurant, Inc., 5.250%, Due 01/15/2061",
+      "shares_prior": 774407.0,
+      "shares_current": 775392.0,
+      "shares_delta": 985.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "shares_prior": 1283212.0,
+      "shares_current": 1283863.0,
+      "shares_delta": 651.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "shares_prior": 375289.0,
+      "shares_current": 375438.0,
+      "shares_delta": 149.0
+    }
+  ]
+}

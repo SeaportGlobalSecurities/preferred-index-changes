@@ -1,0 +1,41 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "404280FA2",
+      "name": "HSBC HOLDINGS PLC Variable rate",
+      "cusip": "404280FA2",
+      "identifier": "",
+      "shares_delta": 1600000.0
+    },
+    {
+      "key": "404280EH8",
+      "name": "HSBC HOLDINGS PLC Variable rate",
+      "cusip": "404280EH8",
+      "identifier": "",
+      "shares_delta": -1600000.0
+    },
+    {
+      "key": "00912XBQ6",
+      "name": "SUMISHO AIR LEASE CORP Variable rate",
+      "cusip": "00912XBQ6",
+      "identifier": "",
+      "shares_delta": -1050000.0
+    },
+    {
+      "key": "89117F8Z5",
+      "name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2082",
+      "cusip": "89117F8Z5",
+      "identifier": "",
+      "shares_delta": -900000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 600321.0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": -10534379.0,
+      "shares_current": -5287779.0,
+      "shares_delta": 5246600.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "shares_prior": 1334301.0,
+      "shares_current": 1261866.0,
+      "shares_delta": -72435.0
+    },
+    {
+      "key": "759351885",
+      "name": "Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052",
+      "shares_prior": 130591.0,
+      "shares_current": 122057.0,
+      "shares_delta": -8534.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "shares_prior": 610439.0,
+      "shares_current": 612024.0,
+      "shares_delta": 1585.0
+    },
+    {
+      "key": "59156R850",
+      "name": "MetLife, Inc., Series F, 4.750%",
+      "shares_prior": 45302.0,
+      "shares_current": 45376.0,
+      "shares_delta": 74.0
+    }
+  ]
+}

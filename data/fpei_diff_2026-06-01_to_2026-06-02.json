@@ -1,0 +1,29 @@
+{
+  "added": [
+    {
+      "Security Name": "PRUDENTIAL FINANCIAL INC Variable rate, due 06/15/2056",
+      "Identifier": "",
+      "CUSIP": "744320BQ4",
+      "Shares / Quantity": "3,670,000",
+      "Market Value": "$3,670,000.00",
+      "Weighting": "0.20%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "0641598S8",
+      "name": "BANK OF NOVA SCOTIA Variable rate, due 10/27/2082",
+      "shares_prior": 17200000.0,
+      "shares_current": 14400000.0,
+      "shares_delta": -2800000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": 11133702.0,
+      "shares_current": 11463215.0,
+      "shares_delta": 329513.0
+    }
+  ]
+}

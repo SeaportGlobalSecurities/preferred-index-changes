@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FPE Holdings — 2026-05-29</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:24px 36px;background:#0d0d0d;color:#e0e0e0;
+  font-family:"Courier New",Courier,monospace;font-size:13px;}
+h1{color:#f7a700;margin:0 0 4px 0;font-size:22px;letter-spacing:.5px;}
+h2{color:#f7a700;margin:24px 0 4px 0;font-size:18px;letter-spacing:.5px;
+  border-top:1px solid #333;padding-top:20px;}
+h2:first-of-type{border-top:none;padding-top:0;}
+.sub{color:#888;font-size:13px;margin:0 0 20px 0;}
+.stat-bar{display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;
+  background:#111827;border:1px solid #333;border-radius:6px;margin:0 0 20px 0;}
+.stat{font-size:12px}
+.stat-lbl{color:#888}
+.stat-val{font-weight:bold;margin-left:4px}
+.s-new .stat-val{color:#2ecc71}
+.s-rem .stat-val{color:#e74c3c}
+.s-chg .stat-val{color:#f7a700}
+.s-tot .stat-val{color:#e0e0e0}
+details{margin:8px 0;border:1px solid #444;border-radius:6px;}
+summary{cursor:pointer;background:#111827;color:#f7a700;font-size:14px;
+  font-weight:bold;padding:10px 14px;user-select:none;list-style:none;border-radius:6px;}
+summary::-webkit-details-marker{display:none}
+summary::before{content:'▶ ';font-size:10px}
+details[open]>summary::before{content:'▼ '}
+.sum-sub{color:#aaa;font-weight:normal;font-size:12px}
+.sec-body{padding:12px 14px 14px}
+.tbl-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12px;
+  font-family:"Courier New",Courier,monospace;color:#e0e0e0;}
+thead th{text-align:left;padding:6px 10px;border-bottom:2px solid #f7a700;
+  color:#f7a700;font-size:11px;text-transform:uppercase;
+  letter-spacing:.5px;white-space:nowrap;cursor:pointer;user-select:none;}
+tbody tr:hover{background:#1a1a2e}
+tbody td{padding:6px 10px;border-bottom:1px solid #252525;white-space:nowrap;}
+.nm{white-space:normal;word-wrap:break-word;max-width:340px;}
+.pos{color:#2ecc71;font-weight:bold}
+.neg{color:#e74c3c;font-weight:bold}
+.muted{color:#555}
+.empty{color:#888;font-size:12px;padding:8px 0}
+</style>
+</head>
+<body>
+<script>
+function sortTable(id,col){
+  var t=document.getElementById(id),tb=t.querySelector('tbody');
+  var rows=Array.from(tb.querySelectorAll('tr'));
+  var ths=t.querySelectorAll('th'),th=ths[col];
+  var asc=th.getAttribute('data-dir')!=='asc';
+  ths.forEach(function(h){
+    h.setAttribute('data-dir','');
+    h.textContent=h.textContent.replace(/ [▲▼]$/,'');
+  });
+  th.setAttribute('data-dir',asc?'asc':'desc');
+  th.textContent+=(asc?' ▲':' ▼');
+  rows.sort(function(a,b){
+    var av=a.cells[col].getAttribute('data-sort')||a.cells[col].textContent.trim();
+    var bv=b.cells[col].getAttribute('data-sort')||b.cells[col].textContent.trim();
+    var an=parseFloat(av.replace(/[^0-9.\-+]/g,'')),bn=parseFloat(bv.replace(/[^0-9.\-+]/g,''));
+    if(!isNaN(an)&&!isNaN(bn)) return asc?an-bn:bn-an;
+    return asc?av.localeCompare(bv):bv.localeCompare(av);
+  });
+  rows.forEach(function(r){tb.appendChild(r);});
+}
+</script>
+<h2>FPE ETF Holdings Change Report</h2>
+<p class="sub">Comparing: <strong>2026-05-28</strong> (262 holdings) &rarr; <strong>2026-05-29</strong> (262 holdings)</p>
+<div class="stat-bar"><div class="stat s-tot"><span class="stat-lbl">Prior holdings:</span><span class="stat-val">262</span></div><div class="stat s-tot"><span class="stat-lbl">Current holdings:</span><span class="stat-val">262</span></div><div class="stat s-new"><span class="stat-lbl">New:</span><span class="stat-val">0</span></div><div class="stat s-rem"><span class="stat-lbl">Removed:</span><span class="stat-val">0</span></div><div class="stat s-chg"><span class="stat-lbl">Changed:</span><span class="stat-val">14</span></div></div>
+<details><summary>New Positions <span class="sum-sub">— 0 added</span></summary><div class="sec-body"><p class="empty">No new positions.</p></div></details>
+<details><summary>Removed Positions <span class="sum-sub">— 0 removed</span></summary><div class="sec-body"><p class="empty">No removed positions.</p></div></details>
+<details open><summary>Changed Positions <span class="sum-sub">— 14 changed — sorted by |shares delta|</span></summary><div class="sec-body"><div class="tbl-wrap"><table id="tbl_1"><thead><tr><th onclick="sortTable('tbl_1',0)">Name</th><th onclick="sortTable('tbl_1',1)">CUSIP / ID</th><th onclick="sortTable('tbl_1',2)">Prior Shares</th><th onclick="sortTable('tbl_1',3)">Current Shares</th><th onclick="sortTable('tbl_1',4)">Delta</th></tr></thead><tbody><tr><td data-sort="US Dollar" class="nm">US Dollar</td><td data-sort="$USD">$USD</td><td data-sort="-11426611.0">-11,426,611</td><td data-sort="-12292517.0">-12,292,517</td><td data-sort="-865906.0"><span class="neg">-865,906</span></td></tr><tr><td data-sort="Corebridge Financial, Inc., 6.375%, Due 12/15/2064" class="nm">Corebridge Financial, Inc., 6.375%, Due 12/15/2064</td><td data-sort="21871X208">21871X208</td><td data-sort="2899301.0">2,899,301</td><td data-sort="2911076.0">2,911,076</td><td data-sort="11775.0"><span class="pos">+11,775</span></td></tr><tr><td data-sort="The Southern Company, 6.50%, Due 03/15/2085" class="nm">The Southern Company, 6.50%, Due 03/15/2085</td><td data-sort="842587867">842587867</td><td data-sort="817442.0">817,442</td><td data-sort="825252.0">825,252</td><td data-sort="7810.0"><span class="pos">+7,810</span></td></tr><tr><td data-sort="TPG Operating Group II, L.P., 6.950%, Due 03/15/2064" class="nm">TPG Operating Group II, L.P., 6.950%, Due 03/15/2064</td><td data-sort="872652102">872652102</td><td data-sort="1275749.0">1,275,749</td><td data-sort="1283212.0">1,283,212</td><td data-sort="7463.0"><span class="pos">+7,463</span></td></tr><tr><td data-sort="Aspen Insurance Holdings Limited, 5.625%" class="nm">Aspen Insurance Holdings Limited, 5.625%</td><td data-sort="G05384204">G05384204</td><td data-sort="2070697.0">2,070,697</td><td data-sort="2075475.0">2,075,475</td><td data-sort="4778.0"><span class="pos">+4,778</span></td></tr><tr><td data-sort="Arch Capital Group Ltd., Series F, 5.450%" class="nm">Arch Capital Group Ltd., Series F, 5.450%</td><td data-sort="03939A107">03939A107</td><td data-sort="58015.0">58,015</td><td data-sort="62774.0">62,774</td><td data-sort="4759.0"><span class="pos">+4,759</span></td></tr><tr><td data-sort="MetLife, Inc., Series F, 4.750%" class="nm">MetLife, Inc., Series F, 4.750%</td><td data-sort="59156R850">59156R850</td><td data-sort="47135.0">47,135</td><td data-sort="51570.0">51,570</td><td data-sort="4435.0"><span class="pos">+4,435</span></td></tr><tr><td data-sort="Athene Holding Ltd., Series E, 7.750% Variable Rate" class="nm">Athene Holding Ltd., Series E, 7.750% Variable Rate</td><td data-sort="04686J507">04686J507</td><td data-sort="1261518.0">1,261,518</td><td data-sort="1258222.0">1,258,222</td><td data-sort="-3296.0"><span class="neg">-3,296</span></td></tr><tr><td data-sort="Prudential Financial, Inc., 5.950%, Due 09/01/2062" class="nm">Prudential Financial, Inc., 5.950%, Due 09/01/2062</td><td data-sort="744320870">744320870</td><td data-sort="6908.0">6,908</td><td data-sort="9885.0">9,885</td><td data-sort="2977.0"><span class="pos">+2,977</span></td></tr><tr><td data-sort="Assurant, Inc., 5.250%, Due 01/15/2061" class="nm">Assurant, Inc., 5.250%, Due 01/15/2061</td><td data-sort="04621X306">04621X306</td><td data-sort="772426.0">772,426</td><td data-sort="774407.0">774,407</td><td data-sort="1981.0"><span class="pos">+1,981</span></td></tr><tr><td data-sort="State Street Corporation, Series G, 5.350%, Variable Rate" class="nm">State Street Corporation, Series G, 5.350%, Variable Rate</td><td data-sort="857477855">857477855</td><td data-sort="278088.0">278,088</td><td data-sort="279836.0">279,836</td><td data-sort="1748.0"><span class="pos">+1,748</span></td></tr><tr><td data-sort="NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086" class="nm">NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086</td><td data-sort="65339K829">65339K829</td><td data-sort="374456.0">374,456</td><td data-sort="375289.0">375,289</td><td data-sort="833.0"><span class="pos">+833</span></td></tr><tr><td data-sort="DigitalBridge Group, Inc., Series J, 7.125%" class="nm">DigitalBridge Group, Inc., Series J, 7.125%</td><td data-sort="25401T306">25401T306</td><td data-sort="371318.0">371,318</td><td data-sort="371622.0">371,622</td><td data-sort="304.0"><span class="pos">+304</span></td></tr><tr><td data-sort="JPMorgan Chase &amp; Co., Series LL, 4.625%" class="nm">JPMorgan Chase &amp; Co., Series LL, 4.625%</td><td data-sort="48128B549">48128B549</td><td data-sort="612334.0">612,334</td><td data-sort="612386.0">612,386</td><td data-sort="52.0"><span class="pos">+52</span></td></tr></tbody></table></div></div></details>
+</body>
+</html>

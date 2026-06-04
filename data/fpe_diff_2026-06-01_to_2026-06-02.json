@@ -1,0 +1,127 @@
+{
+  "added": [
+    {
+      "Security Name": "PRUDENTIAL FINANCIAL INC Variable rate, due 06/15/2056",
+      "Identifier": "",
+      "CUSIP": "744320BQ4",
+      "Shares / Quantity": "12,370,000",
+      "Market Value": "$12,370,000.00",
+      "Weighting": "0.20%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "0641598S8",
+      "name": "BANK OF NOVA SCOTIA Variable rate, due 10/27/2082",
+      "shares_prior": 17184000.0,
+      "shares_current": 2184000.0,
+      "shares_delta": -15000000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "shares_prior": -4633396.0,
+      "shares_current": 3953102.0,
+      "shares_delta": 8586498.0
+    },
+    {
+      "key": "95002YAC7",
+      "name": "WELLS FARGO & COMPANY Variable rate",
+      "shares_prior": 23948000.0,
+      "shares_current": 20948000.0,
+      "shares_delta": -3000000.0
+    },
+    {
+      "key": "46138E511",
+      "name": "Invesco Preferred ETF",
+      "shares_prior": 564409.0,
+      "shares_current": 1014358.0,
+      "shares_delta": 449949.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "shares_prior": 616707.0,
+      "shares_current": 620853.0,
+      "shares_delta": 4146.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "shares_prior": 830442.0,
+      "shares_current": 833282.0,
+      "shares_delta": 2840.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "shares_prior": 290479.0,
+      "shares_current": 292644.0,
+      "shares_delta": 2165.0
+    },
+    {
+      "key": "03939A107",
+      "name": "Arch Capital Group Ltd., Series F, 5.450%",
+      "shares_prior": 67642.0,
+      "shares_current": 69399.0,
+      "shares_delta": 1757.0
+    },
+    {
+      "key": "59156R850",
+      "name": "MetLife, Inc., Series F, 4.750%",
+      "shares_prior": 57249.0,
+      "shares_current": 58948.0,
+      "shares_delta": 1699.0
+    },
+    {
+      "key": "48128B622",
+      "name": "JPMorgan Chase & Co., Series GG, 4.750%",
+      "shares_prior": 51153.0,
+      "shares_current": 52625.0,
+      "shares_delta": 1472.0
+    },
+    {
+      "key": "744320870",
+      "name": "Prudential Financial, Inc., 5.950%, Due 09/01/2062",
+      "shares_prior": 18689.0,
+      "shares_current": 20092.0,
+      "shares_delta": 1403.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "shares_prior": 761726.0,
+      "shares_current": 760502.0,
+      "shares_delta": -1224.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "shares_prior": 3271894.0,
+      "shares_current": 3272759.0,
+      "shares_delta": 865.0
+    },
+    {
+      "key": "04621X306",
+      "name": "Assurant, Inc., 5.250%, Due 01/15/2061",
+      "shares_prior": 775392.0,
+      "shares_current": 775826.0,
+      "shares_delta": 434.0
+    },
+    {
+      "key": "G05384204",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "shares_prior": 2083284.0,
+      "shares_current": 2083469.0,
+      "shares_delta": 185.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "shares_prior": 1283863.0,
+      "shares_current": 1283975.0,
+      "shares_delta": 112.0
+    }
+  ]
+}

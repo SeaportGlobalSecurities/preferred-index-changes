@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FPE Holdings — 2026-05-28</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:24px 36px;background:#0d0d0d;color:#e0e0e0;
+  font-family:"Courier New",Courier,monospace;font-size:13px;}
+h1{color:#f7a700;margin:0 0 4px 0;font-size:22px;letter-spacing:.5px;}
+h2{color:#f7a700;margin:24px 0 4px 0;font-size:18px;letter-spacing:.5px;
+  border-top:1px solid #333;padding-top:20px;}
+h2:first-of-type{border-top:none;padding-top:0;}
+.sub{color:#888;font-size:13px;margin:0 0 20px 0;}
+.stat-bar{display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;
+  background:#111827;border:1px solid #333;border-radius:6px;margin:0 0 20px 0;}
+.stat{font-size:12px}
+.stat-lbl{color:#888}
+.stat-val{font-weight:bold;margin-left:4px}
+.s-new .stat-val{color:#2ecc71}
+.s-rem .stat-val{color:#e74c3c}
+.s-chg .stat-val{color:#f7a700}
+.s-tot .stat-val{color:#e0e0e0}
+details{margin:8px 0;border:1px solid #444;border-radius:6px;}
+summary{cursor:pointer;background:#111827;color:#f7a700;font-size:14px;
+  font-weight:bold;padding:10px 14px;user-select:none;list-style:none;border-radius:6px;}
+summary::-webkit-details-marker{display:none}
+summary::before{content:'▶ ';font-size:10px}
+details[open]>summary::before{content:'▼ '}
+.sum-sub{color:#aaa;font-weight:normal;font-size:12px}
+.sec-body{padding:12px 14px 14px}
+.tbl-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12px;
+  font-family:"Courier New",Courier,monospace;color:#e0e0e0;}
+thead th{text-align:left;padding:6px 10px;border-bottom:2px solid #f7a700;
+  color:#f7a700;font-size:11px;text-transform:uppercase;
+  letter-spacing:.5px;white-space:nowrap;cursor:pointer;user-select:none;}
+tbody tr:hover{background:#1a1a2e}
+tbody td{padding:6px 10px;border-bottom:1px solid #252525;white-space:nowrap;}
+.nm{white-space:normal;word-wrap:break-word;max-width:340px;}
+.pos{color:#2ecc71;font-weight:bold}
+.neg{color:#e74c3c;font-weight:bold}
+.muted{color:#555}
+.empty{color:#888;font-size:12px;padding:8px 0}
+</style>
+</head>
+<body>
+<script>
+function sortTable(id,col){
+  var t=document.getElementById(id),tb=t.querySelector('tbody');
+  var rows=Array.from(tb.querySelectorAll('tr'));
+  var ths=t.querySelectorAll('th'),th=ths[col];
+  var asc=th.getAttribute('data-dir')!=='asc';
+  ths.forEach(function(h){
+    h.setAttribute('data-dir','');
+    h.textContent=h.textContent.replace(/ [▲▼]$/,'');
+  });
+  th.setAttribute('data-dir',asc?'asc':'desc');
+  th.textContent+=(asc?' ▲':' ▼');
+  rows.sort(function(a,b){
+    var av=a.cells[col].getAttribute('data-sort')||a.cells[col].textContent.trim();
+    var bv=b.cells[col].getAttribute('data-sort')||b.cells[col].textContent.trim();
+    var an=parseFloat(av.replace(/[^0-9.\-+]/g,'')),bn=parseFloat(bv.replace(/[^0-9.\-+]/g,''));
+    if(!isNaN(an)&&!isNaN(bn)) return asc?an-bn:bn-an;
+    return asc?av.localeCompare(bv):bv.localeCompare(av);
+  });
+  rows.forEach(function(r){tb.appendChild(r);});
+}
+</script>
+<h2>FPE ETF Holdings Change Report</h2>
+<p class="sub">Comparing: <strong>2026-05-27</strong> (261 holdings) &rarr; <strong>2026-05-28</strong> (262 holdings)</p>
+<div class="stat-bar"><div class="stat s-tot"><span class="stat-lbl">Prior holdings:</span><span class="stat-val">261</span></div><div class="stat s-tot"><span class="stat-lbl">Current holdings:</span><span class="stat-val">262</span></div><div class="stat s-new"><span class="stat-lbl">New:</span><span class="stat-val">2</span></div><div class="stat s-rem"><span class="stat-lbl">Removed:</span><span class="stat-val">1</span></div><div class="stat s-chg"><span class="stat-lbl">Changed:</span><span class="stat-val">9</span></div></div>
+<details open><summary>New Positions <span class="sum-sub">— 2 added</span></summary><div class="sec-body"><div class="tbl-wrap"><table id="tbl_1"><thead><tr><th onclick="sortTable('tbl_1',0)">Name</th><th onclick="sortTable('tbl_1',1)">Identifier</th><th onclick="sortTable('tbl_1',2)">CUSIP</th><th onclick="sortTable('tbl_1',3)">Shares</th></tr></thead><tbody><tr><td data-sort="BANCO SANTANDER SA Variable rate" class="nm">BANCO SANTANDER SA Variable rate</td><td data-sort="05971KAY5">05971KAY5</td><td data-sort="05971KAY5">05971KAY5</td><td data-sort="18600000.0">18,600,000</td></tr><tr><td data-sort="Prudential Financial, Inc., 5.950%, Due 09/01/2062" class="nm">Prudential Financial, Inc., 5.950%, Due 09/01/2062</td><td data-sort="PRH">PRH</td><td data-sort="744320870">744320870</td><td data-sort="6908.0">6,908</td></tr></tbody></table></div></div></details>
+<details open><summary>Removed Positions <span class="sum-sub">— 1 removed</span></summary><div class="sec-body"><div class="tbl-wrap"><table id="tbl_2"><thead><tr><th onclick="sortTable('tbl_2',0)">Name</th><th onclick="sortTable('tbl_2',1)">Identifier</th><th onclick="sortTable('tbl_2',2)">CUSIP</th><th onclick="sortTable('tbl_2',3)">Shares</th></tr></thead><tbody><tr><td data-sort="PNC FINANCIAL SERVICES Variable rate" class="nm">PNC FINANCIAL SERVICES Variable rate</td><td data-sort="693475BF1">693475BF1</td><td data-sort="693475BF1">693475BF1</td><td data-sort="11423000.0">11,423,000</td></tr></tbody></table></div></div></details>
+<details open><summary>Changed Positions <span class="sum-sub">— 9 changed — sorted by |shares delta|</span></summary><div class="sec-body"><div class="tbl-wrap"><table id="tbl_3"><thead><tr><th onclick="sortTable('tbl_3',0)">Name</th><th onclick="sortTable('tbl_3',1)">CUSIP / ID</th><th onclick="sortTable('tbl_3',2)">Prior Shares</th><th onclick="sortTable('tbl_3',3)">Current Shares</th><th onclick="sortTable('tbl_3',4)">Delta</th></tr></thead><tbody><tr><td data-sort="US Dollar" class="nm">US Dollar</td><td data-sort="$USD">$USD</td><td data-sort="-5287779.0">-5,287,779</td><td data-sort="-11426611.0">-11,426,611</td><td data-sort="-6138832.0"><span class="neg">-6,138,832</span></td></tr><tr><td data-sort="Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052" class="nm">Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052</td><td data-sort="759351885">759351885</td><td data-sort="122057.0">122,057</td><td data-sort="117492.0">117,492</td><td data-sort="-4565.0"><span class="neg">-4,565</span></td></tr><tr><td data-sort="Aspen Insurance Holdings Limited, 5.625%" class="nm">Aspen Insurance Holdings Limited, 5.625%</td><td data-sort="G05384204">G05384204</td><td data-sort="2066925.0">2,066,925</td><td data-sort="2070697.0">2,070,697</td><td data-sort="3772.0"><span class="pos">+3,772</span></td></tr><tr><td data-sort="State Street Corporation, Series G, 5.350%, Variable Rate" class="nm">State Street Corporation, Series G, 5.350%, Variable Rate</td><td data-sort="857477855">857477855</td><td data-sort="275418.0">275,418</td><td data-sort="278088.0">278,088</td><td data-sort="2670.0"><span class="pos">+2,670</span></td></tr><tr><td data-sort="MetLife, Inc., Series F, 4.750%" class="nm">MetLife, Inc., Series F, 4.750%</td><td data-sort="59156R850">59156R850</td><td data-sort="45376.0">45,376</td><td data-sort="47135.0">47,135</td><td data-sort="1759.0"><span class="pos">+1,759</span></td></tr><tr><td data-sort="Aegon Funding Company LLC, 5.100%, Due 12/15/2049" class="nm">Aegon Funding Company LLC, 5.100%, Due 12/15/2049</td><td data-sort="00775V104">00775V104</td><td data-sort="3189266.0">3,189,266</td><td data-sort="3190061.0">3,190,061</td><td data-sort="795.0"><span class="pos">+795</span></td></tr><tr><td data-sort="Athene Holding Ltd., Series E, 7.750% Variable Rate" class="nm">Athene Holding Ltd., Series E, 7.750% Variable Rate</td><td data-sort="04686J507">04686J507</td><td data-sort="1261866.0">1,261,866</td><td data-sort="1261518.0">1,261,518</td><td data-sort="-348.0"><span class="neg">-348</span></td></tr><tr><td data-sort="JPMorgan Chase &amp; Co., Series LL, 4.625%" class="nm">JPMorgan Chase &amp; Co., Series LL, 4.625%</td><td data-sort="48128B549">48128B549</td><td data-sort="612024.0">612,024</td><td data-sort="612334.0">612,334</td><td data-sort="310.0"><span class="pos">+310</span></td></tr><tr><td data-sort="Aspen Insurance Holdings Limited, 5.625%" class="nm">Aspen Insurance Holdings Limited, 5.625%</td><td data-sort="G05384162">G05384162</td><td data-sort="519975.0">519,975</td><td data-sort="520190.0">520,190</td><td data-sort="215.0"><span class="pos">+215</span></td></tr></tbody></table></div></div></details>
+</body>
+</html>
