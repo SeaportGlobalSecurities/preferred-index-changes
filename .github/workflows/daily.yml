@@ -12,11 +12,11 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+      - name: Checkout
+        run: |
+          git clone "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" .
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -24,16 +24,8 @@ jobs:
       - name: Run tracker
         run: python fpe_tracker.py --no-browser
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: fpe-snapshot-${{ github.run_id }}
-          path: data/
-
       - name: Publish to GitHub Pages
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
           TODAY=$(date +%Y-%m-%d)
           git add data/ docs/index.html
           git diff --cached --quiet || git commit -m "Daily snapshot ${TODAY}"
