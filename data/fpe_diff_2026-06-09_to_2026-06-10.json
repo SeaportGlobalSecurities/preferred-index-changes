@@ -1,0 +1,29 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "HSBC HOLDINGS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "404280EH8",
+      "Shares / Quantity": "4,780,000",
+      "Market Value": "$4,893,123.48",
+      "Weighting": "0.08%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "404280FA2",
+      "name": "HSBC HOLDINGS PLC Variable rate",
+      "cusip": "404280FA2",
+      "identifier": "",
+      "shares_delta": 4780000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 255400.0
+    }
+  ]
+}

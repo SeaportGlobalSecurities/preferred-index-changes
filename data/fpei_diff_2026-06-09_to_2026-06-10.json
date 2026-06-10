@@ -1,0 +1,38 @@
+{
+  "added": [
+    {
+      "Security Name": "DTE ENERGY CO Variable rate, due 07/01/2058",
+      "Identifier": "",
+      "CUSIP": "233331BQ9",
+      "Shares / Quantity": "10,000,000",
+      "Market Value": "$10,040,000.00",
+      "Weighting": "0.54%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "HSBC HOLDINGS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "404280EH8",
+      "Shares / Quantity": "2,020,000",
+      "Market Value": "$2,067,805.32",
+      "Weighting": "0.11%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -9830332.0
+    },
+    {
+      "key": "404280FA2",
+      "name": "HSBC HOLDINGS PLC Variable rate",
+      "cusip": "404280FA2",
+      "identifier": "",
+      "shares_delta": 2020000.0
+    }
+  ]
+}
