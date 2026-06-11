@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 575568.0
+    },
+    {
+      "key": "65339K837",
+      "name": "NextEra Energy Capital Holdings, Inc., Series U, 6.500%, Due 06/01/2085",
+      "cusip": "65339K837",
+      "identifier": "NEE.U",
+      "shares_delta": -6785.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "cusip": "65339K829",
+      "identifier": "NEE.W",
+      "shares_delta": 2220.0
+    }
+  ]
+}
