@@ -1,0 +1,34 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 481094.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "cusip": "65339K829",
+      "identifier": "NEE.W",
+      "shares_delta": 6094.0
+    },
+    {
+      "key": "65339K837",
+      "name": "NextEra Energy Capital Holdings, Inc., Series U, 6.500%, Due 06/01/2085",
+      "cusip": "65339K837",
+      "identifier": "NEE.U",
+      "shares_delta": -1656.0
+    },
+    {
+      "key": "759351885",
+      "name": "Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052",
+      "cusip": "759351885",
+      "identifier": "RZC",
+      "shares_delta": -551.0
+    }
+  ]
+}

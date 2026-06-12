@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "759351AV1",
+      "name": "REINSURANCE GRP OF AMER Variable rate, due 09/15/2056",
+      "cusip": "759351AV1",
+      "identifier": "",
+      "shares_delta": 500000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -344869.0
+    }
+  ]
+}
