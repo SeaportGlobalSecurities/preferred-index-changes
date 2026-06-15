@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 971428.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -3789.0
+    },
+    {
+      "key": "759351885",
+      "name": "Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052",
+      "cusip": "759351885",
+      "identifier": "RZC",
+      "shares_delta": -356.0
+    }
+  ]
+}
