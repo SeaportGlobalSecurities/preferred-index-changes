@@ -1,0 +1,422 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "PRUDENTIAL FINANCIAL INC Variable rate, due 06/15/2056",
+      "Identifier": "",
+      "CUSIP": "744320BQ4",
+      "Shares / Quantity": "7,070,000",
+      "Market Value": "$7,067,693.77",
+      "Weighting": "0.11%"
+    },
+    {
+      "Security Name": "Reinsurance Group of America, Incorporated, 5.750%, Variable Rate, Due 06/15/2056",
+      "Identifier": "RZB",
+      "CUSIP": "759351802",
+      "Shares / Quantity": "5,494",
+      "Market Value": "$139,217.96",
+      "Weighting": "0.00%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 29481960.0
+    },
+    {
+      "key": "94988U128",
+      "name": "Wells Fargo & Company, Series AA, 4.700%",
+      "cusip": "94988U128",
+      "identifier": "WFC.A",
+      "shares_delta": 31363.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "cusip": "48128B549",
+      "identifier": "JPM.L",
+      "shares_delta": 28633.0
+    },
+    {
+      "key": "06053U601",
+      "name": "Bank of America Corporation, Series KK, 5.375%",
+      "cusip": "06053U601",
+      "identifier": "BAC.M",
+      "shares_delta": 18358.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 15346.0
+    },
+    {
+      "key": "48128B622",
+      "name": "JPMorgan Chase & Co., Series GG, 4.750%",
+      "cusip": "48128B622",
+      "identifier": "JPM.J",
+      "shares_delta": 11046.0
+    },
+    {
+      "key": "035710870",
+      "name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "cusip": "035710870",
+      "identifier": "NLY.F",
+      "shares_delta": 10982.0
+    },
+    {
+      "key": "G05384162",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "cusip": "G05384162",
+      "identifier": "AHL.D",
+      "shares_delta": 10065.0
+    },
+    {
+      "key": "03939A107",
+      "name": "Arch Capital Group Ltd., Series F, 5.450%",
+      "cusip": "03939A107",
+      "identifier": "ACGLO",
+      "shares_delta": 8460.0
+    },
+    {
+      "key": "06055H202",
+      "name": "Bank of America Corporation, Series LL, 5.000%",
+      "cusip": "06055H202",
+      "identifier": "BAC.N",
+      "shares_delta": 7444.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "cusip": "98389B878",
+      "identifier": "XELLL",
+      "shares_delta": 6334.0
+    },
+    {
+      "key": "06055H871",
+      "name": "Bank of America Corporation, Series SS, 4.750%",
+      "cusip": "06055H871",
+      "identifier": "BAC.S",
+      "shares_delta": 6003.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 5410.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 4555.0
+    },
+    {
+      "key": "00775V104",
+      "name": "Aegon Funding Company LLC, 5.100%, Due 12/15/2049",
+      "cusip": "00775V104",
+      "identifier": "AEFC",
+      "shares_delta": 3616.0
+    },
+    {
+      "key": "87264A204",
+      "name": "T-Mobile USA Inc., 5.50%, Due 03/01/2070",
+      "cusip": "87264A204",
+      "identifier": "TMUSZ",
+      "shares_delta": 3544.0
+    },
+    {
+      "key": "233331792",
+      "name": "DTE Energy Company, Series H, 6.25%, Due 10/01/2085",
+      "cusip": "233331792",
+      "identifier": "DTK",
+      "shares_delta": 2936.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 2498.0
+    },
+    {
+      "key": "G05384204",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "cusip": "G05384204",
+      "identifier": "AHL.E",
+      "shares_delta": 2360.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "cusip": "872652102",
+      "identifier": "TPGXL",
+      "shares_delta": 2221.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 1448.0
+    },
+    {
+      "key": "008252827",
+      "name": "Affiliated Managers Group, Inc., 6.75%, Due 03/30/2064",
+      "cusip": "008252827",
+      "identifier": "MGRE",
+      "shares_delta": 1384.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 1280.0
+    },
+    {
+      "key": "674001409",
+      "name": "Oaktree Capital Group, LLC, Series B, 6.55%",
+      "cusip": "674001409",
+      "identifier": "OAK.B",
+      "shares_delta": 1192.0
+    },
+    {
+      "key": "48253M104",
+      "name": "KKR Group Finance Co. IX LLC, 4.625%, Due 04/01/2061",
+      "cusip": "48253M104",
+      "identifier": "KKRS",
+      "shares_delta": 1144.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "cusip": "842587867",
+      "identifier": "SOJF",
+      "shares_delta": 944.0
+    },
+    {
+      "key": "04621X306",
+      "name": "Assurant, Inc., 5.250%, Due 01/15/2061",
+      "cusip": "04621X306",
+      "identifier": "AIZN",
+      "shares_delta": 880.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 792.0
+    },
+    {
+      "key": "11276B109",
+      "name": "Brookfield Infrastructure Finance ULC, 5.00%, Due 05/24/2081",
+      "cusip": "11276B109",
+      "identifier": "BIPH",
+      "shares_delta": 752.0
+    },
+    {
+      "key": "035710821",
+      "name": "Annaly Capital Management, Inc., Series J, 8.875%",
+      "cusip": "035710821",
+      "identifier": "NLY.J",
+      "shares_delta": 720.0
+    },
+    {
+      "key": "842587800",
+      "name": "The Southern Company, Series 2020, 4.950%, Due 01/30/2080",
+      "cusip": "842587800",
+      "identifier": "SOJD",
+      "shares_delta": 712.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 680.0
+    },
+    {
+      "key": "893526681",
+      "name": "TransCanada Pipelines Limited, 6.25%, Due 11/01/2085",
+      "cusip": "893526681",
+      "identifier": "TCPA",
+      "shares_delta": 648.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 640.0
+    },
+    {
+      "key": "00123Q872",
+      "name": "AGNC Investment Corp., Series F, 6.125% Variable Rate",
+      "cusip": "00123Q872",
+      "identifier": "AGNCP",
+      "shares_delta": 592.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -554.0
+    },
+    {
+      "key": "05461T305",
+      "name": "AXIS Capital Holdings Limited, Series E, 5.500%",
+      "cusip": "05461T305",
+      "identifier": "AXS.E",
+      "shares_delta": 512.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "cusip": "65339K829",
+      "identifier": "NEE.W",
+      "shares_delta": 456.0
+    },
+    {
+      "key": "084423805",
+      "name": "W.R. Berkley Corporation, 5.100%, Due 12/30/2059",
+      "cusip": "084423805",
+      "identifier": "WRB.F",
+      "shares_delta": 424.0
+    },
+    {
+      "key": "25401T306",
+      "name": "DigitalBridge Group, Inc., Series J, 7.125%",
+      "cusip": "25401T306",
+      "identifier": "DBRG.J",
+      "shares_delta": 424.0
+    },
+    {
+      "key": "00123Q831",
+      "name": "AGNC Investment Corp., Series H, 8.75%",
+      "cusip": "00123Q831",
+      "identifier": "AGNCZ",
+      "shares_delta": 408.0
+    },
+    {
+      "key": "03939A404",
+      "name": "Arch Capital Group Ltd., Series G, 4.550%",
+      "cusip": "03939A404",
+      "identifier": "ACGLN",
+      "shares_delta": 408.0
+    },
+    {
+      "key": "12542R704",
+      "name": "CHS Inc., Series 3, 6.750%, Variable Rate",
+      "cusip": "12542R704",
+      "identifier": "CHSCM",
+      "shares_delta": 368.0
+    },
+    {
+      "key": "72348N505",
+      "name": "Pinnacle Financial Partners, Inc., Series C, 6.75%",
+      "cusip": "72348N505",
+      "identifier": "PNFP.C",
+      "shares_delta": 344.0
+    },
+    {
+      "key": "345370845",
+      "name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "cusip": "345370845",
+      "identifier": "F.B",
+      "shares_delta": 344.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "cusip": "857477855",
+      "identifier": "STT.G",
+      "shares_delta": 328.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 320.0
+    },
+    {
+      "key": "89832Q695",
+      "name": "Truist Financial Corporation, Series R, 4.750%",
+      "cusip": "89832Q695",
+      "identifier": "TFC.R",
+      "shares_delta": 184.0
+    },
+    {
+      "key": "12542R506",
+      "name": "CHS Inc., Series 2, 7.100%, Variable Rate",
+      "cusip": "12542R506",
+      "identifier": "CHSCN",
+      "shares_delta": 112.0
+    },
+    {
+      "key": "842587883",
+      "name": "The Southern Company, Series C, 4.200%, Due 10/15/2060",
+      "cusip": "842587883",
+      "identifier": "SOJE",
+      "shares_delta": 104.0
+    },
+    {
+      "key": "00123Q807",
+      "name": "AGNC Investment Corp., Series E, 6.500% Variable Rate",
+      "cusip": "00123Q807",
+      "identifier": "AGNCO",
+      "shares_delta": 96.0
+    },
+    {
+      "key": "59156R850",
+      "name": "MetLife, Inc., Series F, 4.750%",
+      "cusip": "59156R850",
+      "identifier": "MET.F",
+      "shares_delta": 64.0
+    },
+    {
+      "key": "G16252275",
+      "name": "Brookfield Infrastructure Partners LP, Series 14, 5.00%",
+      "cusip": "G16252275",
+      "identifier": "BIP.B",
+      "shares_delta": 64.0
+    },
+    {
+      "key": "74460W578",
+      "name": "Public Storage, Series K, 4.750%",
+      "cusip": "74460W578",
+      "identifier": "PSA.K",
+      "shares_delta": 48.0
+    },
+    {
+      "key": "744320870",
+      "name": "Prudential Financial, Inc., 5.950%, Due 09/01/2062",
+      "cusip": "744320870",
+      "identifier": "PRH",
+      "shares_delta": 24.0
+    },
+    {
+      "key": "316773837",
+      "name": "Fifth Third Bancorp, Variable Rate",
+      "cusip": "316773837",
+      "identifier": "FITB.M",
+      "shares_delta": 8.0
+    },
+    {
+      "key": "446150773",
+      "name": "Huntington Bancshares Incorporated, Series J, 6.875% Variable Rate",
+      "cusip": "446150773",
+      "identifier": "HBANL",
+      "shares_delta": 8.0
+    }
+  ]
+}

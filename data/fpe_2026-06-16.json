@@ -1,0 +1,2111 @@
+{
+  "as_of": "",
+  "fetch_date": "2026-06-16",
+  "ticker": "FPE",
+  "holdings": [
+    {
+      "Security Name": "BANK OF AMERICA CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "06055HAH6",
+      "Shares / Quantity": "155,649,000",
+      "Market Value": "$160,311,154.50",
+      "Weighting": "2.54%"
+    },
+    {
+      "Security Name": "Wells Fargo & Company, Series L, 7.500%",
+      "Identifier": "WFC.L",
+      "CUSIP": "949746804",
+      "Shares / Quantity": "110,579",
+      "Market Value": "$129,045,693.00",
+      "Weighting": "2.05%"
+    },
+    {
+      "Security Name": "BARCLAYS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "06738EBX2",
+      "Shares / Quantity": "100,000,000",
+      "Market Value": "$105,320,700.00",
+      "Weighting": "1.67%"
+    },
+    {
+      "Security Name": "JPMORGAN CHASE & CO Variable rate",
+      "Identifier": "",
+      "CUSIP": "48128BAQ4",
+      "Shares / Quantity": "82,350,000",
+      "Market Value": "$86,286,824.10",
+      "Weighting": "1.37%"
+    },
+    {
+      "Security Name": "NextEra Energy Capital Holdings, Inc., Series U, 6.500%, Due 06/01/2085",
+      "Identifier": "NEE.U",
+      "CUSIP": "65339K837",
+      "Shares / Quantity": "3,458,645",
+      "Market Value": "$85,532,290.85",
+      "Weighting": "1.36%"
+    },
+    {
+      "Security Name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "Identifier": "XELLL",
+      "CUSIP": "98389B878",
+      "Shares / Quantity": "3,280,485",
+      "Market Value": "$78,403,591.50",
+      "Weighting": "1.24%"
+    },
+    {
+      "Security Name": "CREDIT AGRICOLE SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "225313AT2",
+      "Shares / Quantity": "75,172,000",
+      "Market Value": "$77,443,171.65",
+      "Weighting": "1.23%"
+    },
+    {
+      "Security Name": "CITIGROUP INC Series HH, Variable rate",
+      "Identifier": "",
+      "CUSIP": "172967QJ3",
+      "Shares / Quantity": "75,485,000",
+      "Market Value": "$76,579,079.59",
+      "Weighting": "1.21%"
+    },
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05602XQS0",
+      "Shares / Quantity": "71,700,000",
+      "Market Value": "$72,118,943.10",
+      "Weighting": "1.14%"
+    },
+    {
+      "Security Name": "CHARLES SCHWAB CORP Series H, Variable rate",
+      "Identifier": "",
+      "CUSIP": "808513BJ3",
+      "Shares / Quantity": "73,169,000",
+      "Market Value": "$68,939,433.76",
+      "Weighting": "1.09%"
+    },
+    {
+      "Security Name": "THE HARTFORD INSUR GRP INC Variable rate, due 02/12/2047",
+      "Identifier": "",
+      "CUSIP": "416515BC7",
+      "Shares / Quantity": "69,648,000",
+      "Market Value": "$67,592,897.16",
+      "Weighting": "1.07%"
+    },
+    {
+      "Security Name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "Identifier": "CRBD",
+      "CUSIP": "21871X208",
+      "Shares / Quantity": "2,923,077",
+      "Market Value": "$66,821,540.22",
+      "Weighting": "1.06%"
+    },
+    {
+      "Security Name": "GOLDMAN SACHS GROUP INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "38141GA79",
+      "Shares / Quantity": "63,323,000",
+      "Market Value": "$66,311,972.25",
+      "Weighting": "1.05%"
+    },
+    {
+      "Security Name": "T-Mobile USA Inc., 5.50%, Due 03/01/2070",
+      "Identifier": "TMUSZ",
+      "CUSIP": "87264A204",
+      "Shares / Quantity": "3,129,468",
+      "Market Value": "$65,812,712.04",
+      "Weighting": "1.04%"
+    },
+    {
+      "Security Name": "AMER AGCREDIT ACA Variable rate",
+      "Identifier": "",
+      "CUSIP": "02369GAA3",
+      "Shares / Quantity": "64,250,000",
+      "Market Value": "$63,845,546.25",
+      "Weighting": "1.01%"
+    },
+    {
+      "Security Name": "BANK OF MONTREAL Variable rate, due 05/26/2084",
+      "Identifier": "",
+      "CUSIP": "06368LQ58",
+      "Shares / Quantity": "60,800,000",
+      "Market Value": "$63,901,712.00",
+      "Weighting": "1.01%"
+    },
+    {
+      "Security Name": "DTE Energy Company, Series H, 6.25%, Due 10/01/2085",
+      "Identifier": "DTK",
+      "CUSIP": "233331792",
+      "Shares / Quantity": "2,592,996",
+      "Market Value": "$62,776,433.16",
+      "Weighting": "1.00%"
+    },
+    {
+      "Security Name": "Aegon Funding Company LLC, 5.100%, Due 12/15/2049",
+      "Identifier": "AEFC",
+      "CUSIP": "00775V104",
+      "Shares / Quantity": "3,195,033",
+      "Market Value": "$60,737,577.33",
+      "Weighting": "0.96%"
+    },
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05565A5R0",
+      "Shares / Quantity": "56,900,000",
+      "Market Value": "$60,235,022.80",
+      "Weighting": "0.96%"
+    },
+    {
+      "Security Name": "ING GROEP NV Variable rate",
+      "Identifier": "",
+      "CUSIP": "456837BT9",
+      "Shares / Quantity": "57,807,000",
+      "Market Value": "$59,819,724.13",
+      "Weighting": "0.95%"
+    },
+    {
+      "Security Name": "BANCO SANTANDER SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971KAQ2",
+      "Shares / Quantity": "50,600,000",
+      "Market Value": "$59,470,180.00",
+      "Weighting": "0.94%"
+    },
+    {
+      "Security Name": "F&G Annuities & Life, Inc., 7.30%, Due 01/15/2065",
+      "Identifier": "FGSN",
+      "CUSIP": "30190A609",
+      "Shares / Quantity": "2,757,451",
+      "Market Value": "$59,285,196.50",
+      "Weighting": "0.94%"
+    },
+    {
+      "Security Name": "BELL CANADA Variable rate, due 09/15/2055",
+      "Identifier": "",
+      "CUSIP": "0778FPAQ2",
+      "Shares / Quantity": "57,079,000",
+      "Market Value": "$58,957,698.21",
+      "Weighting": "0.93%"
+    },
+    {
+      "Security Name": "ROYAL BANK OF CANADA Variable rate, due 08/24/2085",
+      "Identifier": "",
+      "CUSIP": "780082AV5",
+      "Shares / Quantity": "58,100,000",
+      "Market Value": "$58,888,010.30",
+      "Weighting": "0.93%"
+    },
+    {
+      "Security Name": "DOMINION ENERGY INC Variable rate, due 05/15/2055",
+      "Identifier": "",
+      "CUSIP": "25746UDV8",
+      "Shares / Quantity": "55,306,000",
+      "Market Value": "$56,714,035.46",
+      "Weighting": "0.90%"
+    },
+    {
+      "Security Name": "AMERICAN ELECTRIC POWER 6.95%, due 12/15/2054",
+      "Identifier": "",
+      "CUSIP": "025537BA8",
+      "Shares / Quantity": "51,590,000",
+      "Market Value": "$55,267,644.74",
+      "Weighting": "0.88%"
+    },
+    {
+      "Security Name": "LLOYDS BANKING GROUP PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "53944YAV5",
+      "Shares / Quantity": "50,000,000",
+      "Market Value": "$53,302,000.00",
+      "Weighting": "0.85%"
+    },
+    {
+      "Security Name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "Identifier": "ESGRF",
+      "CUSIP": "29359U109",
+      "Shares / Quantity": "2,631,671",
+      "Market Value": "$52,080,769.09",
+      "Weighting": "0.83%"
+    },
+    {
+      "Security Name": "US Dollar",
+      "Identifier": "$USD",
+      "CUSIP": "",
+      "Shares / Quantity": "52,483,246",
+      "Market Value": "$52,483,246.04",
+      "Weighting": "0.83%"
+    },
+    {
+      "Security Name": "T-Mobile USA Inc., 5.50%, Due 06/01/2070",
+      "Identifier": "TMUSI",
+      "CUSIP": "87264A303",
+      "Shares / Quantity": "2,434,962",
+      "Market Value": "$51,621,194.40",
+      "Weighting": "0.82%"
+    },
+    {
+      "Security Name": "HSBC HOLDINGS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "404280EJ4",
+      "Shares / Quantity": "48,450,000",
+      "Market Value": "$50,039,305.35",
+      "Weighting": "0.79%"
+    },
+    {
+      "Security Name": "HUNTINGTON BANCSHARES Variable rate",
+      "Identifier": "",
+      "CUSIP": "446150BG8",
+      "Shares / Quantity": "47,511,000",
+      "Market Value": "$47,883,581.26",
+      "Weighting": "0.76%"
+    },
+    {
+      "Security Name": "BANK OF NOVA SCOTIA Variable rate, due 01/27/2084",
+      "Identifier": "",
+      "CUSIP": "0641598V1",
+      "Shares / Quantity": "44,149,000",
+      "Market Value": "$46,780,677.74",
+      "Weighting": "0.74%"
+    },
+    {
+      "Security Name": "CANADIAN IMPERIAL BANK Variable rate, due 10/28/2085",
+      "Identifier": "",
+      "CUSIP": "13607P7Y4",
+      "Shares / Quantity": "44,100,000",
+      "Market Value": "$45,192,621.60",
+      "Weighting": "0.72%"
+    },
+    {
+      "Security Name": "CREDIT AGRICOLE SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "225313AR6",
+      "Shares / Quantity": "45,578,000",
+      "Market Value": "$45,647,278.56",
+      "Weighting": "0.72%"
+    },
+    {
+      "Security Name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "Identifier": "ATHS",
+      "CUSIP": "04686J838",
+      "Shares / Quantity": "1,759,643",
+      "Market Value": "$43,304,814.23",
+      "Weighting": "0.69%"
+    },
+    {
+      "Security Name": "F&G Annuities & Life, Inc., 7.950%, Due 12/15/2053",
+      "Identifier": "FGN",
+      "CUSIP": "30190A203",
+      "Shares / Quantity": "1,782,485",
+      "Market Value": "$43,813,481.30",
+      "Weighting": "0.69%"
+    },
+    {
+      "Security Name": "HSBC HOLDINGS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "404280FA2",
+      "Shares / Quantity": "41,280,000",
+      "Market Value": "$42,420,937.92",
+      "Weighting": "0.67%"
+    },
+    {
+      "Security Name": "ING GROEP NV Variable rate",
+      "Identifier": "",
+      "CUSIP": "N4578ELV8",
+      "Shares / Quantity": "38,873,000",
+      "Market Value": "$41,401,162.70",
+      "Weighting": "0.66%"
+    },
+    {
+      "Security Name": "NATWEST GROUP PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "639057AQ1",
+      "Shares / Quantity": "38,105,000",
+      "Market Value": "$41,589,549.83",
+      "Weighting": "0.66%"
+    },
+    {
+      "Security Name": "ARES FINANCE CO 4.125%, due 06/30/2051",
+      "Identifier": "",
+      "CUSIP": "04018VAA1",
+      "Shares / Quantity": "40,400,000",
+      "Market Value": "$40,393,972.32",
+      "Weighting": "0.64%"
+    },
+    {
+      "Security Name": "Aspen Insurance Holdings Limited, 5.625%",
+      "Identifier": "AHL.E",
+      "CUSIP": "G05384204",
+      "Shares / Quantity": "2,086,714",
+      "Market Value": "$40,169,244.50",
+      "Weighting": "0.64%"
+    },
+    {
+      "Security Name": "DOMINION ENERGY INC Variable rate, due 02/15/2056",
+      "Identifier": "",
+      "CUSIP": "25746UEA3",
+      "Shares / Quantity": "40,235,000",
+      "Market Value": "$40,516,443.83",
+      "Weighting": "0.64%"
+    },
+    {
+      "Security Name": "GLOBAL ATLANTIC FIN CO Variable rate, due 03/01/2056",
+      "Identifier": "",
+      "CUSIP": "37959GAH0",
+      "Shares / Quantity": "41,076,000",
+      "Market Value": "$40,423,598.10",
+      "Weighting": "0.64%"
+    },
+    {
+      "Security Name": "MITSUBISHI UFJ FIN GRP Variable rate",
+      "Identifier": "",
+      "CUSIP": "606822DP6",
+      "Shares / Quantity": "40,500,000",
+      "Market Value": "$40,655,034.00",
+      "Weighting": "0.64%"
+    },
+    {
+      "Security Name": "PNC FINANCIAL SERVICES Variable rate",
+      "Identifier": "",
+      "CUSIP": "693475BP9",
+      "Shares / Quantity": "39,711,000",
+      "Market Value": "$40,551,602.45",
+      "Weighting": "0.64%"
+    },
+    {
+      "Security Name": "LAND O'LAKES INC 7%",
+      "Identifier": "",
+      "CUSIP": "514666AN6",
+      "Shares / Quantity": "44,888,000",
+      "Market Value": "$39,950,320.00",
+      "Weighting": "0.63%"
+    },
+    {
+      "Security Name": "BANK OF NOVA SCOTIA Variable rate, due 04/27/2085",
+      "Identifier": "",
+      "CUSIP": "0641598X7",
+      "Shares / Quantity": "37,800,000",
+      "Market Value": "$39,089,282.40",
+      "Weighting": "0.62%"
+    },
+    {
+      "Security Name": "BBVA MEX BANCA GRUPO TX Variable rate, due 06/29/2038",
+      "Identifier": "",
+      "CUSIP": "07336UAA1",
+      "Shares / Quantity": "35,600,000",
+      "Market Value": "$38,812,757.60",
+      "Weighting": "0.62%"
+    },
+    {
+      "Security Name": "WELLS FARGO & COMPANY Variable rate",
+      "Identifier": "",
+      "CUSIP": "95002YAE3",
+      "Shares / Quantity": "38,615,000",
+      "Market Value": "$39,050,268.28",
+      "Weighting": "0.62%"
+    },
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05565AM34",
+      "Shares / Quantity": "36,770,000",
+      "Market Value": "$38,673,251.98",
+      "Weighting": "0.61%"
+    },
+    {
+      "Security Name": "COMMERZBANK AG Variable rate",
+      "Identifier": "",
+      "CUSIP": "D1706CKE3",
+      "Shares / Quantity": "36,800,000",
+      "Market Value": "$38,469,025.36",
+      "Weighting": "0.61%"
+    },
+    {
+      "Security Name": "HSBC HOLDINGS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "404280DT3",
+      "Shares / Quantity": "37,000,000",
+      "Market Value": "$38,508,157.00",
+      "Weighting": "0.61%"
+    },
+    {
+      "Security Name": "GLOBAL ATLANTIC FIN CO Variable rate, due 10/15/2054",
+      "Identifier": "",
+      "CUSIP": "37959GAG2",
+      "Shares / Quantity": "36,675,000",
+      "Market Value": "$37,044,701.98",
+      "Weighting": "0.59%"
+    },
+    {
+      "Security Name": "AMERICAN ELECTRIC POWER Variable rate, due 03/15/2056",
+      "Identifier": "",
+      "CUSIP": "02557TAF6",
+      "Shares / Quantity": "36,830,000",
+      "Market Value": "$36,542,383.48",
+      "Weighting": "0.58%"
+    },
+    {
+      "Security Name": "CITIGROUP INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "17327CBC6",
+      "Shares / Quantity": "35,958,000",
+      "Market Value": "$36,847,385.18",
+      "Weighting": "0.58%"
+    },
+    {
+      "Security Name": "NEXTERA ENERGY CAPITAL Variable rate, due 06/15/2054",
+      "Identifier": "",
+      "CUSIP": "65339KDB3",
+      "Shares / Quantity": "35,006,000",
+      "Market Value": "$36,383,311.07",
+      "Weighting": "0.58%"
+    },
+    {
+      "Security Name": "MEIJI YASUDA LIFE INSURANCE Variable rate, due 06/11/2055",
+      "Identifier": "",
+      "CUSIP": "585270AE1",
+      "Shares / Quantity": "35,800,000",
+      "Market Value": "$36,253,729.20",
+      "Weighting": "0.57%"
+    },
+    {
+      "Security Name": "SEMPRA Variable rate, due 10/01/2054",
+      "Identifier": "",
+      "CUSIP": "816851BT5",
+      "Shares / Quantity": "35,416,000",
+      "Market Value": "$35,751,307.71",
+      "Weighting": "0.57%"
+    },
+    {
+      "Security Name": "SOCIETE GENERALE Variable rate",
+      "Identifier": "",
+      "CUSIP": "83370RAC2",
+      "Shares / Quantity": "33,820,000",
+      "Market Value": "$35,720,514.90",
+      "Weighting": "0.57%"
+    },
+    {
+      "Security Name": "SOCIETE GENERALE Variable rate",
+      "Identifier": "",
+      "CUSIP": "83371GAA9",
+      "Shares / Quantity": "32,870,000",
+      "Market Value": "$35,947,979.67",
+      "Weighting": "0.57%"
+    },
+    {
+      "Security Name": "THE AES CORP Variable rate, due 07/15/2055",
+      "Identifier": "",
+      "CUSIP": "00130HCL7",
+      "Shares / Quantity": "36,425,000",
+      "Market Value": "$35,941,436.27",
+      "Weighting": "0.57%"
+    },
+    {
+      "Security Name": "ASSURANT INC Variable rate, due 03/27/2048",
+      "Identifier": "",
+      "CUSIP": "04621XAK4",
+      "Shares / Quantity": "34,460,000",
+      "Market Value": "$35,052,349.15",
+      "Weighting": "0.56%"
+    },
+    {
+      "Security Name": "BANCO SANTANDER SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05964HBH7",
+      "Shares / Quantity": "33,100,000",
+      "Market Value": "$35,613,382.30",
+      "Weighting": "0.56%"
+    },
+    {
+      "Security Name": "ROYAL BANK OF CANADA Variable rate, due 11/24/2085",
+      "Identifier": "",
+      "CUSIP": "780082AY9",
+      "Shares / Quantity": "35,640,000",
+      "Market Value": "$35,259,888.71",
+      "Weighting": "0.56%"
+    },
+    {
+      "Security Name": "ENBRIDGE INC Variable rate, due 01/15/2084",
+      "Identifier": "",
+      "CUSIP": "29250NBT1",
+      "Shares / Quantity": "30,188,000",
+      "Market Value": "$34,456,311.51",
+      "Weighting": "0.55%"
+    },
+    {
+      "Security Name": "Carlyle Finance LLC, 4.625%, Due 05/15/2061",
+      "Identifier": "CGABL",
+      "CUSIP": "14314C105",
+      "Shares / Quantity": "1,954,151",
+      "Market Value": "$31,872,202.81",
+      "Weighting": "0.51%"
+    },
+    {
+      "Security Name": "FIRST CITIZENS BANCSHARES Series D, Variable rate",
+      "Identifier": "",
+      "CUSIP": "31959XAG8",
+      "Shares / Quantity": "31,950,000",
+      "Market Value": "$32,135,853.15",
+      "Weighting": "0.51%"
+    },
+    {
+      "Security Name": "NOMURA HOLDINGS INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "65535HCC1",
+      "Shares / Quantity": "31,200,000",
+      "Market Value": "$32,176,341.60",
+      "Weighting": "0.51%"
+    },
+    {
+      "Security Name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "Identifier": "ATH.E",
+      "CUSIP": "04686J507",
+      "Shares / Quantity": "1,258,222",
+      "Market Value": "$31,770,105.50",
+      "Weighting": "0.50%"
+    },
+    {
+      "Security Name": "BANK OF MONTREAL Variable rate, due 11/26/2084",
+      "Identifier": "",
+      "CUSIP": "06368L5Q5",
+      "Shares / Quantity": "30,189,000",
+      "Market Value": "$31,556,773.02",
+      "Weighting": "0.50%"
+    },
+    {
+      "Security Name": "LANCASHIRE HOLDINGS LTD Variable rate, due 09/18/2041",
+      "Identifier": "",
+      "CUSIP": "G5361WAB0",
+      "Shares / Quantity": "32,050,000",
+      "Market Value": "$31,525,874.18",
+      "Weighting": "0.50%"
+    },
+    {
+      "Security Name": "LAND O'LAKES INC 8%",
+      "Identifier": "",
+      "CUSIP": "514666AK2",
+      "Shares / Quantity": "31,520,000",
+      "Market Value": "$31,598,796.85",
+      "Weighting": "0.50%"
+    },
+    {
+      "Security Name": "ROGERS COMMUNICATIONS INC Variable rate, due 04/15/2055",
+      "Identifier": "",
+      "CUSIP": "775109DH1",
+      "Shares / Quantity": "30,470,000",
+      "Market Value": "$31,528,187.46",
+      "Weighting": "0.50%"
+    },
+    {
+      "Security Name": "SOUTHERN CO Variable rate, due 03/15/2055",
+      "Identifier": "",
+      "CUSIP": "842587EB9",
+      "Shares / Quantity": "31,000,000",
+      "Market Value": "$31,820,756.00",
+      "Weighting": "0.50%"
+    },
+    {
+      "Security Name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "Identifier": "ATH.A",
+      "CUSIP": "04686J861",
+      "Shares / Quantity": "1,279,786",
+      "Market Value": "$30,996,416.92",
+      "Weighting": "0.49%"
+    },
+    {
+      "Security Name": "ENBRIDGE INC Variable rate, due 01/15/2083",
+      "Identifier": "",
+      "CUSIP": "29250NBP9",
+      "Shares / Quantity": "28,420,000",
+      "Market Value": "$30,994,027.82",
+      "Weighting": "0.49%"
+    },
+    {
+      "Security Name": "GOLDMAN SACHS GROUP INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "38141GB52",
+      "Shares / Quantity": "30,900,000",
+      "Market Value": "$31,139,828.50",
+      "Weighting": "0.49%"
+    },
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05602XDJ4",
+      "Shares / Quantity": "28,020,000",
+      "Market Value": "$30,094,096.44",
+      "Weighting": "0.48%"
+    },
+    {
+      "Security Name": "SUMISHO AIR LEASE CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "00912XBQ6",
+      "Shares / Quantity": "31,370,000",
+      "Market Value": "$30,549,028.28",
+      "Weighting": "0.48%"
+    },
+    {
+      "Security Name": "EUSHI FINANCE INC Variable rate, due 04/01/2056",
+      "Identifier": "",
+      "CUSIP": "29882DAC7",
+      "Shares / Quantity": "29,500,000",
+      "Market Value": "$29,431,093.90",
+      "Weighting": "0.47%"
+    },
+    {
+      "Security Name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "Identifier": "TPGXL",
+      "CUSIP": "872652102",
+      "Shares / Quantity": "1,286,742",
+      "Market Value": "$29,569,331.16",
+      "Weighting": "0.47%"
+    },
+    {
+      "Security Name": "CREDIT SUISSE GROUP AG Variable rate",
+      "Identifier": "",
+      "CUSIP": "225401AR9",
+      "Shares / Quantity": "81,425,000",
+      "Market Value": "$28,808,165.00",
+      "Weighting": "0.46%"
+    },
+    {
+      "Security Name": "Affiliated Managers Group, Inc., 6.75%, Due 03/30/2064",
+      "Identifier": "MGRE",
+      "CUSIP": "008252827",
+      "Shares / Quantity": "1,221,441",
+      "Market Value": "$28,618,362.63",
+      "Weighting": "0.45%"
+    },
+    {
+      "Security Name": "BARCLAYS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "06738ECN3",
+      "Shares / Quantity": "25,750,000",
+      "Market Value": "$28,621,150.75",
+      "Weighting": "0.45%"
+    },
+    {
+      "Security Name": "STATE STREET CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "857477CM3",
+      "Shares / Quantity": "27,247,000",
+      "Market Value": "$28,267,427.40",
+      "Weighting": "0.45%"
+    },
+    {
+      "Security Name": "American National Group Inc., Series D, 7.375%",
+      "Identifier": "ANG.D",
+      "CUSIP": "025676859",
+      "Shares / Quantity": "1,129,261",
+      "Market Value": "$27,870,161.48",
+      "Weighting": "0.44%"
+    },
+    {
+      "Security Name": "BANCO BILBAO VIZCAYA ARGENTARIA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05946KAM3",
+      "Shares / Quantity": "25,200,000",
+      "Market Value": "$27,594,478.80",
+      "Weighting": "0.44%"
+    },
+    {
+      "Security Name": "CAPITAL FARM CREDIT ACA Variable rate",
+      "Identifier": "",
+      "CUSIP": "14019TAA4",
+      "Shares / Quantity": "28,250,000",
+      "Market Value": "$27,921,593.75",
+      "Weighting": "0.44%"
+    },
+    {
+      "Security Name": "CNP ASSURANCES SACA Variable rate",
+      "Identifier": "",
+      "CUSIP": "F1876NBV3",
+      "Shares / Quantity": "29,400,000",
+      "Market Value": "$27,677,606.29",
+      "Weighting": "0.44%"
+    },
+    {
+      "Security Name": "EVERSOURCE ENERGY Variable rate, due 08/15/2056",
+      "Identifier": "",
+      "CUSIP": "30040WBD9",
+      "Shares / Quantity": "27,327,000",
+      "Market Value": "$27,473,062.82",
+      "Weighting": "0.44%"
+    },
+    {
+      "Security Name": "CREDIT SUISSE GROUP AG Variable rate",
+      "Identifier": "",
+      "CUSIP": "225401AJ7",
+      "Shares / Quantity": "76,900,000",
+      "Market Value": "$27,207,220.00",
+      "Weighting": "0.43%"
+    },
+    {
+      "Security Name": "Equitable Holdings, Inc., Series A, 5.250%",
+      "Identifier": "EQH.A",
+      "CUSIP": "29452E200",
+      "Shares / Quantity": "1,386,108",
+      "Market Value": "$27,278,605.44",
+      "Weighting": "0.43%"
+    },
+    {
+      "Security Name": "TELUS CORP Variable rate, due 10/15/2055",
+      "Identifier": "",
+      "CUSIP": "87971MCM3",
+      "Shares / Quantity": "26,177,000",
+      "Market Value": "$27,051,311.80",
+      "Weighting": "0.43%"
+    },
+    {
+      "Security Name": "Bank of America Corporation, Series KK, 5.375%",
+      "Identifier": "BAC.M",
+      "CUSIP": "06053U601",
+      "Shares / Quantity": "1,234,888",
+      "Market Value": "$26,401,905.44",
+      "Weighting": "0.42%"
+    },
+    {
+      "Security Name": "DEUTSCHE BANK AG Variable rate",
+      "Identifier": "",
+      "CUSIP": "D18190PH1",
+      "Shares / Quantity": "24,800,000",
+      "Market Value": "$26,228,407.59",
+      "Weighting": "0.42%"
+    },
+    {
+      "Security Name": "KUVARE US HOLDINGS INC Variable rate, due 05/01/2051",
+      "Identifier": "",
+      "CUSIP": "50149XAA2",
+      "Shares / Quantity": "26,429,000",
+      "Market Value": "$26,618,073.07",
+      "Weighting": "0.42%"
+    },
+    {
+      "Security Name": "BANCO MERCANTIL DEL NORTE Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971PAE8",
+      "Shares / Quantity": "25,000,000",
+      "Market Value": "$26,017,500.00",
+      "Weighting": "0.41%"
+    },
+    {
+      "Security Name": "ALLIANZ SE Variable rate",
+      "Identifier": "",
+      "CUSIP": "018820AE0",
+      "Shares / Quantity": "25,000,000",
+      "Market Value": "$25,471,675.00",
+      "Weighting": "0.40%"
+    },
+    {
+      "Security Name": "CITIGROUP INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "17327CAV5",
+      "Shares / Quantity": "24,700,000",
+      "Market Value": "$25,329,059.60",
+      "Weighting": "0.40%"
+    },
+    {
+      "Security Name": "BANCO MERCANTIL DEL NORTE Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971PAC2",
+      "Shares / Quantity": "23,630,000",
+      "Market Value": "$24,542,945.05",
+      "Weighting": "0.39%"
+    },
+    {
+      "Security Name": "CHARLES SCHWAB CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "808513CM5",
+      "Shares / Quantity": "24,600,000",
+      "Market Value": "$24,649,962.60",
+      "Weighting": "0.39%"
+    },
+    {
+      "Security Name": "DUKE ENERGY CORP Variable rate, due 09/01/2054",
+      "Identifier": "",
+      "CUSIP": "26441CCG8",
+      "Shares / Quantity": "23,875,000",
+      "Market Value": "$24,813,430.75",
+      "Weighting": "0.39%"
+    },
+    {
+      "Security Name": "ENTERGY CORP Variable rate, due 06/15/2056",
+      "Identifier": "",
+      "CUSIP": "29364GAS2",
+      "Shares / Quantity": "24,750,000",
+      "Market Value": "$24,701,861.25",
+      "Weighting": "0.39%"
+    },
+    {
+      "Security Name": "BANCO BILBAO VIZCAYA ARGENTARIA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05946KAS0",
+      "Shares / Quantity": "22,600,000",
+      "Market Value": "$23,788,330.60",
+      "Weighting": "0.38%"
+    },
+    {
+      "Security Name": "BANCO SANTANDER SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971KAP4",
+      "Shares / Quantity": "21,600,000",
+      "Market Value": "$23,555,836.80",
+      "Weighting": "0.37%"
+    },
+    {
+      "Security Name": "ING GROEP NV Variable rate",
+      "Identifier": "",
+      "CUSIP": "N4578EMC9",
+      "Shares / Quantity": "22,200,000",
+      "Market Value": "$23,145,871.85",
+      "Weighting": "0.37%"
+    },
+    {
+      "Security Name": "ALTAGAS LTD Variable rate, due 10/15/2054",
+      "Identifier": "",
+      "CUSIP": "021361AD2",
+      "Shares / Quantity": "21,500,000",
+      "Market Value": "$22,526,367.00",
+      "Weighting": "0.36%"
+    },
+    {
+      "Security Name": "EUSHI FINANCE INC Variable rate, due 12/15/2054",
+      "Identifier": "",
+      "CUSIP": "29882DAB9",
+      "Shares / Quantity": "21,680,000",
+      "Market Value": "$22,653,540.40",
+      "Weighting": "0.36%"
+    },
+    {
+      "Security Name": "NISOURCE INC Variable rate, due 03/31/2055",
+      "Identifier": "",
+      "CUSIP": "65473PAT2",
+      "Shares / Quantity": "21,700,000",
+      "Market Value": "$22,392,316.80",
+      "Weighting": "0.36%"
+    },
+    {
+      "Security Name": "Oaktree Capital Group, LLC, Series B, 6.55%",
+      "Identifier": "OAK.B",
+      "CUSIP": "674001409",
+      "Shares / Quantity": "1,051,778",
+      "Market Value": "$22,508,049.20",
+      "Weighting": "0.36%"
+    },
+    {
+      "Security Name": "BANCO MERCANTIL DEL NORTE Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971PAB4",
+      "Shares / Quantity": "22,250,000",
+      "Market Value": "$22,262,460.00",
+      "Weighting": "0.35%"
+    },
+    {
+      "Security Name": "BANK OF NOVA SCOTIA Variable rate, due 10/27/2085",
+      "Identifier": "",
+      "CUSIP": "06419GEE2",
+      "Shares / Quantity": "21,720,000",
+      "Market Value": "$21,840,459.12",
+      "Weighting": "0.35%"
+    },
+    {
+      "Security Name": "CMS Energy Corp., 5.875%, Due 10/15/2078",
+      "Identifier": "CMSC",
+      "CUSIP": "125896852",
+      "Shares / Quantity": "981,724",
+      "Market Value": "$21,931,714.16",
+      "Weighting": "0.35%"
+    },
+    {
+      "Security Name": "JPMORGAN CHASE & CO Variable rate",
+      "Identifier": "",
+      "CUSIP": "48128BAR2",
+      "Shares / Quantity": "21,650,000",
+      "Market Value": "$21,812,014.53",
+      "Weighting": "0.35%"
+    },
+    {
+      "Security Name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2085",
+      "Identifier": "",
+      "CUSIP": "89116C4H7",
+      "Shares / Quantity": "22,000,000",
+      "Market Value": "$22,190,806.00",
+      "Weighting": "0.35%"
+    },
+    {
+      "Security Name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2056",
+      "Identifier": "",
+      "CUSIP": "92343VHN7",
+      "Shares / Quantity": "21,658,000",
+      "Market Value": "$21,974,748.25",
+      "Weighting": "0.35%"
+    },
+    {
+      "Security Name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2058",
+      "Identifier": "",
+      "CUSIP": "92343VHP2",
+      "Shares / Quantity": "21,658,000",
+      "Market Value": "$21,935,179.08",
+      "Weighting": "0.35%"
+    },
+    {
+      "Security Name": "WELLS FARGO & COMPANY Variable rate",
+      "Identifier": "",
+      "CUSIP": "95002YAC7",
+      "Shares / Quantity": "20,948,000",
+      "Market Value": "$21,875,933.56",
+      "Weighting": "0.35%"
+    },
+    {
+      "Security Name": "CITIGROUP INC Series DD, Variable rate",
+      "Identifier": "",
+      "CUSIP": "172967PM7",
+      "Shares / Quantity": "20,832,000",
+      "Market Value": "$21,696,611.33",
+      "Weighting": "0.34%"
+    },
+    {
+      "Security Name": "The Bank of New York Mellon Corporation, Series K, Variable Rate",
+      "Identifier": "BNY.K",
+      "CUSIP": "064058845",
+      "Shares / Quantity": "852,268",
+      "Market Value": "$21,707,265.96",
+      "Weighting": "0.34%"
+    },
+    {
+      "Security Name": "LAND O LAKES CAP TRST I 7.45%, Cumulative Preferred, due 03/15/2028",
+      "Identifier": "",
+      "CUSIP": "514665AA6",
+      "Shares / Quantity": "20,360,000",
+      "Market Value": "$21,057,228.19",
+      "Weighting": "0.33%"
+    },
+    {
+      "Security Name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "Identifier": "SOJF",
+      "CUSIP": "842587867",
+      "Shares / Quantity": "834,580",
+      "Market Value": "$20,964,649.60",
+      "Weighting": "0.33%"
+    },
+    {
+      "Security Name": "TELUS CORP Variable rate, due 06/09/2056",
+      "Identifier": "",
+      "CUSIP": "87971MCR2",
+      "Shares / Quantity": "20,021,000",
+      "Market Value": "$19,940,920.01",
+      "Weighting": "0.32%"
+    },
+    {
+      "Security Name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2082",
+      "Identifier": "",
+      "CUSIP": "89117F8Z5",
+      "Shares / Quantity": "19,370,000",
+      "Market Value": "$20,144,044.57",
+      "Weighting": "0.32%"
+    },
+    {
+      "Security Name": "BANCO SANTANDER SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971KAY5",
+      "Shares / Quantity": "18,600,000",
+      "Market Value": "$18,845,594.40",
+      "Weighting": "0.30%"
+    },
+    {
+      "Security Name": "BARCLAYS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "06738EDC6",
+      "Shares / Quantity": "17,900,000",
+      "Market Value": "$18,852,620.10",
+      "Weighting": "0.30%"
+    },
+    {
+      "Security Name": "SPIRE INC Variable rate, due 06/01/2056",
+      "Identifier": "",
+      "CUSIP": "84857LAE1",
+      "Shares / Quantity": "18,560,000",
+      "Market Value": "$18,671,712.65",
+      "Weighting": "0.30%"
+    },
+    {
+      "Security Name": "AMERICAN NATIONAL GROUP Variable rate, due 12/01/2055",
+      "Identifier": "",
+      "CUSIP": "025676AR8",
+      "Shares / Quantity": "18,700,000",
+      "Market Value": "$18,243,572.27",
+      "Weighting": "0.29%"
+    },
+    {
+      "Security Name": "COMPEER FINANCIAL ACA Variable rate",
+      "Identifier": "",
+      "CUSIP": "20453QAC6",
+      "Shares / Quantity": "17,980,000",
+      "Market Value": "$18,316,149.95",
+      "Weighting": "0.29%"
+    },
+    {
+      "Security Name": "CREDIT SUISSE GROUP AG Variable rate",
+      "Identifier": "",
+      "CUSIP": "225401AL2",
+      "Shares / Quantity": "51,775,000",
+      "Market Value": "$18,317,995.00",
+      "Weighting": "0.29%"
+    },
+    {
+      "Security Name": "BANK OF MONTREAL Variable rate, due 11/26/2085",
+      "Identifier": "",
+      "CUSIP": "06368L8V1",
+      "Shares / Quantity": "17,168,000",
+      "Market Value": "$17,490,569.56",
+      "Weighting": "0.28%"
+    },
+    {
+      "Security Name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "Identifier": "BPYPN",
+      "CUSIP": "G16249164",
+      "Shares / Quantity": "1,282,801",
+      "Market Value": "$17,651,341.76",
+      "Weighting": "0.28%"
+    },
+    {
+      "Security Name": "SUMITOMO MITSUI FINL GRP Variable rate",
+      "Identifier": "",
+      "CUSIP": "86562MDK3",
+      "Shares / Quantity": "17,420,000",
+      "Market Value": "$17,677,537.28",
+      "Weighting": "0.28%"
+    },
+    {
+      "Security Name": "NEXTERA ENERGY CAPITAL Variable rate, due 08/15/2055",
+      "Identifier": "",
+      "CUSIP": "65339KDF4",
+      "Shares / Quantity": "16,250,000",
+      "Market Value": "$16,875,137.50",
+      "Weighting": "0.27%"
+    },
+    {
+      "Security Name": "Annaly Capital Management, Inc., Series J, 8.875%",
+      "Identifier": "NLY.J",
+      "CUSIP": "035710821",
+      "Shares / Quantity": "635,335",
+      "Market Value": "$16,188,335.80",
+      "Weighting": "0.26%"
+    },
+    {
+      "Security Name": "EMERA US FINANCE LLC Variable rate, due 10/01/2056",
+      "Identifier": "",
+      "CUSIP": "29103HAB3",
+      "Shares / Quantity": "16,065,000",
+      "Market Value": "$16,305,332.40",
+      "Weighting": "0.26%"
+    },
+    {
+      "Security Name": "KKR Group Finance Co. IX LLC, 4.625%, Due 04/01/2061",
+      "Identifier": "KKRS",
+      "CUSIP": "48253M104",
+      "Shares / Quantity": "1,011,233",
+      "Market Value": "$16,533,659.55",
+      "Weighting": "0.26%"
+    },
+    {
+      "Security Name": "NIPPON LIFE INSURANCE Variable rate, due 04/30/2055",
+      "Identifier": "",
+      "CUSIP": "654579AP6",
+      "Shares / Quantity": "15,499,000",
+      "Market Value": "$16,267,564.41",
+      "Weighting": "0.26%"
+    },
+    {
+      "Security Name": "Sempra, 5.750%, Due 07/01/2079",
+      "Identifier": "SREA",
+      "CUSIP": "816851604",
+      "Shares / Quantity": "771,364",
+      "Market Value": "$16,160,075.80",
+      "Weighting": "0.26%"
+    },
+    {
+      "Security Name": "BANCO BILBAO VIZCAYA ARG Variable rate",
+      "Identifier": "",
+      "CUSIP": "05946KAW1",
+      "Shares / Quantity": "15,450,000",
+      "Market Value": "$15,615,824.85",
+      "Weighting": "0.25%"
+    },
+    {
+      "Security Name": "BANCO MERCANTIL DEL NORTE Variable rate",
+      "Identifier": "",
+      "CUSIP": "05962GAJ8",
+      "Shares / Quantity": "15,700,000",
+      "Market Value": "$15,702,747.50",
+      "Weighting": "0.25%"
+    },
+    {
+      "Security Name": "HSBC HOLDINGS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "404280FH7",
+      "Shares / Quantity": "15,400,000",
+      "Market Value": "$15,516,377.80",
+      "Weighting": "0.25%"
+    },
+    {
+      "Security Name": "HSBC HOLDINGS PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "404280FJ3",
+      "Shares / Quantity": "15,400,000",
+      "Market Value": "$15,703,534.00",
+      "Weighting": "0.25%"
+    },
+    {
+      "Security Name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "Identifier": "WTFCN",
+      "CUSIP": "97650W702",
+      "Shares / Quantity": "589,037",
+      "Market Value": "$15,491,673.10",
+      "Weighting": "0.25%"
+    },
+    {
+      "Security Name": "Assurant, Inc., 5.250%, Due 01/15/2061",
+      "Identifier": "AIZN",
+      "CUSIP": "04621X306",
+      "Shares / Quantity": "777,036",
+      "Market Value": "$14,895,780.12",
+      "Weighting": "0.24%"
+    },
+    {
+      "Security Name": "CANADIAN IMPERIAL BANK Variable rate, due 01/28/2085",
+      "Identifier": "",
+      "CUSIP": "13607PNF7",
+      "Shares / Quantity": "15,000,000",
+      "Market Value": "$15,286,860.00",
+      "Weighting": "0.24%"
+    },
+    {
+      "Security Name": "Invesco Preferred ETF",
+      "Identifier": "PGX",
+      "CUSIP": "46138E511",
+      "Shares / Quantity": "1,373,686",
+      "Market Value": "$15,083,072.28",
+      "Weighting": "0.24%"
+    },
+    {
+      "Security Name": "PNC FINANCIAL SERVICES Variable rate",
+      "Identifier": "",
+      "CUSIP": "693475BD6",
+      "Shares / Quantity": "14,810,000",
+      "Market Value": "$14,894,180.04",
+      "Weighting": "0.24%"
+    },
+    {
+      "Security Name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "Identifier": "TBB",
+      "CUSIP": "00206R300",
+      "Shares / Quantity": "698,124",
+      "Market Value": "$14,493,054.24",
+      "Weighting": "0.23%"
+    },
+    {
+      "Security Name": "Oaktree Capital Group, LLC, Series A, 6.625%",
+      "Identifier": "OAK.A",
+      "CUSIP": "674001300",
+      "Shares / Quantity": "667,263",
+      "Market Value": "$14,242,728.96",
+      "Weighting": "0.23%"
+    },
+    {
+      "Security Name": "CNO Financial Group, Inc., 5.125%, Due 11/25/2060",
+      "Identifier": "CNO.A",
+      "CUSIP": "12621E301",
+      "Shares / Quantity": "805,557",
+      "Market Value": "$13,847,524.83",
+      "Weighting": "0.22%"
+    },
+    {
+      "Security Name": "COMPEER FINANCIAL ACA Variable rate",
+      "Identifier": "",
+      "CUSIP": "20453QAA0",
+      "Shares / Quantity": "13,950,000",
+      "Market Value": "$13,797,177.75",
+      "Weighting": "0.22%"
+    },
+    {
+      "Security Name": "AGNC Investment Corp., Series F, 6.125% Variable Rate",
+      "Identifier": "AGNCP",
+      "CUSIP": "00123Q872",
+      "Shares / Quantity": "520,008",
+      "Market Value": "$13,161,402.48",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "Brookfield BRP Holdings (Canada) Inc., 4.625%",
+      "Identifier": "BEPH",
+      "CUSIP": "11259P109",
+      "Shares / Quantity": "891,011",
+      "Market Value": "$13,249,333.57",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "Identifier": "CMSD",
+      "CUSIP": "125896845",
+      "Shares / Quantity": "597,414",
+      "Market Value": "$13,334,280.48",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "DOMINION ENERGY INC Variable rate, due 06/01/2054",
+      "Identifier": "",
+      "CUSIP": "25746UDU0",
+      "Shares / Quantity": "12,433,000",
+      "Market Value": "$13,203,931.17",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "FORTEGRA FINANCIAL CORP Variable rate, due 10/15/2057",
+      "Identifier": "",
+      "CUSIP": "34954WAA2",
+      "Shares / Quantity": "13,700,000",
+      "Market Value": "$13,417,125.14",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "Identifier": "JPM.L",
+      "CUSIP": "48128B549",
+      "Shares / Quantity": "701,812",
+      "Market Value": "$13,158,975.00",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "RenaissanceRe Holdings Ltd., Series G, 4.200%",
+      "Identifier": "RNR.G",
+      "CUSIP": "G7498P127",
+      "Shares / Quantity": "859,247",
+      "Market Value": "$13,086,331.81",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "STATE STREET CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "857477CH4",
+      "Shares / Quantity": "12,536,000",
+      "Market Value": "$12,928,627.52",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "TransCanada Pipelines Limited, 6.25%, Due 11/01/2085",
+      "Identifier": "TCPA",
+      "CUSIP": "893526681",
+      "Shares / Quantity": "569,850",
+      "Market Value": "$13,448,460.00",
+      "Weighting": "0.21%"
+    },
+    {
+      "Security Name": "Affiliated Managers Group, Inc., 4.200%, Due 09/30/2061",
+      "Identifier": "MGRD",
+      "CUSIP": "008252835",
+      "Shares / Quantity": "857,989",
+      "Market Value": "$12,869,835.00",
+      "Weighting": "0.20%"
+    },
+    {
+      "Security Name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "Identifier": "NLY.F",
+      "CUSIP": "035710870",
+      "Shares / Quantity": "503,655",
+      "Market Value": "$12,888,531.45",
+      "Weighting": "0.20%"
+    },
+    {
+      "Security Name": "BBVA MEX BANCA GRUPO TX Variable rate, due 02/11/2035",
+      "Identifier": "",
+      "CUSIP": "072912AA6",
+      "Shares / Quantity": "12,300,000",
+      "Market Value": "$12,745,875.00",
+      "Weighting": "0.20%"
+    },
+    {
+      "Security Name": "CITIGROUP INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "172967PJ4",
+      "Shares / Quantity": "12,438,000",
+      "Market Value": "$12,787,234.16",
+      "Weighting": "0.20%"
+    },
+    {
+      "Security Name": "COBANK ACB Variable rate",
+      "Identifier": "",
+      "CUSIP": "19075QAF9",
+      "Shares / Quantity": "12,500,000",
+      "Market Value": "$12,704,255.25",
+      "Weighting": "0.20%"
+    },
+    {
+      "Security Name": "COBANK ACB Variable rate",
+      "Identifier": "",
+      "CUSIP": "19075QAH5",
+      "Shares / Quantity": "12,300,000",
+      "Market Value": "$12,367,248.90",
+      "Weighting": "0.20%"
+    },
+    {
+      "Security Name": "LAND O'LAKES INC 7.25%",
+      "Identifier": "",
+      "CUSIP": "514666AM8",
+      "Shares / Quantity": "14,010,000",
+      "Market Value": "$12,889,200.00",
+      "Weighting": "0.20%"
+    },
+    {
+      "Security Name": "NORDEA BANK ABP Variable rate",
+      "Identifier": "",
+      "CUSIP": "65558RAQ2",
+      "Shares / Quantity": "12,520,000",
+      "Market Value": "$12,617,016.85",
+      "Weighting": "0.20%"
+    },
+    {
+      "Security Name": "ASSURED GUARANTY MUNICIPAL HOLDINGS INC Variable rate, due 12/15/2066",
+      "Identifier": "",
+      "CUSIP": "31769PAB6",
+      "Shares / Quantity": "12,699,000",
+      "Market Value": "$12,229,587.06",
+      "Weighting": "0.19%"
+    },
+    {
+      "Security Name": "BANC CREDITO INVERSIONES Variable rate",
+      "Identifier": "",
+      "CUSIP": "05890MAC7",
+      "Shares / Quantity": "11,320,000",
+      "Market Value": "$12,107,985.20",
+      "Weighting": "0.19%"
+    },
+    {
+      "Security Name": "BANK OF NY MELLON CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "064058AR1",
+      "Shares / Quantity": "11,900,000",
+      "Market Value": "$12,052,724.60",
+      "Weighting": "0.19%"
+    },
+    {
+      "Security Name": "The Southern Company, Series 2020, 4.950%, Due 01/30/2080",
+      "Identifier": "SOJD",
+      "CUSIP": "842587800",
+      "Shares / Quantity": "625,290",
+      "Market Value": "$12,261,936.90",
+      "Weighting": "0.19%"
+    },
+    {
+      "Security Name": "BBVA MEX BANCA GRUPO TX Variable rate, due 09/13/2034",
+      "Identifier": "",
+      "CUSIP": "05533UAG3",
+      "Shares / Quantity": "11,600,000",
+      "Market Value": "$11,450,486.44",
+      "Weighting": "0.18%"
+    },
+    {
+      "Security Name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "Identifier": "BPYPO",
+      "CUSIP": "G16249156",
+      "Shares / Quantity": "759,948",
+      "Market Value": "$11,589,207.00",
+      "Weighting": "0.18%"
+    },
+    {
+      "Security Name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "Identifier": "F.C",
+      "CUSIP": "345370837",
+      "Shares / Quantity": "568,171",
+      "Market Value": "$11,602,051.82",
+      "Weighting": "0.18%"
+    },
+    {
+      "Security Name": "Global Net Lease, Inc., Series A, 7.25%",
+      "Identifier": "GNL.A",
+      "CUSIP": "379378300",
+      "Shares / Quantity": "493,052",
+      "Market Value": "$11,310,612.88",
+      "Weighting": "0.18%"
+    },
+    {
+      "Security Name": "T-Mobile USA Inc., 6.25%, Due 09/01/2069",
+      "Identifier": "TMUSL",
+      "CUSIP": "87264A105",
+      "Shares / Quantity": "473,141",
+      "Market Value": "$11,298,607.08",
+      "Weighting": "0.18%"
+    },
+    {
+      "Security Name": "Brookfield Infrastructure Finance ULC, 5.00%, Due 05/24/2081",
+      "Identifier": "BIPH",
+      "CUSIP": "11276B109",
+      "Shares / Quantity": "663,249",
+      "Market Value": "$10,810,958.70",
+      "Weighting": "0.17%"
+    },
+    {
+      "Security Name": "Brookfield Renewable Partners LP, Series 17, 5.25%",
+      "Identifier": "BEP.A",
+      "CUSIP": "G16258231",
+      "Shares / Quantity": "638,546",
+      "Market Value": "$10,954,256.87",
+      "Weighting": "0.17%"
+    },
+    {
+      "Security Name": "DAIRY FARMERS OF AMERICA 7.125%",
+      "Identifier": "",
+      "CUSIP": "23385HAA7",
+      "Shares / Quantity": "10,700,000",
+      "Market Value": "$10,738,413.00",
+      "Weighting": "0.17%"
+    },
+    {
+      "Security Name": "Aspen Insurance Holdings Limited, 5.625%",
+      "Identifier": "AHL.D",
+      "CUSIP": "G05384162",
+      "Shares / Quantity": "530,477",
+      "Market Value": "$10,291,253.80",
+      "Weighting": "0.16%"
+    },
+    {
+      "Security Name": "AT&T Inc., Series C, 4.750%",
+      "Identifier": "T.C",
+      "CUSIP": "00206R706",
+      "Shares / Quantity": "567,203",
+      "Market Value": "$10,141,589.64",
+      "Weighting": "0.16%"
+    },
+    {
+      "Security Name": "Brookfield Infrastructure Partners LP, Series 13, 5.125%",
+      "Identifier": "BIP.A",
+      "CUSIP": "G16252267",
+      "Shares / Quantity": "616,426",
+      "Market Value": "$10,355,956.80",
+      "Weighting": "0.16%"
+    },
+    {
+      "Security Name": "Ford Motor Company, 6.500%, Due 08/15/2062",
+      "Identifier": "F.D",
+      "CUSIP": "345370811",
+      "Shares / Quantity": "462,967",
+      "Market Value": "$10,226,941.03",
+      "Weighting": "0.16%"
+    },
+    {
+      "Security Name": "GOLDMAN SACHS GROUP INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "38141GC28",
+      "Shares / Quantity": "9,736,000",
+      "Market Value": "$10,056,694.10",
+      "Weighting": "0.16%"
+    },
+    {
+      "Security Name": "Morgan Stanley, Series Q, 6.625%",
+      "Identifier": "MS.Q",
+      "CUSIP": "61762V838",
+      "Shares / Quantity": "398,053",
+      "Market Value": "$10,162,293.09",
+      "Weighting": "0.16%"
+    },
+    {
+      "Security Name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "Identifier": "NEE.W",
+      "CUSIP": "65339K829",
+      "Shares / Quantity": "402,708",
+      "Market Value": "$10,095,889.56",
+      "Weighting": "0.16%"
+    },
+    {
+      "Security Name": "ALLIANZ SE Variable rate",
+      "Identifier": "",
+      "CUSIP": "018820AF7",
+      "Shares / Quantity": "9,200,000",
+      "Market Value": "$9,269,552.00",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05602XJC3",
+      "Shares / Quantity": "9,300,000",
+      "Market Value": "$9,692,022.90",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "CREDIT SUISSE GROUP AG Variable rate",
+      "Identifier": "",
+      "CUSIP": "225401AX6",
+      "Shares / Quantity": "27,200,000",
+      "Market Value": "$9,623,360.00",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "DigitalBridge Group, Inc., Series I, 7.15%",
+      "Identifier": "DBRG.I",
+      "CUSIP": "25401T405",
+      "Shares / Quantity": "598,173",
+      "Market Value": "$9,343,462.26",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "EMERA US FINANCE LLC Variable rate, due 10/01/2056",
+      "Identifier": "",
+      "CUSIP": "29103HAA5",
+      "Shares / Quantity": "9,250,000",
+      "Market Value": "$9,369,676.50",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "EVERSOURCE ENERGY Variable rate, due 08/15/2056",
+      "Identifier": "",
+      "CUSIP": "30040WBC1",
+      "Shares / Quantity": "9,300,000",
+      "Market Value": "$9,275,471.72",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "LLOYDS BANKING GROUP PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "539439BF5",
+      "Shares / Quantity": "9,300,000",
+      "Market Value": "$9,171,439.59",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "REINSURANCE GRP OF AMER Variable rate, due 09/15/2056",
+      "Identifier": "",
+      "CUSIP": "759351AV1",
+      "Shares / Quantity": "9,300,000",
+      "Market Value": "$9,176,457.87",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "AGNC Investment Corp., Series H, 8.75%",
+      "Identifier": "AGNCZ",
+      "CUSIP": "00123Q831",
+      "Shares / Quantity": "357,504",
+      "Market Value": "$9,098,476.80",
+      "Weighting": "0.14%"
+    },
+    {
+      "Security Name": "AXIS Capital Holdings Limited, Series E, 5.500%",
+      "Identifier": "AXS.E",
+      "CUSIP": "05461T305",
+      "Shares / Quantity": "454,181",
+      "Market Value": "$8,929,198.46",
+      "Weighting": "0.14%"
+    },
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05565AS20",
+      "Shares / Quantity": "8,300,000",
+      "Market Value": "$8,713,008.00",
+      "Weighting": "0.14%"
+    },
+    {
+      "Security Name": "CHS Inc., Series 3, 6.750%, Variable Rate",
+      "Identifier": "CHSCM",
+      "CUSIP": "12542R704",
+      "Shares / Quantity": "324,636",
+      "Market Value": "$7,999,031.04",
+      "Weighting": "0.13%"
+    },
+    {
+      "Security Name": "AGNC Investment Corp., Series D, 6.875% Variable Rate",
+      "Identifier": "AGNCM",
+      "CUSIP": "00123Q609",
+      "Shares / Quantity": "300,535",
+      "Market Value": "$7,567,471.30",
+      "Weighting": "0.12%"
+    },
+    {
+      "Security Name": "FARM CREDIT BK OF TEXAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "30767EAC3",
+      "Shares / Quantity": "7,650,000",
+      "Market Value": "$7,675,811.10",
+      "Weighting": "0.12%"
+    },
+    {
+      "Security Name": "FARM CREDIT BK OF TEXAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "30767EAF6",
+      "Shares / Quantity": "7,460,000",
+      "Market Value": "$7,664,911.28",
+      "Weighting": "0.12%"
+    },
+    {
+      "Security Name": "Pinnacle Financial Partners, Inc., Series C, 6.75%",
+      "Identifier": "PNFP.C",
+      "CUSIP": "72348N505",
+      "Shares / Quantity": "303,102",
+      "Market Value": "$7,468,433.28",
+      "Weighting": "0.12%"
+    },
+    {
+      "Security Name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "Identifier": "VOYA.B",
+      "CUSIP": "929089209",
+      "Shares / Quantity": "283,648",
+      "Market Value": "$6,660,055.04",
+      "Weighting": "0.11%"
+    },
+    {
+      "Security Name": "W.R. Berkley Corporation, 5.100%, Due 12/30/2059",
+      "Identifier": "WRB.F",
+      "CUSIP": "084423805",
+      "Shares / Quantity": "374,269",
+      "Market Value": "$7,064,327.44",
+      "Weighting": "0.11%"
+    },
+    {
+      "Security Name": "Affiliated Managers Group, Inc., 5.875%, Due 03/30/2059",
+      "Identifier": "MGR",
+      "CUSIP": "008252850",
+      "Shares / Quantity": "310,069",
+      "Market Value": "$6,235,487.59",
+      "Weighting": "0.10%"
+    },
+    {
+      "Security Name": "FARM CREDIT BK OF TEXAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "30767EAE9",
+      "Shares / Quantity": "6,200,000",
+      "Market Value": "$6,477,884.00",
+      "Weighting": "0.10%"
+    },
+    {
+      "Security Name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "Identifier": "F.B",
+      "CUSIP": "345370845",
+      "Shares / Quantity": "303,593",
+      "Market Value": "$6,372,417.07",
+      "Weighting": "0.10%"
+    },
+    {
+      "Security Name": "METLIFE INC Variable rate, due 03/15/2055",
+      "Identifier": "",
+      "CUSIP": "59156RCQ9",
+      "Shares / Quantity": "5,909,000",
+      "Market Value": "$6,074,635.18",
+      "Weighting": "0.10%"
+    },
+    {
+      "Security Name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "Identifier": "STT.G",
+      "CUSIP": "857477855",
+      "Shares / Quantity": "293,095",
+      "Market Value": "$6,342,575.80",
+      "Weighting": "0.10%"
+    },
+    {
+      "Security Name": "SWEDBANK AB Variable rate",
+      "Identifier": "",
+      "CUSIP": "W94240RW5",
+      "Shares / Quantity": "6,200,000",
+      "Market Value": "$6,548,365.60",
+      "Weighting": "0.10%"
+    },
+    {
+      "Security Name": "Arch Capital Group Ltd., Series G, 4.550%",
+      "Identifier": "ACGLN",
+      "CUSIP": "03939A404",
+      "Shares / Quantity": "361,989",
+      "Market Value": "$5,864,221.80",
+      "Weighting": "0.09%"
+    },
+    {
+      "Security Name": "DigitalBridge Group, Inc., Series J, 7.125%",
+      "Identifier": "DBRG.J",
+      "CUSIP": "25401T306",
+      "Shares / Quantity": "372,046",
+      "Market Value": "$5,952,698.82",
+      "Weighting": "0.09%"
+    },
+    {
+      "Security Name": "LIBERTY MUTUAL GROUP INC 4.125%, due 12/15/2051",
+      "Identifier": "",
+      "CUSIP": "53079EBM5",
+      "Shares / Quantity": "5,977,000",
+      "Market Value": "$5,938,946.05",
+      "Weighting": "0.09%"
+    },
+    {
+      "Security Name": "BANC CREDITO INVERSIONES Variable rate",
+      "Identifier": "",
+      "CUSIP": "05890PAC0",
+      "Shares / Quantity": "5,000,000",
+      "Market Value": "$5,348,050.00",
+      "Weighting": "0.08%"
+    },
+    {
+      "Security Name": "Public Storage, Series L, 4.625%",
+      "Identifier": "PSA.L",
+      "CUSIP": "74460W552",
+      "Shares / Quantity": "267,640",
+      "Market Value": "$4,854,989.60",
+      "Weighting": "0.08%"
+    },
+    {
+      "Security Name": "WELLS FARGO & COMPANY Variable rate",
+      "Identifier": "",
+      "CUSIP": "95002YAA1",
+      "Shares / Quantity": "5,000,000",
+      "Market Value": "$5,238,275.00",
+      "Weighting": "0.08%"
+    },
+    {
+      "Security Name": "ATHENE HOLDING LTD Variable rate, due 06/28/2055",
+      "Identifier": "",
+      "CUSIP": "04686JAM3",
+      "Shares / Quantity": "4,326,000",
+      "Market Value": "$4,164,817.57",
+      "Weighting": "0.07%"
+    },
+    {
+      "Security Name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "Identifier": "MS.K",
+      "CUSIP": "61762V606",
+      "Shares / Quantity": "173,267",
+      "Market Value": "$4,108,160.57",
+      "Weighting": "0.07%"
+    },
+    {
+      "Security Name": "The Phoenix Companies, Inc., 7.45%, Due 01/15/2032",
+      "Identifier": "PNX",
+      "CUSIP": "71902E208",
+      "Shares / Quantity": "226,438",
+      "Market Value": "$4,245,712.50",
+      "Weighting": "0.07%"
+    },
+    {
+      "Security Name": "DOMINION ENERGY INC Variable rate, due 02/01/2055",
+      "Identifier": "",
+      "CUSIP": "25746UDT3",
+      "Shares / Quantity": "3,526,000",
+      "Market Value": "$3,642,529.50",
+      "Weighting": "0.06%"
+    },
+    {
+      "Security Name": "Wells Fargo & Company, Series Z, 4.75%",
+      "Identifier": "WFC.Z",
+      "CUSIP": "94988U151",
+      "Shares / Quantity": "188,361",
+      "Market Value": "$3,520,467.09",
+      "Weighting": "0.06%"
+    },
+    {
+      "Security Name": "Affiliated Managers Group, Inc., 4.750%, Due 09/30/2060",
+      "Identifier": "MGRB",
+      "CUSIP": "008252843",
+      "Shares / Quantity": "197,154",
+      "Market Value": "$3,312,187.20",
+      "Weighting": "0.05%"
+    },
+    {
+      "Security Name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "Identifier": "JXN.A",
+      "CUSIP": "46817M206",
+      "Shares / Quantity": "114,642",
+      "Market Value": "$2,974,959.90",
+      "Weighting": "0.05%"
+    },
+    {
+      "Security Name": "Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052",
+      "Identifier": "RZC",
+      "CUSIP": "759351885",
+      "Shares / Quantity": "114,408",
+      "Market Value": "$2,925,412.56",
+      "Weighting": "0.05%"
+    },
+    {
+      "Security Name": "SEMPRA Variable rate, due 10/01/2054",
+      "Identifier": "",
+      "CUSIP": "816851BS7",
+      "Shares / Quantity": "2,850,000",
+      "Market Value": "$2,910,773.40",
+      "Weighting": "0.05%"
+    },
+    {
+      "Security Name": "Truist Financial Corporation, Series R, 4.750%",
+      "Identifier": "TFC.R",
+      "CUSIP": "89832Q695",
+      "Shares / Quantity": "163,109",
+      "Market Value": "$2,994,681.24",
+      "Weighting": "0.05%"
+    },
+    {
+      "Security Name": "AGNC Investment Corp., Series E, 6.500% Variable Rate",
+      "Identifier": "AGNCO",
+      "CUSIP": "00123Q807",
+      "Shares / Quantity": "86,417",
+      "Market Value": "$2,212,275.20",
+      "Weighting": "0.04%"
+    },
+    {
+      "Security Name": "Bank of America Corporation, Series LL, 5.000%",
+      "Identifier": "BAC.N",
+      "CUSIP": "06055H202",
+      "Shares / Quantity": "114,029",
+      "Market Value": "$2,271,457.68",
+      "Weighting": "0.04%"
+    },
+    {
+      "Security Name": "BANK OF NOVA SCOTIA Variable rate, due 10/27/2082",
+      "Identifier": "",
+      "CUSIP": "0641598S8",
+      "Shares / Quantity": "2,184,000",
+      "Market Value": "$2,278,700.42",
+      "Weighting": "0.04%"
+    },
+    {
+      "Security Name": "CHS Inc., Series 2, 7.100%, Variable Rate",
+      "Identifier": "CHSCN",
+      "CUSIP": "12542R506",
+      "Shares / Quantity": "100,371",
+      "Market Value": "$2,508,271.29",
+      "Weighting": "0.04%"
+    },
+    {
+      "Security Name": "DigitalBridge Group, Inc., Series H, 7.125%",
+      "Identifier": "DBRG.H",
+      "CUSIP": "25401T504",
+      "Shares / Quantity": "149,755",
+      "Market Value": "$2,312,217.20",
+      "Weighting": "0.04%"
+    },
+    {
+      "Security Name": "The Allstate Corporation, Series H, 5.100%",
+      "Identifier": "ALL.H",
+      "CUSIP": "020002838",
+      "Shares / Quantity": "122,810",
+      "Market Value": "$2,485,674.40",
+      "Weighting": "0.04%"
+    },
+    {
+      "Security Name": "U.S. Bancorp, Series K, 5.500%",
+      "Identifier": "USB.P",
+      "CUSIP": "902973759",
+      "Shares / Quantity": "115,824",
+      "Market Value": "$2,524,963.20",
+      "Weighting": "0.04%"
+    },
+    {
+      "Security Name": "Bank of America Corporation, Series NN, 4.375%",
+      "Identifier": "BAC.O",
+      "CUSIP": "06055H400",
+      "Shares / Quantity": "110,067",
+      "Market Value": "$1,932,776.52",
+      "Weighting": "0.03%"
+    },
+    {
+      "Security Name": "Bank of America Corporation, Series SS, 4.750%",
+      "Identifier": "BAC.S",
+      "CUSIP": "06055H871",
+      "Shares / Quantity": "92,574",
+      "Market Value": "$1,764,460.44",
+      "Weighting": "0.03%"
+    },
+    {
+      "Security Name": "Citigroup Inc., Series II, 6.25%",
+      "Identifier": "C.R",
+      "CUSIP": "172967242",
+      "Shares / Quantity": "81,582",
+      "Market Value": "$2,050,971.48",
+      "Weighting": "0.03%"
+    },
+    {
+      "Security Name": "JPMorgan Chase & Co., Series GG, 4.750%",
+      "Identifier": "JPM.J",
+      "CUSIP": "48128B622",
+      "Shares / Quantity": "104,610",
+      "Market Value": "$2,016,880.80",
+      "Weighting": "0.03%"
+    },
+    {
+      "Security Name": "RenaissanceRe Holdings Ltd., Series F, 5.750%",
+      "Identifier": "RNR.F",
+      "CUSIP": "75968N309",
+      "Shares / Quantity": "85,784",
+      "Market Value": "$1,829,772.72",
+      "Weighting": "0.03%"
+    },
+    {
+      "Security Name": "The Southern Company, Series C, 4.200%, Due 10/15/2060",
+      "Identifier": "SOJE",
+      "CUSIP": "842587883",
+      "Shares / Quantity": "95,331",
+      "Market Value": "$1,616,813.76",
+      "Weighting": "0.03%"
+    },
+    {
+      "Security Name": "Wells Fargo & Company, Series AA, 4.700%",
+      "Identifier": "WFC.A",
+      "CUSIP": "94988U128",
+      "Shares / Quantity": "97,110",
+      "Market Value": "$1,797,506.10",
+      "Weighting": "0.03%"
+    },
+    {
+      "Security Name": "Arch Capital Group Ltd., Series F, 5.450%",
+      "Identifier": "ACGLO",
+      "CUSIP": "03939A107",
+      "Shares / Quantity": "77,889",
+      "Market Value": "$1,496,247.69",
+      "Weighting": "0.02%"
+    },
+    {
+      "Security Name": "Capital One Financial Corporation, Series I, 5.000%",
+      "Identifier": "COF.I",
+      "CUSIP": "14040H824",
+      "Shares / Quantity": "65,398",
+      "Market Value": "$1,183,703.80",
+      "Weighting": "0.02%"
+    },
+    {
+      "Security Name": "CENTERPOINT ENERGY INC Variable rate, due 02/15/2055",
+      "Identifier": "",
+      "CUSIP": "15189TBJ5",
+      "Shares / Quantity": "1,400,000",
+      "Market Value": "$1,481,323.20",
+      "Weighting": "0.02%"
+    },
+    {
+      "Security Name": "COREBRIDGE FINANCIAL INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "21871XAU3",
+      "Shares / Quantity": "1,155,000",
+      "Market Value": "$1,187,938.29",
+      "Weighting": "0.02%"
+    },
+    {
+      "Security Name": "Globe Life Inc., 4.250%, Due 06/15/2061",
+      "Identifier": "GL.D",
+      "CUSIP": "37959E300",
+      "Shares / Quantity": "87,348",
+      "Market Value": "$1,357,387.92",
+      "Weighting": "0.02%"
+    },
+    {
+      "Security Name": "MetLife, Inc., Series F, 4.750%",
+      "Identifier": "MET.F",
+      "CUSIP": "59156R850",
+      "Shares / Quantity": "59,036",
+      "Market Value": "$1,099,250.32",
+      "Weighting": "0.02%"
+    },
+    {
+      "Security Name": "The Southern Company, 5.250%, Due 12/01/2077",
+      "Identifier": "SOJC",
+      "CUSIP": "842587404",
+      "Shares / Quantity": "50,423",
+      "Market Value": "$1,055,353.39",
+      "Weighting": "0.02%"
+    },
+    {
+      "Security Name": "Athene Holding Ltd., Series B, 5.625%",
+      "Identifier": "ATH.B",
+      "CUSIP": "04686J200",
+      "Shares / Quantity": "22,322",
+      "Market Value": "$416,751.74",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "Brookfield Infrastructure Partners LP, Series 14, 5.00%",
+      "Identifier": "BIP.B",
+      "CUSIP": "G16252275",
+      "Shares / Quantity": "56,463",
+      "Market Value": "$909,562.50",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "CREDIT SUISSE GROUP AG Variable rate",
+      "Identifier": "",
+      "CUSIP": "225436AA2",
+      "Shares / Quantity": "1,200,000",
+      "Market Value": "$424,560.00",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "DTE Energy Company, 4.375%, Due 12/01/2081",
+      "Identifier": "DTG",
+      "CUSIP": "233331818",
+      "Shares / Quantity": "20,021",
+      "Market Value": "$339,155.74",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "Morgan Stanley, Series P, 6.500%",
+      "Identifier": "MS.P",
+      "CUSIP": "61762V853",
+      "Shares / Quantity": "13,521",
+      "Market Value": "$342,757.35",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "Prudential Financial, Inc., 5.625%, Due 08/15/2058",
+      "Identifier": "PRS",
+      "CUSIP": "744320805",
+      "Shares / Quantity": "14,342",
+      "Market Value": "$318,966.08",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "Prudential Financial, Inc., 5.950%, Due 09/01/2062",
+      "Identifier": "PRH",
+      "CUSIP": "744320870",
+      "Shares / Quantity": "20,125",
+      "Market Value": "$462,673.75",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "Public Storage, Series K, 4.750%",
+      "Identifier": "PSA.K",
+      "CUSIP": "74460W578",
+      "Shares / Quantity": "38,986",
+      "Market Value": "$722,410.58",
+      "Weighting": "0.01%"
+    },
+    {
+      "Security Name": "Apollo Global Management, Inc., 7.625%, Variable Rate, Due 09/15/2053",
+      "Identifier": "APOS",
+      "CUSIP": "03769M205",
+      "Shares / Quantity": "947",
+      "Market Value": "$24,205.32",
+      "Weighting": "0.00%"
+    },
+    {
+      "Security Name": "Fifth Third Bancorp, Variable Rate",
+      "Identifier": "FITB.M",
+      "CUSIP": "316773837",
+      "Shares / Quantity": "7,248",
+      "Market Value": "$190,115.04",
+      "Weighting": "0.00%"
+    },
+    {
+      "Security Name": "Huntington Bancshares Incorporated, Series J, 6.875% Variable Rate",
+      "Identifier": "HBANL",
+      "CUSIP": "446150773",
+      "Shares / Quantity": "7,096",
+      "Market Value": "$178,464.40",
+      "Weighting": "0.00%"
+    },
+    {
+      "Security Name": "ING GROEP NV Variable rate",
+      "Identifier": "",
+      "CUSIP": "N4578ELM8",
+      "Shares / Quantity": "285,000",
+      "Market Value": "$294,723.17",
+      "Weighting": "0.00%"
+    },
+    {
+      "Security Name": "JPMorgan Chase & Co., Series DD, 5.750%",
+      "Identifier": "JPM.D",
+      "CUSIP": "48128B655",
+      "Shares / Quantity": "8,729",
+      "Market Value": "$210,718.06",
+      "Weighting": "0.00%"
+    }
+  ]
+}

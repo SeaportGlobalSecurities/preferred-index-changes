@@ -1,0 +1,22 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "PRUDENTIAL FINANCIAL INC Variable rate, due 06/15/2056",
+      "Identifier": "",
+      "CUSIP": "744320BQ4",
+      "Shares / Quantity": "3,670,000",
+      "Market Value": "$3,668,802.85",
+      "Weighting": "0.20%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 7037602.0
+    }
+  ]
+}
