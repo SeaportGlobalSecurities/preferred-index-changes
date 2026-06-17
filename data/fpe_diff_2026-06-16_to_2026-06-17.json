@@ -1,0 +1,68 @@
+{
+  "added": [
+    {
+      "Security Name": "BANCO MERCANTIL DE NORTE Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971PAG3",
+      "Shares / Quantity": "15,460,000",
+      "Market Value": "$15,460,000.00",
+      "Weighting": "0.25%"
+    },
+    {
+      "Security Name": "NEXTERA ENERGY CAPITAL Variable rate, due 10/01/2066",
+      "Identifier": "",
+      "CUSIP": "65339KEH9",
+      "Shares / Quantity": "9,250,000",
+      "Market Value": "$9,295,972.50",
+      "Weighting": "0.15%"
+    },
+    {
+      "Security Name": "NEXTERA ENERGY CAPITAL Variable rate, due 10/01/2056",
+      "Identifier": "",
+      "CUSIP": "65339KEG1",
+      "Shares / Quantity": "7,550,000",
+      "Market Value": "$7,550,000.00",
+      "Weighting": "0.12%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "ING GROEP NV Variable rate",
+      "Identifier": "",
+      "CUSIP": "N4578ELM8",
+      "Shares / Quantity": "285,000",
+      "Market Value": "$294,723.17",
+      "Weighting": "0.00%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -30370492.0
+    },
+    {
+      "key": "456837BT9",
+      "name": "ING GROEP NV Variable rate",
+      "cusip": "456837BT9",
+      "identifier": "",
+      "shares_delta": 300000.0
+    },
+    {
+      "key": "759351885",
+      "name": "Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052",
+      "cusip": "759351885",
+      "identifier": "RZC",
+      "shares_delta": -30901.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -3692.0
+    }
+  ]
+}

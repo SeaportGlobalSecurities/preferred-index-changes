@@ -1,0 +1,54 @@
+{
+  "added": [
+    {
+      "Security Name": "NEXTERA ENERGY CAPITAL Variable rate, due 10/01/2056",
+      "Identifier": "",
+      "CUSIP": "65339KEG1",
+      "Shares / Quantity": "10,000,000",
+      "Market Value": "$10,000,000.00",
+      "Weighting": "0.53%"
+    },
+    {
+      "Security Name": "BANCO MERCANTIL DE NORTE Variable rate",
+      "Identifier": "",
+      "CUSIP": "05971PAG3",
+      "Shares / Quantity": "4,620,000",
+      "Market Value": "$4,620,000.00",
+      "Weighting": "0.25%"
+    },
+    {
+      "Security Name": "NEXTERA ENERGY CAPITAL Variable rate, due 10/01/2066",
+      "Identifier": "",
+      "CUSIP": "65339KEH9",
+      "Shares / Quantity": "2,780,000",
+      "Market Value": "$2,793,816.60",
+      "Weighting": "0.15%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "ING GROEP NV Variable rate",
+      "Identifier": "",
+      "CUSIP": "N4578ELM8",
+      "Shares / Quantity": "1,004,000",
+      "Market Value": "$1,038,252.85",
+      "Weighting": "0.06%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -13268005.0
+    },
+    {
+      "key": "456837BT9",
+      "name": "ING GROEP NV Variable rate",
+      "cusip": "456837BT9",
+      "identifier": "",
+      "shares_delta": 1000000.0
+    }
+  ]
+}
