@@ -1,0 +1,48 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 1895290.0
+    },
+    {
+      "key": "759351885",
+      "name": "Reinsurance Group of America, Incorporated, 7.125%, Variable Rate, Due 10/15/2052",
+      "cusip": "759351885",
+      "identifier": "RZC",
+      "shares_delta": -78839.0
+    },
+    {
+      "key": "06055H871",
+      "name": "Bank of America Corporation, Series SS, 4.750%",
+      "cusip": "06055H871",
+      "identifier": "BAC.S",
+      "shares_delta": 6271.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 3873.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -2613.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": -1248.0
+    }
+  ]
+}
