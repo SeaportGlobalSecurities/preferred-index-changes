@@ -1,0 +1,111 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -1693573.0
+    },
+    {
+      "key": "00912XBQ6",
+      "name": "SUMISHO AIR LEASE CORP Variable rate",
+      "cusip": "00912XBQ6",
+      "identifier": "",
+      "shares_delta": -463000.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 21405.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "cusip": "48128B549",
+      "identifier": "JPM.L",
+      "shares_delta": 18894.0
+    },
+    {
+      "key": "06055H871",
+      "name": "Bank of America Corporation, Series SS, 4.750%",
+      "cusip": "06055H871",
+      "identifier": "BAC.S",
+      "shares_delta": 13045.0
+    },
+    {
+      "key": "06053U601",
+      "name": "Bank of America Corporation, Series KK, 5.375%",
+      "cusip": "06053U601",
+      "identifier": "BAC.M",
+      "shares_delta": 12809.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 12513.0
+    },
+    {
+      "key": "94988U128",
+      "name": "Wells Fargo & Company, Series AA, 4.700%",
+      "cusip": "94988U128",
+      "identifier": "WFC.A",
+      "shares_delta": 11190.0
+    },
+    {
+      "key": "G05384162",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "cusip": "G05384162",
+      "identifier": "AHL.D",
+      "shares_delta": 10457.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "cusip": "98389B878",
+      "identifier": "XELLL",
+      "shares_delta": 10132.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "cusip": "872652102",
+      "identifier": "TPGXL",
+      "shares_delta": 9726.0
+    },
+    {
+      "key": "48128B622",
+      "name": "JPMorgan Chase & Co., Series GG, 4.750%",
+      "cusip": "48128B622",
+      "identifier": "JPM.J",
+      "shares_delta": 9447.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 8556.0
+    },
+    {
+      "key": "035710870",
+      "name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "cusip": "035710870",
+      "identifier": "NLY.F",
+      "shares_delta": 7898.0
+    },
+    {
+      "key": "03939A107",
+      "name": "Arch Capital Group Ltd., Series F, 5.450%",
+      "cusip": "03939A107",
+      "identifier": "ACGLO",
+      "shares_delta": 4661.0
+    }
+  ]
+}
