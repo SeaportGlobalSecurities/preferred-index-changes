@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "29882DAC7",
+      "name": "EUSHI FINANCE INC Variable rate, due 04/01/2056",
+      "cusip": "29882DAC7",
+      "identifier": "",
+      "shares_delta": -3820000.0
+    },
+    {
+      "key": "29103HAA5",
+      "name": "EMERA US FINANCE LLC Variable rate, due 10/01/2056",
+      "cusip": "29103HAA5",
+      "identifier": "",
+      "shares_delta": 3820000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 2036200.0
+    }
+  ]
+}
