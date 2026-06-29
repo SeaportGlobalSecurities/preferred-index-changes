@@ -1,0 +1,85 @@
+{
+  "added": [
+    {
+      "Security Name": "JPMorgan Chase & Co., Series JJ, 4.550%",
+      "Identifier": "JPM.K",
+      "CUSIP": "48128B580",
+      "Shares / Quantity": "21,383",
+      "Market Value": "$391,154.94",
+      "Weighting": "0.01%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "89117F8Z5",
+      "name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2082",
+      "cusip": "89117F8Z5",
+      "identifier": "",
+      "shares_delta": -3800000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 3076980.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 11559.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 4705.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "cusip": "48128B549",
+      "identifier": "JPM.L",
+      "shares_delta": 3334.0
+    },
+    {
+      "key": "94988U128",
+      "name": "Wells Fargo & Company, Series AA, 4.700%",
+      "cusip": "94988U128",
+      "identifier": "WFC.A",
+      "shares_delta": 1474.0
+    },
+    {
+      "key": "06055H871",
+      "name": "Bank of America Corporation, Series SS, 4.750%",
+      "cusip": "06055H871",
+      "identifier": "BAC.S",
+      "shares_delta": 1264.0
+    },
+    {
+      "key": "06053U601",
+      "name": "Bank of America Corporation, Series KK, 5.375%",
+      "cusip": "06053U601",
+      "identifier": "BAC.M",
+      "shares_delta": 764.0
+    },
+    {
+      "key": "48128B622",
+      "name": "JPMorgan Chase & Co., Series GG, 4.750%",
+      "cusip": "48128B622",
+      "identifier": "JPM.J",
+      "shares_delta": 284.0
+    },
+    {
+      "key": "06055H202",
+      "name": "Bank of America Corporation, Series LL, 5.000%",
+      "cusip": "06055H202",
+      "identifier": "BAC.N",
+      "shares_delta": 167.0
+    }
+  ]
+}
