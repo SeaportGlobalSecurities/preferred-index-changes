@@ -1,0 +1,90 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 1503708.0
+    },
+    {
+      "key": "06055H400",
+      "name": "Bank of America Corporation, Series NN, 4.375%",
+      "cusip": "06055H400",
+      "identifier": "BAC.O",
+      "shares_delta": 43158.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 16725.0
+    },
+    {
+      "key": "48128B580",
+      "name": "JPMorgan Chase & Co., Series JJ, 4.550%",
+      "cusip": "48128B580",
+      "identifier": "JPM.K",
+      "shares_delta": 13322.0
+    },
+    {
+      "key": "06055H871",
+      "name": "Bank of America Corporation, Series SS, 4.750%",
+      "cusip": "06055H871",
+      "identifier": "BAC.S",
+      "shares_delta": 11225.0
+    },
+    {
+      "key": "06053U601",
+      "name": "Bank of America Corporation, Series KK, 5.375%",
+      "cusip": "06053U601",
+      "identifier": "BAC.M",
+      "shares_delta": 11111.0
+    },
+    {
+      "key": "00775V104",
+      "name": "Aegon Funding Company LLC, 5.100%, Due 12/15/2049",
+      "cusip": "00775V104",
+      "identifier": "AEFC",
+      "shares_delta": 6508.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 1737.0
+    },
+    {
+      "key": "48128B549",
+      "name": "JPMorgan Chase & Co., Series LL, 4.625%",
+      "cusip": "48128B549",
+      "identifier": "JPM.L",
+      "shares_delta": 483.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 147.0
+    },
+    {
+      "key": "035710870",
+      "name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "cusip": "035710870",
+      "identifier": "NLY.F",
+      "shares_delta": 119.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 70.0
+    }
+  ]
+}
