@@ -1,0 +1,50 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05565AS20",
+      "Shares / Quantity": "1,000,000",
+      "Market Value": "$1,047,353.00",
+      "Weighting": "0.06%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "05971PAC2",
+      "name": "BANCO MERCANTIL DEL NORTE Variable rate",
+      "cusip": "05971PAC2",
+      "identifier": "",
+      "shares_delta": 3000000.0
+    },
+    {
+      "key": "05602XQS0",
+      "name": "BNP PARIBAS Variable rate",
+      "cusip": "05602XQS0",
+      "identifier": "",
+      "shares_delta": 2700000.0
+    },
+    {
+      "key": "29103HAA5",
+      "name": "EMERA US FINANCE LLC Variable rate, due 10/01/2056",
+      "cusip": "29103HAA5",
+      "identifier": "",
+      "shares_delta": 1328000.0
+    },
+    {
+      "key": "29882DAC7",
+      "name": "EUSHI FINANCE INC Variable rate, due 04/01/2056",
+      "cusip": "29882DAC7",
+      "identifier": "",
+      "shares_delta": -1300000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -458154.0
+    }
+  ]
+}
