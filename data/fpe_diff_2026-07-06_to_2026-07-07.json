@@ -1,0 +1,69 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -947896.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 12453.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 11713.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "cusip": "98389B878",
+      "identifier": "XELLL",
+      "shares_delta": 9487.0
+    },
+    {
+      "key": "87264A204",
+      "name": "T-Mobile USA Inc., 5.50%, Due 03/01/2070",
+      "cusip": "87264A204",
+      "identifier": "TMUSZ",
+      "shares_delta": 8083.0
+    },
+    {
+      "key": "842587800",
+      "name": "The Southern Company, Series 2020, 4.950%, Due 01/30/2080",
+      "cusip": "842587800",
+      "identifier": "SOJD",
+      "shares_delta": 7291.0
+    },
+    {
+      "key": "87264A105",
+      "name": "T-Mobile USA Inc., 6.25%, Due 09/01/2069",
+      "cusip": "87264A105",
+      "identifier": "TMUSL",
+      "shares_delta": 2848.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 1190.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 1136.0
+    }
+  ]
+}
