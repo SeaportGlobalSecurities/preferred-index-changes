@@ -1,0 +1,90 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -621211.0
+    },
+    {
+      "key": "87264A105",
+      "name": "T-Mobile USA Inc., 6.25%, Due 09/01/2069",
+      "cusip": "87264A105",
+      "identifier": "TMUSL",
+      "shares_delta": 15348.0
+    },
+    {
+      "key": "94988U128",
+      "name": "Wells Fargo & Company, Series AA, 4.700%",
+      "cusip": "94988U128",
+      "identifier": "WFC.A",
+      "shares_delta": 12080.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -10092.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 5733.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 2187.0
+    },
+    {
+      "key": "06053U601",
+      "name": "Bank of America Corporation, Series KK, 5.375%",
+      "cusip": "06053U601",
+      "identifier": "BAC.M",
+      "shares_delta": 2114.0
+    },
+    {
+      "key": "48128B580",
+      "name": "JPMorgan Chase & Co., Series JJ, 4.550%",
+      "cusip": "48128B580",
+      "identifier": "JPM.K",
+      "shares_delta": 2114.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 1015.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 888.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 524.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 76.0
+    }
+  ]
+}
