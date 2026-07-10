@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FPEI Holdings — 2026-07-10</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:24px 36px;background:#0d0d0d;color:#e0e0e0;
+  font-family:"Courier New",Courier,monospace;font-size:13px;}
+h1{color:#f7a700;margin:0 0 4px 0;font-size:22px;letter-spacing:.5px;}
+h2{color:#f7a700;margin:24px 0 4px 0;font-size:18px;letter-spacing:.5px;
+  border-top:1px solid #333;padding-top:20px;}
+h2:first-of-type{border-top:none;padding-top:0;}
+.sub{color:#888;font-size:13px;margin:0 0 20px 0;}
+.stat-bar{display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;
+  background:#111827;border:1px solid #333;border-radius:6px;margin:0 0 20px 0;}
+.stat{font-size:12px}
+.stat-lbl{color:#888}
+.stat-val{font-weight:bold;margin-left:4px}
+.s-new .stat-val{color:#2ecc71}
+.s-rem .stat-val{color:#e74c3c}
+.s-chg .stat-val{color:#f7a700}
+.s-tot .stat-val{color:#e0e0e0}
+details{margin:8px 0;border:1px solid #444;border-radius:6px;}
+summary{cursor:pointer;background:#111827;color:#f7a700;font-size:14px;
+  font-weight:bold;padding:10px 14px;user-select:none;list-style:none;border-radius:6px;}
+summary::-webkit-details-marker{display:none}
+summary::before{content:'▶ ';font-size:10px}
+details[open]>summary::before{content:'▼ '}
+.sum-sub{color:#aaa;font-weight:normal;font-size:12px}
+.sec-body{padding:12px 14px 14px}
+.tbl-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:auto;font-size:12px;
+  font-family:"Courier New",Courier,monospace;color:#e0e0e0;}
+thead th{text-align:left;padding:4px 8px;border-bottom:2px solid #f7a700;
+  color:#f7a700;font-size:11px;text-transform:uppercase;
+  letter-spacing:.5px;white-space:nowrap;cursor:pointer;user-select:none;}
+thead th:last-child{text-align:right}
+tbody tr:hover{background:#1a1a2e}
+tbody td{padding:4px 8px;border-bottom:1px solid #252525;white-space:nowrap;}
+tbody td:last-child{text-align:right}
+.nm{white-space:normal;word-wrap:break-word;max-width:220px;}
+.pos{color:#2ecc71;font-weight:bold}
+.neg{color:#e74c3c;font-weight:bold}
+.muted{color:#555}
+.empty{color:#888;font-size:12px;padding:8px 0}
+</style>
+</head>
+<body>
+<script>
+function sortTable(id,col){
+  var t=document.getElementById(id),tb=t.querySelector('tbody');
+  var rows=Array.from(tb.querySelectorAll('tr'));
+  var ths=t.querySelectorAll('th'),th=ths[col];
+  var asc=th.getAttribute('data-dir')!=='asc';
+  ths.forEach(function(h){
+    h.setAttribute('data-dir','');
+    h.textContent=h.textContent.replace(/ [▲▼]$/,'');
+  });
+  th.setAttribute('data-dir',asc?'asc':'desc');
+  th.textContent+=(asc?' ▲':' ▼');
+  rows.sort(function(a,b){
+    var av=a.cells[col].getAttribute('data-sort')||a.cells[col].textContent.trim();
+    var bv=b.cells[col].getAttribute('data-sort')||b.cells[col].textContent.trim();
+    var an=parseFloat(av.replace(/[^0-9.\-+]/g,'')),bn=parseFloat(bv.replace(/[^0-9.\-+]/g,''));
+    if(!isNaN(an)&&!isNaN(bn)) return asc?an-bn:bn-an;
+    return asc?av.localeCompare(bv):bv.localeCompare(av);
+  });
+  rows.forEach(function(r){tb.appendChild(r);});
+}
+</script>
+<h2>FPEI ETF Holdings Change Report</h2>
+<p class="sub">Comparing: <strong>2026-07-09</strong> (175 holdings) &rarr; <strong>2026-07-10</strong> (175 holdings)</p>
+<div class="stat-bar"><div class="stat s-tot"><span class="stat-lbl">Prior holdings:</span><span class="stat-val">175</span></div><div class="stat s-tot"><span class="stat-lbl">Current holdings:</span><span class="stat-val">175</span></div><div class="stat s-new"><span class="stat-lbl">New:</span><span class="stat-val">0</span></div><div class="stat s-rem"><span class="stat-lbl">Removed:</span><span class="stat-val">0</span></div><div class="stat s-chg"><span class="stat-lbl">Changed:</span><span class="stat-val">3</span></div></div>
+<details><summary>New Positions <span class="sum-sub">— 0 added</span></summary><div class="sec-body"><p class="empty">No new positions.</p></div></details>
+<details><summary>Removed Positions <span class="sum-sub">— 0 removed</span></summary><div class="sec-body"><p class="empty">No removed positions.</p></div></details>
+<details open><summary>Changed Positions <span class="sum-sub">— 3 — sorted by |shares delta|</span></summary><div class="sec-body"><div class="tbl-wrap"><table id="tbl_1"><thead><tr><th onclick="sortTable('tbl_1',0)">CUSIP</th><th onclick="sortTable('tbl_1',1)">Security Name</th><th onclick="sortTable('tbl_1',2)">Identifier</th><th onclick="sortTable('tbl_1',3)">Delta</th></tr></thead><tbody><tr><td data-sort="025676AR8">025676AR8</td><td data-sort="AMERICAN NATIONAL GROUP Variable rate, due 12/01/2055" class="nm">AMERICAN NATIONAL GROUP Variable rate, due 12/01/2055</td><td><span class="muted">—</span></td><td data-sort="4913000.0"><span class="pos">+4,913,000</span></td></tr><tr><td data-sort="29882DAC7">29882DAC7</td><td data-sort="EUSHI FINANCE INC Variable rate, due 04/01/2056" class="nm">EUSHI FINANCE INC Variable rate, due 04/01/2056</td><td><span class="muted">—</span></td><td data-sort="-3313000.0"><span class="neg">-3,313,000</span></td></tr><tr><td><span class="muted">—</span></td><td data-sort="US Dollar" class="nm">US Dollar</td><td data-sort="$USD">$USD</td><td data-sort="2343910.0"><span class="pos">+2,343,910</span></td></tr></tbody></table></div></div></details>
+</body>
+</html>
