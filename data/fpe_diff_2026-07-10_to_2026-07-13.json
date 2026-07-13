@@ -1,0 +1,111 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -2285768.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 28714.0
+    },
+    {
+      "key": "87264A105",
+      "name": "T-Mobile USA Inc., 6.25%, Due 09/01/2069",
+      "cusip": "87264A105",
+      "identifier": "TMUSL",
+      "shares_delta": 27865.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 23600.0
+    },
+    {
+      "key": "48128B580",
+      "name": "JPMorgan Chase & Co., Series JJ, 4.550%",
+      "cusip": "48128B580",
+      "identifier": "JPM.K",
+      "shares_delta": 17506.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -16044.0
+    },
+    {
+      "key": "06053U601",
+      "name": "Bank of America Corporation, Series KK, 5.375%",
+      "cusip": "06053U601",
+      "identifier": "BAC.M",
+      "shares_delta": 15188.0
+    },
+    {
+      "key": "94988U128",
+      "name": "Wells Fargo & Company, Series AA, 4.700%",
+      "cusip": "94988U128",
+      "identifier": "WFC.A",
+      "shares_delta": 15056.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "cusip": "98389B878",
+      "identifier": "XELLL",
+      "shares_delta": 9184.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 9028.0
+    },
+    {
+      "key": "G05384162",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "cusip": "G05384162",
+      "identifier": "AHL.D",
+      "shares_delta": 8300.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "cusip": "842587867",
+      "identifier": "SOJF",
+      "shares_delta": 1417.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 690.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 208.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 151.0
+    }
+  ]
+}
