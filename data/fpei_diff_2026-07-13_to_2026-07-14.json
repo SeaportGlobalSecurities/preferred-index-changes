@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -5125000.0
+    },
+    {
+      "key": "225313AT2",
+      "name": "CREDIT AGRICOLE SA Variable rate",
+      "cusip": "225313AT2",
+      "identifier": "",
+      "shares_delta": 5000000.0
+    }
+  ]
+}

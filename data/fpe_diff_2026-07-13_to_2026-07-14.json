@@ -1,0 +1,83 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -1006724.0
+    },
+    {
+      "key": "87264A105",
+      "name": "T-Mobile USA Inc., 6.25%, Due 09/01/2069",
+      "cusip": "87264A105",
+      "identifier": "TMUSL",
+      "shares_delta": 18695.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 14232.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 11196.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 1990.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -1654.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 1193.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 1000.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "cusip": "842587867",
+      "identifier": "SOJF",
+      "shares_delta": 459.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -342.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 300.0
+    }
+  ]
+}
