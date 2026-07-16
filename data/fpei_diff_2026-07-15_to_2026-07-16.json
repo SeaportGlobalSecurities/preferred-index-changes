@@ -1,0 +1,34 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -6687639.0
+    },
+    {
+      "key": "639057AQ1",
+      "name": "NATWEST GROUP PLC Variable rate",
+      "cusip": "639057AQ1",
+      "identifier": "",
+      "shares_delta": 4000000.0
+    },
+    {
+      "key": "780082AV5",
+      "name": "ROYAL BANK OF CANADA Variable rate, due 08/24/2085",
+      "cusip": "780082AV5",
+      "identifier": "",
+      "shares_delta": 2000000.0
+    },
+    {
+      "key": "639057AT5",
+      "name": "NATWEST GROUP PLC Variable rate",
+      "cusip": "639057AT5",
+      "identifier": "",
+      "shares_delta": 2000000.0
+    }
+  ]
+}

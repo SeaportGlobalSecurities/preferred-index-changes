@@ -1,0 +1,83 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 2669750.0
+    },
+    {
+      "key": "06055H202",
+      "name": "Bank of America Corporation, Series LL, 5.000%",
+      "cusip": "06055H202",
+      "identifier": "BAC.N",
+      "shares_delta": 22855.0
+    },
+    {
+      "key": "842587800",
+      "name": "The Southern Company, Series 2020, 4.950%, Due 01/30/2080",
+      "cusip": "842587800",
+      "identifier": "SOJD",
+      "shares_delta": 11779.0
+    },
+    {
+      "key": "94988U128",
+      "name": "Wells Fargo & Company, Series AA, 4.700%",
+      "cusip": "94988U128",
+      "identifier": "WFC.A",
+      "shares_delta": 10087.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 6252.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 5681.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -2918.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "cusip": "857477855",
+      "identifier": "STT.G",
+      "shares_delta": 1700.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 777.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "cusip": "872652102",
+      "identifier": "TPGXL",
+      "shares_delta": 500.0
+    },
+    {
+      "key": "00775V104",
+      "name": "Aegon Funding Company LLC, 5.100%, Due 12/15/2049",
+      "cusip": "00775V104",
+      "identifier": "AEFC",
+      "shares_delta": 176.0
+    }
+  ]
+}
