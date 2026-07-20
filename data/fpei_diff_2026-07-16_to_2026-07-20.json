@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 2618717.0
+    },
+    {
+      "key": "06368L8V1",
+      "name": "BANK OF MONTREAL Variable rate, due 11/26/2085",
+      "cusip": "06368L8V1",
+      "identifier": "",
+      "shares_delta": 2038000.0
+    }
+  ]
+}
