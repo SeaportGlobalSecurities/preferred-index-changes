@@ -1,0 +1,22 @@
+{
+  "added": [
+    {
+      "Security Name": "GOLDMAN SACHS GROUP INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "38141GF66",
+      "Shares / Quantity": "6,000,000",
+      "Market Value": "$6,000,000.00",
+      "Weighting": "0.31%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -6176642.0
+    }
+  ]
+}

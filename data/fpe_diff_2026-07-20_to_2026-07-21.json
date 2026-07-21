@@ -1,0 +1,78 @@
+{
+  "added": [
+    {
+      "Security Name": "GOLDMAN SACHS GROUP INC Variable rate",
+      "Identifier": "",
+      "CUSIP": "38141GF66",
+      "Shares / Quantity": "16,000,000",
+      "Market Value": "$16,000,000.00",
+      "Weighting": "0.25%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -18249937.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -12844.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 10026.0
+    },
+    {
+      "key": "00775V104",
+      "name": "Aegon Funding Company LLC, 5.100%, Due 12/15/2049",
+      "cusip": "00775V104",
+      "identifier": "AEFC",
+      "shares_delta": 8435.0
+    },
+    {
+      "key": "06055H202",
+      "name": "Bank of America Corporation, Series LL, 5.000%",
+      "cusip": "06055H202",
+      "identifier": "BAC.N",
+      "shares_delta": 8037.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 1677.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 545.0
+    },
+    {
+      "key": "G05384162",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "cusip": "G05384162",
+      "identifier": "AHL.D",
+      "shares_delta": 300.0
+    },
+    {
+      "key": "48128B580",
+      "name": "JPMorgan Chase & Co., Series JJ, 4.550%",
+      "cusip": "48128B580",
+      "identifier": "JPM.K",
+      "shares_delta": 300.0
+    }
+  ]
+}
