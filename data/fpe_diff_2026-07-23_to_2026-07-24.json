@@ -1,0 +1,104 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -1382706.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 14634.0
+    },
+    {
+      "key": "48128B580",
+      "name": "JPMorgan Chase & Co., Series JJ, 4.550%",
+      "cusip": "48128B580",
+      "identifier": "JPM.K",
+      "shares_delta": 10708.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -9924.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "cusip": "857477855",
+      "identifier": "STT.G",
+      "shares_delta": 7734.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 6817.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 6701.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 6519.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 5429.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 4451.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "cusip": "98389B878",
+      "identifier": "XELLL",
+      "shares_delta": 3791.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 3026.0
+    },
+    {
+      "key": "87264A105",
+      "name": "T-Mobile USA Inc., 6.25%, Due 09/01/2069",
+      "cusip": "87264A105",
+      "identifier": "TMUSL",
+      "shares_delta": 3002.0
+    },
+    {
+      "key": "G05384162",
+      "name": "Aspen Insurance Holdings Limited, 5.625%",
+      "cusip": "G05384162",
+      "identifier": "AHL.D",
+      "shares_delta": 2514.0
+    }
+  ]
+}
