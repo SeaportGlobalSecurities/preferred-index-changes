@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "172967QJ3",
+      "name": "CITIGROUP INC Series HH, Variable rate",
+      "cusip": "172967QJ3",
+      "identifier": "",
+      "shares_delta": 5000000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -3417111.0
+    },
+    {
+      "key": "775109DH1",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 04/15/2055",
+      "cusip": "775109DH1",
+      "identifier": "",
+      "shares_delta": 3178000.0
+    }
+  ]
+}
