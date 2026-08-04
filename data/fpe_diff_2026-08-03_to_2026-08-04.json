@@ -1,0 +1,48 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "29882DAC7",
+      "name": "EUSHI FINANCE INC Variable rate, due 04/01/2056",
+      "cusip": "29882DAC7",
+      "identifier": "",
+      "shares_delta": -6150000.0
+    },
+    {
+      "key": "29103HAA5",
+      "name": "EMERA US FINANCE LLC Variable rate, due 10/01/2056",
+      "cusip": "29103HAA5",
+      "identifier": "",
+      "shares_delta": 6080000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 3874406.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 3285.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 216.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 216.0
+    }
+  ]
+}
