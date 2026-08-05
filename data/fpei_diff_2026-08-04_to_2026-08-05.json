@@ -1,0 +1,29 @@
+{
+  "added": [
+    {
+      "Security Name": "ENTERGY CORP Variable rate, due 12/15/2056",
+      "Identifier": "",
+      "CUSIP": "29364GAT0",
+      "Shares / Quantity": "3,770,000",
+      "Market Value": "$3,770,000.00",
+      "Weighting": "0.20%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "29364GAQ6",
+      "name": "ENTERGY CORP Variable rate, due 12/01/2054",
+      "cusip": "29364GAQ6",
+      "identifier": "",
+      "shares_delta": -7000000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 5321816.0
+    }
+  ]
+}

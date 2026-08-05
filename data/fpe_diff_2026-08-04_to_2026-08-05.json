@@ -1,0 +1,92 @@
+{
+  "added": [
+    {
+      "Security Name": "ENTERGY CORP Variable rate, due 12/15/2056",
+      "Identifier": "",
+      "CUSIP": "29364GAT0",
+      "Shares / Quantity": "12,350,000",
+      "Market Value": "$12,350,000.00",
+      "Weighting": "0.20%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "29364GAS2",
+      "name": "ENTERGY CORP Variable rate, due 06/15/2056",
+      "cusip": "29364GAS2",
+      "identifier": "",
+      "shares_delta": -11400000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -1724772.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -16696.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 10941.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -10586.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 9299.0
+    },
+    {
+      "key": "345370845",
+      "name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "cusip": "345370845",
+      "identifier": "F.B",
+      "shares_delta": 6437.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 5691.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 5137.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 3930.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 690.0
+    }
+  ]
+}
