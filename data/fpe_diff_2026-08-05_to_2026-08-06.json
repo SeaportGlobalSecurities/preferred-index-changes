@@ -1,0 +1,106 @@
+{
+  "added": [
+    {
+      "Security Name": "AMERICAN EXPRESS CO Variable rate",
+      "Identifier": "",
+      "CUSIP": "025816EV7",
+      "Shares / Quantity": "18,500,000",
+      "Market Value": "$18,500,000.00",
+      "Weighting": "0.29%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "04621XAK4",
+      "name": "ASSURANT INC Variable rate, due 03/27/2048",
+      "cusip": "04621XAK4",
+      "identifier": "",
+      "shares_delta": -17000000.0
+    },
+    {
+      "key": "02557TAF6",
+      "name": "AMERICAN ELECTRIC POWER Variable rate, due 03/15/2056",
+      "cusip": "02557TAF6",
+      "identifier": "",
+      "shares_delta": -13500000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 7234031.0
+    },
+    {
+      "key": "87264A303",
+      "name": "T-Mobile USA Inc., 5.50%, Due 06/01/2070",
+      "cusip": "87264A303",
+      "identifier": "TMUSI",
+      "shares_delta": -19495.0
+    },
+    {
+      "key": "345370845",
+      "name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "cusip": "345370845",
+      "identifier": "F.B",
+      "shares_delta": 9069.0
+    },
+    {
+      "key": "345370837",
+      "name": "Ford Motor Company, 6.00%, Due 12/01/2059",
+      "cusip": "345370837",
+      "identifier": "F.C",
+      "shares_delta": 6525.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 5354.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 5016.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 4184.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 3953.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "cusip": "857477855",
+      "identifier": "STT.G",
+      "shares_delta": 3815.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "cusip": "872652102",
+      "identifier": "TPGXL",
+      "shares_delta": 2826.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 1039.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "added": [
+    {
+      "Security Name": "AMERICAN EXPRESS CO Variable rate",
+      "Identifier": "",
+      "CUSIP": "025816EV7",
+      "Shares / Quantity": "5,650,000",
+      "Market Value": "$5,650,000.00",
+      "Weighting": "0.30%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -6947171.0
+    }
+  ]
+}
