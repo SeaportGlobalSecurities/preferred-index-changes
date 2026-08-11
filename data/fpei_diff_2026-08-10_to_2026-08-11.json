@@ -1,0 +1,68 @@
+{
+  "added": [
+    {
+      "Security Name": "VERIZON COMMUNICATIONS Variable rate, due 02/15/2057",
+      "Identifier": "",
+      "CUSIP": "92343VJM7",
+      "Shares / Quantity": "18,800,000",
+      "Market Value": "$18,800,000.00",
+      "Weighting": "0.98%"
+    },
+    {
+      "Security Name": "VERIZON COMMUNICATIONS Variable rate, due 02/15/2059",
+      "Identifier": "",
+      "CUSIP": "92343VJL9",
+      "Shares / Quantity": "14,300,000",
+      "Market Value": "$14,300,000.00",
+      "Weighting": "0.75%"
+    },
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05602XQU5",
+      "Shares / Quantity": "6,600,000",
+      "Market Value": "$6,600,000.00",
+      "Weighting": "0.34%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "LINCOLN NATIONAL CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "534187BR9",
+      "Shares / Quantity": "3,600,000",
+      "Market Value": "$3,770,197.20",
+      "Weighting": "0.20%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -30925764.0
+    },
+    {
+      "key": "92343VHP2",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2058",
+      "cusip": "92343VHP2",
+      "identifier": "",
+      "shares_delta": -3212000.0
+    },
+    {
+      "key": "92343VHN7",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2056",
+      "cusip": "92343VHN7",
+      "identifier": "",
+      "shares_delta": -1512000.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -13.0
+    }
+  ]
+}

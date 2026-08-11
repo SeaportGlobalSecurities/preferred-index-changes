@@ -1,0 +1,73 @@
+{
+  "added": [
+    {
+      "Security Name": "VERIZON COMMUNICATIONS Variable rate, due 02/15/2057",
+      "Identifier": "",
+      "CUSIP": "92343VJM7",
+      "Shares / Quantity": "57,234,000",
+      "Market Value": "$57,234,000.00",
+      "Weighting": "0.91%"
+    },
+    {
+      "Security Name": "VERIZON COMMUNICATIONS Variable rate, due 02/15/2059",
+      "Identifier": "",
+      "CUSIP": "92343VJL9",
+      "Shares / Quantity": "38,690,000",
+      "Market Value": "$38,690,000.00",
+      "Weighting": "0.62%"
+    },
+    {
+      "Security Name": "BNP PARIBAS Variable rate",
+      "Identifier": "",
+      "CUSIP": "05602XQU5",
+      "Shares / Quantity": "21,700,000",
+      "Market Value": "$21,700,000.00",
+      "Weighting": "0.35%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -100294392.0
+    },
+    {
+      "key": "92343VHP2",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2058",
+      "cusip": "92343VHP2",
+      "identifier": "",
+      "shares_delta": -10492000.0
+    },
+    {
+      "key": "92343VHN7",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2056",
+      "cusip": "92343VHN7",
+      "identifier": "",
+      "shares_delta": -4936000.0
+    },
+    {
+      "key": "87264A303",
+      "name": "T-Mobile USA Inc., 5.50%, Due 06/01/2070",
+      "cusip": "87264A303",
+      "identifier": "TMUSI",
+      "shares_delta": -12695.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -785.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -496.0
+    }
+  ]
+}
