@@ -1,0 +1,46 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2082",
+      "Identifier": "",
+      "CUSIP": "89117F8Z5",
+      "Shares / Quantity": "30,180,000",
+      "Market Value": "$31,118,507.46",
+      "Weighting": "1.63%"
+    },
+    {
+      "Security Name": "TRANSCANADA PIPELINES Variable rate, due 10/17/2056",
+      "Identifier": "",
+      "CUSIP": "89352HBL2",
+      "Shares / Quantity": "7,000,000",
+      "Market Value": "$7,009,639.00",
+      "Weighting": "0.37%"
+    },
+    {
+      "Security Name": "SEMPRA Variable rate, due 10/01/2054",
+      "Identifier": "",
+      "CUSIP": "816851BS7",
+      "Shares / Quantity": "3,522,000",
+      "Market Value": "$3,583,635.00",
+      "Weighting": "0.19%"
+    },
+    {
+      "Security Name": "DAIRY FARMERS OF AMERICA 7.125%",
+      "Identifier": "",
+      "CUSIP": "23385HAA7",
+      "Shares / Quantity": "1,200,000",
+      "Market Value": "$1,207,801.20",
+      "Weighting": "0.06%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 46293713.0
+    }
+  ]
+}

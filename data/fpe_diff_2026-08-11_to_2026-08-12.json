@@ -1,0 +1,73 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "TORONTO-DOMINION BANK Variable rate, due 10/31/2082",
+      "Identifier": "",
+      "CUSIP": "89117F8Z5",
+      "Shares / Quantity": "15,570,000",
+      "Market Value": "$16,054,180.29",
+      "Weighting": "0.26%"
+    },
+    {
+      "Security Name": "PNC FINANCIAL SERVICES Variable rate",
+      "Identifier": "",
+      "CUSIP": "693475BD6",
+      "Shares / Quantity": "14,810,000",
+      "Market Value": "$14,861,642.47",
+      "Weighting": "0.24%"
+    },
+    {
+      "Security Name": "DAIRY FARMERS OF AMERICA 7.125%",
+      "Identifier": "",
+      "CUSIP": "23385HAA7",
+      "Shares / Quantity": "10,700,000",
+      "Market Value": "$10,769,560.70",
+      "Weighting": "0.17%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 56033957.0
+    },
+    {
+      "key": "04621XAK4",
+      "name": "ASSURANT INC Variable rate, due 03/27/2048",
+      "cusip": "04621XAK4",
+      "identifier": "",
+      "shares_delta": -9978000.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -9382.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 7097.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 6472.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -2951.0
+    }
+  ]
+}
