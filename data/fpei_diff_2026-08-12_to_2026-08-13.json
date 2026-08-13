@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "172967QJ3",
+      "name": "CITIGROUP INC Series HH, Variable rate",
+      "cusip": "172967QJ3",
+      "identifier": "",
+      "shares_delta": 2287000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -49983.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -8.0
+    }
+  ]
+}
