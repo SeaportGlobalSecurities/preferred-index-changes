@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "06419GEE2",
+      "name": "BANK OF NOVA SCOTIA Variable rate, due 10/27/2085",
+      "cusip": "06419GEE2",
+      "identifier": "",
+      "shares_delta": 13627000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -10835043.0
+    },
+    {
+      "key": "29364GAT0",
+      "name": "ENTERGY CORP Variable rate, due 12/15/2056",
+      "cusip": "29364GAT0",
+      "identifier": "",
+      "shares_delta": 3000000.0
+    }
+  ]
+}
