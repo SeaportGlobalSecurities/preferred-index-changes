@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -9706275.0
+    },
+    {
+      "key": "639057AT5",
+      "name": "NATWEST GROUP PLC Variable rate",
+      "cusip": "639057AT5",
+      "identifier": "",
+      "shares_delta": 5000000.0
+    },
+    {
+      "key": "29364GAT0",
+      "name": "ENTERGY CORP Variable rate, due 12/15/2056",
+      "cusip": "29364GAT0",
+      "identifier": "",
+      "shares_delta": 5000000.0
+    }
+  ]
+}
