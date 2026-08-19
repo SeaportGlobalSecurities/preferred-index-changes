@@ -1,0 +1,125 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "92343VHP2",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2058",
+      "cusip": "92343VHP2",
+      "identifier": "",
+      "shares_delta": -6164000.0
+    },
+    {
+      "key": "92343VJM7",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 02/15/2057",
+      "cusip": "92343VJM7",
+      "identifier": "",
+      "shares_delta": 6122000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 1976279.0
+    },
+    {
+      "key": "05565A5R0",
+      "name": "BNP PARIBAS Variable rate",
+      "cusip": "05565A5R0",
+      "identifier": "",
+      "shares_delta": -1550000.0
+    },
+    {
+      "key": "87264A303",
+      "name": "T-Mobile USA Inc., 5.50%, Due 06/01/2070",
+      "cusip": "87264A303",
+      "identifier": "TMUSI",
+      "shares_delta": -19573.0
+    },
+    {
+      "key": "48253M104",
+      "name": "KKR Group Finance Co. IX LLC, 4.625%, Due 04/01/2061",
+      "cusip": "48253M104",
+      "identifier": "KKRS",
+      "shares_delta": -10799.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -10073.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -4561.0
+    },
+    {
+      "key": "345370845",
+      "name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "cusip": "345370845",
+      "identifier": "F.B",
+      "shares_delta": 3842.0
+    },
+    {
+      "key": "11259P109",
+      "name": "Brookfield BRP Holdings (Canada) Inc., 4.625%",
+      "cusip": "11259P109",
+      "identifier": "BEPH",
+      "shares_delta": -3328.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 2500.0
+    },
+    {
+      "key": "379378300",
+      "name": "Global Net Lease, Inc., Series A, 7.25%",
+      "cusip": "379378300",
+      "identifier": "GNL.A",
+      "shares_delta": -1794.0
+    },
+    {
+      "key": "12542R506",
+      "name": "CHS Inc., Series 2, 7.100%, Variable Rate",
+      "cusip": "12542R506",
+      "identifier": "CHSCN",
+      "shares_delta": -1638.0
+    },
+    {
+      "key": "893526681",
+      "name": "TransCanada Pipelines Limited, 6.25%, Due 11/01/2085",
+      "cusip": "893526681",
+      "identifier": "TCPA",
+      "shares_delta": 1002.0
+    },
+    {
+      "key": "345370811",
+      "name": "Ford Motor Company, 6.500%, Due 08/15/2062",
+      "cusip": "345370811",
+      "identifier": "F.D",
+      "shares_delta": 792.0
+    },
+    {
+      "key": "G7498P127",
+      "name": "RenaissanceRe Holdings Ltd., Series G, 4.200%",
+      "cusip": "G7498P127",
+      "identifier": "RNR.G",
+      "shares_delta": -408.0
+    },
+    {
+      "key": "00206R300",
+      "name": "AT&T Inc., 5.350%, Due 11/01/2066",
+      "cusip": "00206R300",
+      "identifier": "TBB",
+      "shares_delta": 73.0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 2662698.0
+    },
+    {
+      "key": "92343VJM7",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 02/15/2057",
+      "cusip": "92343VJM7",
+      "identifier": "",
+      "shares_delta": 1962000.0
+    },
+    {
+      "key": "92343VHP2",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2058",
+      "cusip": "92343VHP2",
+      "identifier": "",
+      "shares_delta": -1904000.0
+    }
+  ]
+}
