@@ -1,0 +1,69 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 457036.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -5348.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 5041.0
+    },
+    {
+      "key": "893526681",
+      "name": "TransCanada Pipelines Limited, 6.25%, Due 11/01/2085",
+      "cusip": "893526681",
+      "identifier": "TCPA",
+      "shares_delta": 4045.0
+    },
+    {
+      "key": "11259P109",
+      "name": "Brookfield BRP Holdings (Canada) Inc., 4.625%",
+      "cusip": "11259P109",
+      "identifier": "BEPH",
+      "shares_delta": -2698.0
+    },
+    {
+      "key": "61762V838",
+      "name": "Morgan Stanley, Series Q, 6.625%",
+      "cusip": "61762V838",
+      "identifier": "MS.Q",
+      "shares_delta": -2573.0
+    },
+    {
+      "key": "12542R506",
+      "name": "CHS Inc., Series 2, 7.100%, Variable Rate",
+      "cusip": "12542R506",
+      "identifier": "CHSCN",
+      "shares_delta": -2117.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -1983.0
+    },
+    {
+      "key": "379378300",
+      "name": "Global Net Lease, Inc., Series A, 7.25%",
+      "cusip": "379378300",
+      "identifier": "GNL.A",
+      "shares_delta": -611.0
+    }
+  ]
+}
