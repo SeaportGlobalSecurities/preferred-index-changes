@@ -1,0 +1,29 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "BANK OF AMERICA CORP Series TT, Variable rate",
+      "Identifier": "",
+      "CUSIP": "06055HAB9",
+      "Shares / Quantity": "5,492,000",
+      "Market Value": "$5,528,829.35",
+      "Weighting": "0.29%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -7777113.0
+    },
+    {
+      "key": "06055HAH6",
+      "name": "BANK OF AMERICA CORP Variable rate",
+      "cusip": "06055HAH6",
+      "identifier": "",
+      "shares_delta": 4721000.0
+    }
+  ]
+}
