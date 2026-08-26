@@ -1,0 +1,125 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 9021979.0
+    },
+    {
+      "key": "46138E511",
+      "name": "Invesco Preferred ETF",
+      "cusip": "46138E511",
+      "identifier": "PGX",
+      "shares_delta": -450364.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -80954.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -37571.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -12980.0
+    },
+    {
+      "key": "893526681",
+      "name": "TransCanada Pipelines Limited, 6.25%, Due 11/01/2085",
+      "cusip": "893526681",
+      "identifier": "TCPA",
+      "shares_delta": 11080.0
+    },
+    {
+      "key": "008252843",
+      "name": "Affiliated Managers Group, Inc., 4.750%, Due 09/30/2060",
+      "cusip": "008252843",
+      "identifier": "MGRB",
+      "shares_delta": -10375.0
+    },
+    {
+      "key": "61762V838",
+      "name": "Morgan Stanley, Series Q, 6.625%",
+      "cusip": "61762V838",
+      "identifier": "MS.Q",
+      "shares_delta": -9776.0
+    },
+    {
+      "key": "G7498P127",
+      "name": "RenaissanceRe Holdings Ltd., Series G, 4.200%",
+      "cusip": "G7498P127",
+      "identifier": "RNR.G",
+      "shares_delta": -8875.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -7713.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 7138.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 3651.0
+    },
+    {
+      "key": "48253M104",
+      "name": "KKR Group Finance Co. IX LLC, 4.625%, Due 04/01/2061",
+      "cusip": "48253M104",
+      "identifier": "KKRS",
+      "shares_delta": -3184.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -929.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 696.0
+    },
+    {
+      "key": "11259P109",
+      "name": "Brookfield BRP Holdings (Canada) Inc., 4.625%",
+      "cusip": "11259P109",
+      "identifier": "BEPH",
+      "shares_delta": -152.0
+    },
+    {
+      "key": "87264A303",
+      "name": "T-Mobile USA Inc., 5.50%, Due 06/01/2070",
+      "cusip": "87264A303",
+      "identifier": "TMUSI",
+      "shares_delta": -80.0
+    }
+  ]
+}
