@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "172967QJ3",
+      "name": "CITIGROUP INC Series HH, Variable rate",
+      "cusip": "172967QJ3",
+      "identifier": "",
+      "shares_delta": 1715000.0
+    },
+    {
+      "key": "172967PJ4",
+      "name": "CITIGROUP INC Variable rate",
+      "cusip": "172967PJ4",
+      "identifier": "",
+      "shares_delta": -1715000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 366874.0
+    }
+  ]
+}

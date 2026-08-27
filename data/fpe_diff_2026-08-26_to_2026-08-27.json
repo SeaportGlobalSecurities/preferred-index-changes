@@ -1,0 +1,90 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "172967QJ3",
+      "name": "CITIGROUP INC Series HH, Variable rate",
+      "cusip": "172967QJ3",
+      "identifier": "",
+      "shares_delta": 5550000.0
+    },
+    {
+      "key": "172967PJ4",
+      "name": "CITIGROUP INC Variable rate",
+      "cusip": "172967PJ4",
+      "identifier": "",
+      "shares_delta": -5550000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 2734237.0
+    },
+    {
+      "key": "46138E511",
+      "name": "Invesco Preferred ETF",
+      "cusip": "46138E511",
+      "identifier": "PGX",
+      "shares_delta": -94021.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -11230.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -10455.0
+    },
+    {
+      "key": "11276B109",
+      "name": "Brookfield Infrastructure Finance ULC, 5.00%, Due 05/24/2081",
+      "cusip": "11276B109",
+      "identifier": "BIPH",
+      "shares_delta": -5904.0
+    },
+    {
+      "key": "G16258231",
+      "name": "Brookfield Renewable Partners LP, Series 17, 5.25%",
+      "cusip": "G16258231",
+      "identifier": "BEP.A",
+      "shares_delta": -5580.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -4420.0
+    },
+    {
+      "key": "G7498P127",
+      "name": "RenaissanceRe Holdings Ltd., Series G, 4.200%",
+      "cusip": "G7498P127",
+      "identifier": "RNR.G",
+      "shares_delta": -2641.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -100.0
+    },
+    {
+      "key": "008252843",
+      "name": "Affiliated Managers Group, Inc., 4.750%, Due 09/30/2060",
+      "cusip": "008252843",
+      "identifier": "MGRB",
+      "shares_delta": -63.0
+    }
+  ]
+}
