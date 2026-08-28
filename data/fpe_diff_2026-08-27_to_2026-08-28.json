@@ -1,0 +1,62 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 1457581.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -6860.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -4310.0
+    },
+    {
+      "key": "G16258231",
+      "name": "Brookfield Renewable Partners LP, Series 17, 5.25%",
+      "cusip": "G16258231",
+      "identifier": "BEP.A",
+      "shares_delta": -3211.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -2286.0
+    },
+    {
+      "key": "48253M104",
+      "name": "KKR Group Finance Co. IX LLC, 4.625%, Due 04/01/2061",
+      "cusip": "48253M104",
+      "identifier": "KKRS",
+      "shares_delta": -1452.0
+    },
+    {
+      "key": "11276B109",
+      "name": "Brookfield Infrastructure Finance ULC, 5.00%, Due 05/24/2081",
+      "cusip": "11276B109",
+      "identifier": "BIPH",
+      "shares_delta": -1071.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -14.0
+    }
+  ]
+}
