@@ -1,0 +1,55 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 1418462.0
+    },
+    {
+      "key": "46138E511",
+      "name": "Invesco Preferred ETF",
+      "cusip": "46138E511",
+      "identifier": "PGX",
+      "shares_delta": -85581.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -7876.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -5381.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -4892.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -136.0
+    },
+    {
+      "key": "11276B109",
+      "name": "Brookfield Infrastructure Finance ULC, 5.00%, Due 05/24/2081",
+      "cusip": "11276B109",
+      "identifier": "BIPH",
+      "shares_delta": -54.0
+    }
+  ]
+}
