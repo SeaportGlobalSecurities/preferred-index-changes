@@ -1,0 +1,118 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 10084406.0
+    },
+    {
+      "key": "92343VJM7",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 02/15/2057",
+      "cusip": "92343VJM7",
+      "identifier": "",
+      "shares_delta": 3080000.0
+    },
+    {
+      "key": "92343VHN7",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 05/14/2056",
+      "cusip": "92343VHN7",
+      "identifier": "",
+      "shares_delta": -3080000.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -20558.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 17761.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -11941.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -8544.0
+    },
+    {
+      "key": "00123Q872",
+      "name": "AGNC Investment Corp., Series F, 6.125% Variable Rate",
+      "cusip": "00123Q872",
+      "identifier": "AGNCP",
+      "shares_delta": 5504.0
+    },
+    {
+      "key": "008252827",
+      "name": "Affiliated Managers Group, Inc., 6.75%, Due 03/30/2064",
+      "cusip": "008252827",
+      "identifier": "MGRE",
+      "shares_delta": 5134.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "cusip": "872652102",
+      "identifier": "TPGXL",
+      "shares_delta": 4991.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 4951.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -4883.0
+    },
+    {
+      "key": "035710870",
+      "name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "cusip": "035710870",
+      "identifier": "NLY.F",
+      "shares_delta": -4559.0
+    },
+    {
+      "key": "30190A203",
+      "name": "F&G Annuities & Life, Inc., 7.950%, Due 12/15/2053",
+      "cusip": "30190A203",
+      "identifier": "FGN",
+      "shares_delta": 2439.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 1320.0
+    },
+    {
+      "key": "893526681",
+      "name": "TransCanada Pipelines Limited, 6.25%, Due 11/01/2085",
+      "cusip": "893526681",
+      "identifier": "TCPA",
+      "shares_delta": 91.0
+    }
+  ]
+}
