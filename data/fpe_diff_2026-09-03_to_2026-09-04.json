@@ -1,0 +1,118 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 4819892.0
+    },
+    {
+      "key": "95002YAC7",
+      "name": "WELLS FARGO & COMPANY Variable rate",
+      "cusip": "95002YAC7",
+      "identifier": "",
+      "shares_delta": -4277000.0
+    },
+    {
+      "key": "95002YAE3",
+      "name": "WELLS FARGO & COMPANY Variable rate",
+      "cusip": "95002YAE3",
+      "identifier": "",
+      "shares_delta": 1700000.0
+    },
+    {
+      "key": "008252835",
+      "name": "Affiliated Managers Group, Inc., 4.200%, Due 09/30/2061",
+      "cusip": "008252835",
+      "identifier": "MGRD",
+      "shares_delta": -36387.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -10942.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 7229.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -6460.0
+    },
+    {
+      "key": "035710870",
+      "name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "cusip": "035710870",
+      "identifier": "NLY.F",
+      "shares_delta": -6211.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -5037.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 4630.0
+    },
+    {
+      "key": "00123Q872",
+      "name": "AGNC Investment Corp., Series F, 6.125% Variable Rate",
+      "cusip": "00123Q872",
+      "identifier": "AGNCP",
+      "shares_delta": 4438.0
+    },
+    {
+      "key": "29452E200",
+      "name": "Equitable Holdings, Inc., Series A, 5.250%",
+      "cusip": "29452E200",
+      "identifier": "EQH.A",
+      "shares_delta": -2609.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "cusip": "872652102",
+      "identifier": "TPGXL",
+      "shares_delta": 1659.0
+    },
+    {
+      "key": "30190A203",
+      "name": "F&G Annuities & Life, Inc., 7.950%, Due 12/15/2053",
+      "cusip": "30190A203",
+      "identifier": "FGN",
+      "shares_delta": 1169.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -1053.0
+    },
+    {
+      "key": "12542R704",
+      "name": "CHS Inc., Series 3, 6.750%, Variable Rate",
+      "cusip": "12542R704",
+      "identifier": "CHSCM",
+      "shares_delta": -404.0
+    }
+  ]
+}
