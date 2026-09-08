@@ -2,7 +2,8 @@ name: Daily FPE Holdings Snapshot
 
 on:
   schedule:
-    - cron: '30 10 * * 1-5'  # 6:30 AM ET (EDT/summer); 5:30 AM in winter (EST)
+    - cron: '30 10 * * 1-5'   # 6:30 AM ET during EDT (5:30 AM in winter/EST)
+    - cron: '30 13 * * 1-5'   # 9:30 AM ET retry — no-ops if the 6:30 run already published
   workflow_dispatch:          # allow manual runs from GitHub UI
 
 jobs:
@@ -22,7 +23,17 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run tracker
-        run: python fpe_tracker.py --no-browser
+        run: |
+          set +e
+          python fpe_tracker.py --no-browser
+          code=$?
+          set -e
+          if [ "$code" -eq 2 ]; then
+            echo "Website as-of date not updated yet — nothing to publish this run."
+            echo "The 9:30 AM ET retry will pick it up (or, if this IS the retry, likely a market holiday)."
+            exit 0
+          fi
+          exit $code
 
       - name: Publish to GitHub Pages
         run: |

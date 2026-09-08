@@ -5,6 +5,7 @@ Fetches current holdings, saves a daily snapshot, and diffs against the prior da
 
 import html as _html
 import json
+import re
 import sys
 import webbrowser
 from datetime import date, timedelta
@@ -35,18 +36,37 @@ HEADERS = {
 #  FETCH / SNAPSHOT
 # ═══════════════════════════════════════════════════════════════════════════════
 
+_AS_OF_RE = re.compile(r"as of\s+(\d{1,2}/\d{1,2}/\d{4})", re.IGNORECASE)
+
+
+def parse_as_of_date(as_of: str) -> date | None:
+    """Parse an 'as of' string like '9/4/2026' (or text containing it) into a date."""
+    m = _AS_OF_RE.search(as_of or "")
+    if m:
+        raw = m.group(1)
+    else:
+        m2 = re.search(r"(\d{1,2}/\d{1,2}/\d{4})", as_of or "")
+        if not m2:
+            return None
+        raw = m2.group(1)
+    mth, d, y = (int(x) for x in raw.split("/"))
+    try:
+        return date(y, mth, d)
+    except ValueError:
+        return None
+
+
 def fetch_holdings(url: str) -> tuple[str, list[dict]]:
     """Fetch and parse holdings table. Returns (as_of_date_str, list_of_holdings)."""
     resp = requests.get(url, headers=HEADERS, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
+    # Page reads "Holdings of the Fund as of M/D/YYYY" — match case-insensitively.
     as_of = ""
-    for tag in soup.find_all(string=True):
-        txt = tag.strip()
-        if "Holdings as of" in txt or "As of" in txt:
-            as_of = txt
-            break
+    m = _AS_OF_RE.search(soup.get_text(" ", strip=True))
+    if m:
+        as_of = m.group(1)
 
     header_row = None
     for row in soup.find_all("tr"):
@@ -86,7 +106,14 @@ def snapshot_path(for_date: date, ticker: str) -> Path:
 def save_snapshot(holdings: list[dict], as_of: str, for_date: date, ticker: str) -> Path:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     path = snapshot_path(for_date, ticker)
-    payload = {"as_of": as_of, "fetch_date": for_date.isoformat(), "ticker": ticker, "holdings": holdings}
+    as_of_dt = parse_as_of_date(as_of)
+    payload = {
+        "as_of": as_of,
+        "as_of_date": as_of_dt.isoformat() if as_of_dt else None,
+        "fetch_date": for_date.isoformat(),
+        "ticker": ticker,
+        "holdings": holdings,
+    }
     path.write_text(json.dumps(payload, indent=2))
     return path
 
@@ -110,6 +137,16 @@ def find_prior_snapshot(before_date: date, ticker: str) -> tuple[date, list[dict
     for i in range(1, 11):
         d = before_date - timedelta(days=i)
         snap = load_snapshot(d, ticker)
+        if snap is not None:
+            return d, snap
+    return None, None
+
+
+def find_prior_snapshot_full(before_date: date, ticker: str) -> tuple[date, dict] | tuple[None, None]:
+    """Like find_prior_snapshot but returns the full payload (incl. as_of)."""
+    for i in range(1, 11):
+        d = before_date - timedelta(days=i)
+        snap = load_snapshot_full(d, ticker)
         if snap is not None:
             return d, snap
     return None, None
@@ -528,7 +565,8 @@ def write_html_report(
     return path
 
 
-def write_combined_html(ticker_results: list[dict], today: date) -> Path:
+def write_combined_html(ticker_results: list[dict], today: date,
+                        stale_results: list[dict] | None = None) -> Path:
     """Generate docs/index.html combining all tickers."""
     global _TABLE_CTR
     _TABLE_CTR = 0
@@ -540,6 +578,14 @@ def write_combined_html(ticker_results: list[dict], today: date) -> Path:
                 r["ticker"], r["diff"], today, r["prior_date"],
                 r["today_count"], r["prior_count"], r.get("as_of", ""),
             )
+        )
+
+    for r in stale_results or []:
+        as_of = r.get("as_of") or "unknown"
+        sections.append(
+            f'<h2>{_e(r["ticker"])} ETF Holdings Change Report</h2>\n'
+            f'<p class="sub">Website not yet updated — still showing data as of '
+            f'<strong>{_e(as_of)}</strong>. This ticker will be retried at 9:30 AM ET.</p>\n'
         )
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
@@ -563,19 +609,50 @@ def _holdings_identical(a: list[dict], b: list[dict]) -> bool:
            sorted(json.dumps(h, sort_keys=True) for h in b)
 
 
+def is_stale(as_of: str, todays_holdings: list[dict], prior_full: dict | None) -> tuple[bool, str]:
+    """
+    Decide whether the website has actually published new data.
+
+    Stale = the site's 'as of' date has NOT advanced past the as-of date we already
+    captured in the most recent snapshot. Falls back to an identical-holdings check
+    when either as-of date is unparseable.
+
+    Returns (stale, reason).
+    """
+    if prior_full is None:
+        return False, ""
+
+    cur_dt = parse_as_of_date(as_of)
+    pri_dt = parse_as_of_date(prior_full.get("as_of", "") or prior_full.get("as_of_date", "") or "")
+
+    if cur_dt is not None and pri_dt is not None:
+        if cur_dt <= pri_dt:
+            return True, f"site still shows data as of {cur_dt}, already captured (prior as of {pri_dt})"
+        return False, ""
+
+    # Fallback when the as-of date can't be read on one side
+    if _holdings_identical(todays_holdings, prior_full.get("holdings", [])):
+        return True, "as-of date unavailable and holdings identical to prior snapshot"
+    return False, ""
+
+
 def run_ticker(ticker: str, url: str, today: date, force_refetch: bool) -> dict | None:
-    """Snapshot + diff for one ticker. Returns result dict or None if no prior snapshot."""
+    """
+    Snapshot + diff for one ticker.
+    Returns result dict, {"stale": True, ...} if the site hasn't updated,
+    or None if no prior snapshot exists.
+    """
     as_of = ""
     todays_holdings = None if force_refetch else load_snapshot(today, ticker)
     if todays_holdings is None:
         print(f"Fetching {ticker} holdings for {today}...")
         as_of, todays_holdings = fetch_holdings(url)
 
-        # Don't save if data is unchanged from prior snapshot (e.g. holiday/market closed)
-        prior_date_check, prior_check = find_prior_snapshot(today, ticker)
-        if prior_check is not None and _holdings_identical(todays_holdings, prior_check):
-            print(f"  Holdings unchanged from {prior_date_check} (likely holiday) — skipping save.")
-            return None
+        prior_date_check, prior_full = find_prior_snapshot_full(today, ticker)
+        stale, reason = is_stale(as_of, todays_holdings, prior_full)
+        if stale:
+            print(f"  {ticker}: {reason} — skipping this run (retry scheduled at 9:30 AM ET).")
+            return {"ticker": ticker, "stale": True, "as_of": as_of, "prior_date": prior_date_check}
 
         path = save_snapshot(todays_holdings, as_of, today, ticker)
         print(f"  Saved {len(todays_holdings)} holdings -> {path.name}")
@@ -608,6 +685,9 @@ def run_ticker(ticker: str, url: str, today: date, force_refetch: bool) -> dict 
     }
 
 
+EXIT_STALE = 2  # site not updated yet — scheduler should retry at 9:30 AM ET
+
+
 def main():
     today = date.today()
 
@@ -617,16 +697,17 @@ def main():
 
     force_refetch = "--force" in sys.argv
 
-    ticker_results = []
+    ticker_results, stale_results = [], []
     for ticker, url in TICKERS.items():
         result = run_ticker(ticker, url, today, force_refetch)
-        if result:
+        if result is None:
+            continue
+        if result.get("stale"):
+            stale_results.append(result)
+        else:
             ticker_results.append(result)
 
-    if not ticker_results:
-        return
-
-    if "--no-html" not in sys.argv:
+    if ticker_results and "--no-html" not in sys.argv:
         for r in ticker_results:
             html_path = write_html_report(
                 r["diff"], today, r["prior_date"],
@@ -634,11 +715,16 @@ def main():
             )
             print(f"  HTML report -> {html_path.name}")
 
-        combined_path = write_combined_html(ticker_results, today)
+        combined_path = write_combined_html(ticker_results, today, stale_results)
         print(f"  Combined report -> {combined_path}")
 
         if "--no-browser" not in sys.argv:
             webbrowser.open(combined_path.as_uri())
+
+    if stale_results:
+        names = ", ".join(r["ticker"] for r in stale_results)
+        print(f"\nSite not yet updated for: {names}. Exiting with code {EXIT_STALE} so the scheduler retries.")
+        sys.exit(EXIT_STALE)
 
 
 if __name__ == "__main__":
