@@ -241,7 +241,7 @@ def print_report(diff: dict, today: date, prior_date: date,
                  today_count: int, prior_count: int, ticker: str = "FPE"):
     print("=" * 70)
     print(f"  {ticker} ETF Holdings Change Report")
-    print(f"  Comparing: {prior_date} ({prior_count} holdings)  ->  {today} ({today_count} holdings)")
+    print(f"  Comparing holdings as of: {prior_date} ({prior_count} holdings)  ->  {today} ({today_count} holdings)")
     print("=" * 70)
 
     added, removed, changed = diff["added"], diff["removed"], diff["changed"]
@@ -514,7 +514,7 @@ def _build_etf_body(
     return (
         f'<h2>{_e(ticker)} ETF Holdings Change Report</h2>\n'
         f'<p class="sub">'
-        f'Comparing: <strong>{prior_date}</strong> ({prior_count:,} holdings) '
+        f'Comparing holdings as of: <strong>{prior_date}</strong> ({prior_count:,} holdings) '
         f'&rarr; <strong>{today}</strong> ({today_count:,} holdings)'
         f'</p>\n'
         f'{stat_bar}\n'
@@ -575,7 +575,8 @@ def write_combined_html(ticker_results: list[dict], today: date,
     for r in ticker_results:
         sections.append(
             _build_etf_body(
-                r["ticker"], r["diff"], today, r["prior_date"],
+                r["ticker"], r["diff"],
+                r.get("today_label", today), r.get("prior_label", r["prior_date"]),
                 r["today_count"], r["prior_count"], r.get("as_of", ""),
             )
         )
@@ -668,8 +669,14 @@ def run_ticker(ticker: str, url: str, today: date, force_refetch: bool) -> dict 
         print(f"  No prior snapshot found for {ticker} (checked last 10 days). Run again tomorrow to see changes.\n")
         return None
 
+    # Display the WEBSITE's as-of dates in reports (not our fetch dates).
+    # Old snapshots predate as-of capture — fall back to their fetch date.
+    prior_snap_full = load_snapshot_full(prior_date, ticker) or {}
+    prior_label = parse_as_of_date(prior_snap_full.get("as_of", "") or "") or prior_date
+    today_label = parse_as_of_date(as_of) or today
+
     diff = compare(todays_holdings, prior_holdings)
-    print_report(diff, today, prior_date, len(todays_holdings), len(prior_holdings), ticker)
+    print_report(diff, today_label, prior_label, len(todays_holdings), len(prior_holdings), ticker)
 
     diff_path = DATA_DIR / f"{ticker.lower()}_diff_{prior_date}_to_{today}.json"
     diff_path.write_text(json.dumps(diff, indent=2))
@@ -679,6 +686,8 @@ def run_ticker(ticker: str, url: str, today: date, force_refetch: bool) -> dict 
         "ticker":      ticker,
         "diff":        diff,
         "prior_date":  prior_date,
+        "today_label": today_label,   # website as-of dates, used for report display
+        "prior_label": prior_label,
         "today_count": len(todays_holdings),
         "prior_count": len(prior_holdings),
         "as_of":       as_of,
@@ -710,7 +719,7 @@ def main():
     if ticker_results and "--no-html" not in sys.argv:
         for r in ticker_results:
             html_path = write_html_report(
-                r["diff"], today, r["prior_date"],
+                r["diff"], r["today_label"], r["prior_label"],
                 r["today_count"], r["prior_count"], r["as_of"], r["ticker"],
             )
             print(f"  HTML report -> {html_path.name}")
