@@ -1,0 +1,30 @@
+{
+  "added": [
+    {
+      "Security Name": "MIZUHO FINANCIAL GROUP Variable rate",
+      "Identifier": "",
+      "CUSIP": "60687YEA3",
+      "Shares / Quantity": "7,600,000",
+      "Market Value": "$7,600,000.00",
+      "Weighting": "0.40%"
+    },
+    {
+      "Security Name": "AMEREN CORP Variable rate, due 03/15/2057",
+      "Identifier": "",
+      "CUSIP": "023608AT9",
+      "Shares / Quantity": "2,900,000",
+      "Market Value": "$2,900,000.00",
+      "Weighting": "0.15%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -10036000.0
+    }
+  ]
+}
