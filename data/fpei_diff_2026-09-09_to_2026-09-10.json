@@ -1,0 +1,22 @@
+{
+  "added": [
+    {
+      "Security Name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "Identifier": "",
+      "CUSIP": "775109DU2",
+      "Shares / Quantity": "4,760,000",
+      "Market Value": "$4,760,000.00",
+      "Weighting": "0.25%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -5706546.0
+    }
+  ]
+}

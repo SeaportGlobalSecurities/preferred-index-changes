@@ -1,0 +1,64 @@
+{
+  "added": [
+    {
+      "Security Name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "Identifier": "",
+      "CUSIP": "775109DU2",
+      "Shares / Quantity": "15,400,000",
+      "Market Value": "$15,400,000.00",
+      "Weighting": "0.25%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -14844503.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -9977.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -7893.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -5135.0
+    },
+    {
+      "key": "125896852",
+      "name": "CMS Energy Corp., 5.875%, Due 10/15/2078",
+      "cusip": "125896852",
+      "identifier": "CMSC",
+      "shares_delta": -656.0
+    },
+    {
+      "key": "G16258231",
+      "name": "Brookfield Renewable Partners LP, Series 17, 5.25%",
+      "cusip": "G16258231",
+      "identifier": "BEP.A",
+      "shares_delta": -204.0
+    },
+    {
+      "key": "46817M206",
+      "name": "Jackson Financial Inc., 8.000%, Variable Rate",
+      "cusip": "46817M206",
+      "identifier": "JXN.A",
+      "shares_delta": -58.0
+    }
+  ]
+}
