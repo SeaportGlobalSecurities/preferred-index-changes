@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 2353212.0
+    },
+    {
+      "key": "0641598S8",
+      "name": "BANK OF NOVA SCOTIA Variable rate, due 10/27/2082",
+      "cusip": "0641598S8",
+      "identifier": "",
+      "shares_delta": -1500000.0
+    }
+  ]
+}
