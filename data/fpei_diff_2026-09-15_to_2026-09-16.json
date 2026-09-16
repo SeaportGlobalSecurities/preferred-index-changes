@@ -1,0 +1,36 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "LIBERTY MUTUAL GROUP INC 4.125%, due 12/15/2051",
+      "Identifier": "",
+      "CUSIP": "53079EBM5",
+      "Shares / Quantity": "7,078,000",
+      "Market Value": "$7,078,000.00",
+      "Weighting": "0.37%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 5674610.0
+    },
+    {
+      "key": "775109DH1",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 04/15/2055",
+      "cusip": "775109DH1",
+      "identifier": "",
+      "shares_delta": -1010000.0
+    },
+    {
+      "key": "775109DU2",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "cusip": "775109DU2",
+      "identifier": "",
+      "shares_delta": 1010000.0
+    }
+  ]
+}
