@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 12047032.0
+    },
+    {
+      "key": "02369GAA3",
+      "name": "AMER AGCREDIT ACA Variable rate",
+      "cusip": "02369GAA3",
+      "identifier": "",
+      "shares_delta": -12000000.0
+    }
+  ]
+}
