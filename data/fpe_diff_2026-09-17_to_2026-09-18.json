@@ -1,0 +1,62 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 4498926.0
+    },
+    {
+      "key": "775109DH1",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 04/15/2055",
+      "cusip": "775109DH1",
+      "identifier": "",
+      "shares_delta": -3085000.0
+    },
+    {
+      "key": "775109DU2",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "cusip": "775109DU2",
+      "identifier": "",
+      "shares_delta": 3085000.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -339274.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "cusip": "65339K829",
+      "identifier": "NEE.W",
+      "shares_delta": 10651.0
+    },
+    {
+      "key": "233331792",
+      "name": "DTE Energy Company, Series H, 6.25%, Due 10/01/2085",
+      "cusip": "233331792",
+      "identifier": "DTK",
+      "shares_delta": 3338.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "cusip": "842587867",
+      "identifier": "SOJF",
+      "shares_delta": 698.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 446.0
+    }
+  ]
+}

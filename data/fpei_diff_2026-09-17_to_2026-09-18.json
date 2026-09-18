@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "775109DH1",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 04/15/2055",
+      "cusip": "775109DH1",
+      "identifier": "",
+      "shares_delta": -950000.0
+    },
+    {
+      "key": "775109DU2",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "cusip": "775109DU2",
+      "identifier": "",
+      "shares_delta": 950000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 270903.0
+    }
+  ]
+}
