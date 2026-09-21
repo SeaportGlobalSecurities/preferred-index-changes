@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "693475BD6",
+      "name": "PNC FINANCIAL SERVICES Variable rate",
+      "cusip": "693475BD6",
+      "identifier": "",
+      "shares_delta": -5000000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 501687.0
+    }
+  ]
+}

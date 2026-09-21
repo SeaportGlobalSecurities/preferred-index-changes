@@ -1,0 +1,48 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "775109DU2",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "cusip": "775109DU2",
+      "identifier": "",
+      "shares_delta": 2000000.0
+    },
+    {
+      "key": "775109DH1",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 04/15/2055",
+      "cusip": "775109DH1",
+      "identifier": "",
+      "shares_delta": -2000000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 994085.0
+    },
+    {
+      "key": "48253M104",
+      "name": "KKR Group Finance Co. IX LLC, 4.625%, Due 04/01/2061",
+      "cusip": "48253M104",
+      "identifier": "KKRS",
+      "shares_delta": -3668.0
+    },
+    {
+      "key": "14314C105",
+      "name": "Carlyle Finance LLC, 4.625%, Due 05/15/2061",
+      "cusip": "14314C105",
+      "identifier": "CGABL",
+      "shares_delta": -2970.0
+    },
+    {
+      "key": "008252835",
+      "name": "Affiliated Managers Group, Inc., 4.200%, Due 09/30/2061",
+      "cusip": "008252835",
+      "identifier": "MGRD",
+      "shares_delta": -499.0
+    }
+  ]
+}
