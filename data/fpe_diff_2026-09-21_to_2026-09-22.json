@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 43598426.0
+    },
+    {
+      "key": "02369GAA3",
+      "name": "AMER AGCREDIT ACA Variable rate",
+      "cusip": "02369GAA3",
+      "identifier": "",
+      "shares_delta": -42833333.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 732.0
+    }
+  ]
+}
