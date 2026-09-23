@@ -1,0 +1,46 @@
+{
+  "added": [
+    {
+      "Security Name": "SOCIETE GENERALE Variable rate",
+      "Identifier": "",
+      "CUSIP": "83367TBW8",
+      "Shares / Quantity": "9,000,000",
+      "Market Value": "$9,000,000.00",
+      "Weighting": "0.48%"
+    },
+    {
+      "Security Name": "SYSCO HOLD/SYSC CORP Variable rate, due 10/06/2056",
+      "Identifier": "",
+      "CUSIP": "87183XAH6",
+      "Shares / Quantity": "1,900,000",
+      "Market Value": "$1,900,000.00",
+      "Weighting": "0.10%"
+    },
+    {
+      "Security Name": "SYSCO HOLD/SYSC CORP Variable rate, due 10/06/2056",
+      "Identifier": "",
+      "CUSIP": "87183XAJ2",
+      "Shares / Quantity": "1,300,000",
+      "Market Value": "$1,300,000.00",
+      "Weighting": "0.07%"
+    },
+    {
+      "Security Name": "SYSCO HOLD/SYSC CORP Variable rate, due 10/06/2056",
+      "Identifier": "",
+      "CUSIP": "87183XAK9",
+      "Shares / Quantity": "1,300,000",
+      "Market Value": "$1,300,000.00",
+      "Weighting": "0.07%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -13500000.0
+    }
+  ]
+}

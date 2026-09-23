@@ -1,0 +1,74 @@
+{
+  "added": [
+    {
+      "Security Name": "SOCIETE GENERALE Variable rate",
+      "Identifier": "",
+      "CUSIP": "83367TBW8",
+      "Shares / Quantity": "32,000,000",
+      "Market Value": "$32,000,000.00",
+      "Weighting": "0.52%"
+    },
+    {
+      "Security Name": "SYSCO HOLD/SYSC CORP Variable rate, due 10/06/2056",
+      "Identifier": "",
+      "CUSIP": "87183XAH6",
+      "Shares / Quantity": "6,200,000",
+      "Market Value": "$6,200,000.00",
+      "Weighting": "0.10%"
+    },
+    {
+      "Security Name": "SYSCO HOLD/SYSC CORP Variable rate, due 10/06/2056",
+      "Identifier": "",
+      "CUSIP": "87183XAJ2",
+      "Shares / Quantity": "4,370,000",
+      "Market Value": "$4,370,000.00",
+      "Weighting": "0.07%"
+    },
+    {
+      "Security Name": "SYSCO HOLD/SYSC CORP Variable rate, due 10/06/2056",
+      "Identifier": "",
+      "CUSIP": "87183XAK9",
+      "Shares / Quantity": "4,370,000",
+      "Market Value": "$4,370,000.00",
+      "Weighting": "0.07%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -62078149.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -45573.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 44604.0
+    },
+    {
+      "key": "00123Q872",
+      "name": "AGNC Investment Corp., Series F, 6.125% Variable Rate",
+      "cusip": "00123Q872",
+      "identifier": "AGNCP",
+      "shares_delta": 18594.0
+    },
+    {
+      "key": "035710870",
+      "name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "cusip": "035710870",
+      "identifier": "NLY.F",
+      "shares_delta": -5312.0
+    }
+  ]
+}
