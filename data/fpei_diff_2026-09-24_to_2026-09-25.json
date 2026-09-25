@@ -1,0 +1,30 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "BANK OF NOVA SCOTIA Variable rate, due 10/27/2082",
+      "Identifier": "",
+      "CUSIP": "0641598S8",
+      "Shares / Quantity": "12,900,000",
+      "Market Value": "$13,319,766.00",
+      "Weighting": "0.71%"
+    },
+    {
+      "Security Name": "PNC FINANCIAL SERVICES Variable rate",
+      "Identifier": "",
+      "CUSIP": "693475BD6",
+      "Shares / Quantity": "6,084,000",
+      "Market Value": "$6,097,847.18",
+      "Weighting": "0.32%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 5517115.0
+    }
+  ]
+}
