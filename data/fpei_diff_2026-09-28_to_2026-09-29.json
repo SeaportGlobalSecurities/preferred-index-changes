@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 6815762.0
+    },
+    {
+      "key": "416515BC7",
+      "name": "THE HARTFORD INSUR GRP INC Variable rate, due 02/12/2047",
+      "cusip": "416515BC7",
+      "identifier": "",
+      "shares_delta": -5000000.0
+    },
+    {
+      "key": "02557TAF6",
+      "name": "AMERICAN ELECTRIC POWER Variable rate, due 03/15/2056",
+      "cusip": "02557TAF6",
+      "identifier": "",
+      "shares_delta": -1200000.0
+    }
+  ]
+}
