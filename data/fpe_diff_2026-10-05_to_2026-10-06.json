@@ -1,0 +1,41 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -1880922.0
+    },
+    {
+      "key": "035710870",
+      "name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "cusip": "035710870",
+      "identifier": "NLY.F",
+      "shares_delta": -136866.0
+    },
+    {
+      "key": "00123Q872",
+      "name": "AGNC Investment Corp., Series F, 6.125% Variable Rate",
+      "cusip": "00123Q872",
+      "identifier": "AGNCP",
+      "shares_delta": 37485.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 11801.0
+    },
+    {
+      "key": "064058845",
+      "name": "The Bank of New York Mellon Corporation, Series K, Variable Rate",
+      "cusip": "064058845",
+      "identifier": "BNY.K",
+      "shares_delta": -159.0
+    }
+  ]
+}
