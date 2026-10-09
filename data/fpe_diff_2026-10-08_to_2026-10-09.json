@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 5993886.0
+    },
+    {
+      "key": "34954WAA2",
+      "name": "FORTEGRA FINANCIAL CORP Variable rate, due 10/15/2057",
+      "cusip": "34954WAA2",
+      "identifier": "",
+      "shares_delta": -5000000.0
+    },
+    {
+      "key": "035710870",
+      "name": "Annaly Capital Management, Inc., Series F, 6.950%, Variable Rate",
+      "cusip": "035710870",
+      "identifier": "NLY.F",
+      "shares_delta": -34822.0
+    }
+  ]
+}
