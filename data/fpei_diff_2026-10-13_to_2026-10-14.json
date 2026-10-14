@@ -1,0 +1,34 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 3814611.0
+    },
+    {
+      "key": "072912AA6",
+      "name": "BBVA MEX BANCA GRUPO TX Variable rate, due 02/11/2035",
+      "cusip": "072912AA6",
+      "identifier": "",
+      "shares_delta": -1625000.0
+    },
+    {
+      "key": "816851BT5",
+      "name": "SEMPRA Variable rate, due 10/01/2054",
+      "cusip": "816851BT5",
+      "identifier": "",
+      "shares_delta": -1285000.0
+    },
+    {
+      "key": "07336UAA1",
+      "name": "BBVA MEX BANCA GRUPO TX Variable rate, due 06/29/2038",
+      "cusip": "07336UAA1",
+      "identifier": "",
+      "shares_delta": -925000.0
+    }
+  ]
+}
