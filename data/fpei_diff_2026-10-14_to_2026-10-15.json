@@ -1,0 +1,22 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "BBVA MEX BANCA GRUPO TX Variable rate, due 02/11/2035",
+      "Identifier": "",
+      "CUSIP": "072912AA6",
+      "Shares / Quantity": "1,725,000",
+      "Market Value": "$1,739,662.50",
+      "Weighting": "0.09%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 2188473.0
+    }
+  ]
+}
