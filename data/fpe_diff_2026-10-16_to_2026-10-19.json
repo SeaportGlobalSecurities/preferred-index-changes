@@ -1,0 +1,111 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "29364GAT0",
+      "name": "ENTERGY CORP Variable rate, due 12/15/2056",
+      "cusip": "29364GAT0",
+      "identifier": "",
+      "shares_delta": 1220000.0
+    },
+    {
+      "key": "29364GAS2",
+      "name": "ENTERGY CORP Variable rate, due 06/15/2056",
+      "cusip": "29364GAS2",
+      "identifier": "",
+      "shares_delta": -1220000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 403755.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 12767.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 12384.0
+    },
+    {
+      "key": "G16249164",
+      "name": "Brookfield Property Partners LP, Series A, 5.75%",
+      "cusip": "G16249164",
+      "identifier": "BPYPN",
+      "shares_delta": -12232.0
+    },
+    {
+      "key": "G16249156",
+      "name": "Brookfield Property Partners LP, Series A2, 6.375%",
+      "cusip": "G16249156",
+      "identifier": "BPYPO",
+      "shares_delta": -11618.0
+    },
+    {
+      "key": "744320805",
+      "name": "Prudential Financial, Inc., 5.625%, Due 08/15/2058",
+      "cusip": "744320805",
+      "identifier": "PRS",
+      "shares_delta": -5454.0
+    },
+    {
+      "key": "G16258231",
+      "name": "Brookfield Renewable Partners LP, Series 17, 5.25%",
+      "cusip": "G16258231",
+      "identifier": "BEP.A",
+      "shares_delta": -4886.0
+    },
+    {
+      "key": "30190A203",
+      "name": "F&G Annuities & Life, Inc., 7.950%, Due 12/15/2053",
+      "cusip": "30190A203",
+      "identifier": "FGN",
+      "shares_delta": 4571.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 4355.0
+    },
+    {
+      "key": "06055H400",
+      "name": "Bank of America Corporation, Series NN, 4.375%",
+      "cusip": "06055H400",
+      "identifier": "BAC.O",
+      "shares_delta": -1068.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -612.0
+    },
+    {
+      "key": "008252843",
+      "name": "Affiliated Managers Group, Inc., 4.750%, Due 09/30/2060",
+      "cusip": "008252843",
+      "identifier": "MGRB",
+      "shares_delta": -523.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -92.0
+    }
+  ]
+}
