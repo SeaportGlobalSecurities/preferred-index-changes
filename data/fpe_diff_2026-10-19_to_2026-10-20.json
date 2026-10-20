@@ -1,0 +1,79 @@
+{
+  "added": [
+    {
+      "Security Name": "BANK OF NY MELLON CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "064058AZ3",
+      "Shares / Quantity": "15,333,000",
+      "Market Value": "$15,354,273.92",
+      "Weighting": "0.26%"
+    },
+    {
+      "Security Name": "Wells Fargo & Company, Series Y, 5.625%",
+      "Identifier": "WFC.Y",
+      "CUSIP": "94988U656",
+      "Shares / Quantity": "5,040",
+      "Market Value": "$101,578.68",
+      "Weighting": "0.00%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -5477641.0
+    },
+    {
+      "key": "02557TAF6",
+      "name": "AMERICAN ELECTRIC POWER Variable rate, due 03/15/2056",
+      "cusip": "02557TAF6",
+      "identifier": "",
+      "shares_delta": -3641000.0
+    },
+    {
+      "key": "816851BT5",
+      "name": "SEMPRA Variable rate, due 10/01/2054",
+      "cusip": "816851BT5",
+      "identifier": "",
+      "shares_delta": -2235000.0
+    },
+    {
+      "key": "G16258231",
+      "name": "Brookfield Renewable Partners LP, Series 17, 5.25%",
+      "cusip": "G16258231",
+      "identifier": "BEP.A",
+      "shares_delta": -3146.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 2341.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -2036.0
+    },
+    {
+      "key": "30190A203",
+      "name": "F&G Annuities & Life, Inc., 7.950%, Due 12/15/2053",
+      "cusip": "30190A203",
+      "identifier": "FGN",
+      "shares_delta": 1327.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -1257.0
+    }
+  ]
+}

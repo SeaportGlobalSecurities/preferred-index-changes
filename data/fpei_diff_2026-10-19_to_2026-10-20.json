@@ -1,0 +1,37 @@
+{
+  "added": [
+    {
+      "Security Name": "BANK OF NY MELLON CORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "064058AZ3",
+      "Shares / Quantity": "5,416,000",
+      "Market Value": "$5,423,514.48",
+      "Weighting": "0.29%"
+    },
+    {
+      "Security Name": "BANCO NAC DE MEXICO SA Variable rate",
+      "Identifier": "",
+      "CUSIP": "05975FAB2",
+      "Shares / Quantity": "4,000,000",
+      "Market Value": "$4,000,000.00",
+      "Weighting": "0.22%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -7608444.0
+    },
+    {
+      "key": "02557TAF6",
+      "name": "AMERICAN ELECTRIC POWER Variable rate, due 03/15/2056",
+      "cusip": "02557TAF6",
+      "identifier": "",
+      "shares_delta": -1000000.0
+    }
+  ]
+}
