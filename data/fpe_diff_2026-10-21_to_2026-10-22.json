@@ -1,0 +1,52 @@
+{
+  "added": [
+    {
+      "Security Name": "US BANCORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "902973BF2",
+      "Shares / Quantity": "30,400,000",
+      "Market Value": "$30,590,216.45",
+      "Weighting": "0.53%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "SEMPRA Variable rate, due 10/01/2054",
+      "Identifier": "",
+      "CUSIP": "816851BT5",
+      "Shares / Quantity": "9,086,000",
+      "Market Value": "$8,667,148.13",
+      "Weighting": "0.15%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -53777475.0
+    },
+    {
+      "key": "25401T504",
+      "name": "DigitalBridge Group, Inc., Series H, 7.125%",
+      "cusip": "25401T504",
+      "identifier": "DBRHP",
+      "shares_delta": 310292.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 5504.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -1219.0
+    }
+  ]
+}

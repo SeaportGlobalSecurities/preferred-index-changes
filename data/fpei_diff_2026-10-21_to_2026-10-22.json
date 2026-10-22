@@ -1,0 +1,29 @@
+{
+  "added": [
+    {
+      "Security Name": "US BANCORP Variable rate",
+      "Identifier": "",
+      "CUSIP": "902973BF2",
+      "Shares / Quantity": "9,550,000",
+      "Market Value": "$9,609,755.50",
+      "Weighting": "0.53%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -16207306.0
+    },
+    {
+      "key": "816851BT5",
+      "name": "SEMPRA Variable rate, due 10/01/2054",
+      "cusip": "816851BT5",
+      "identifier": "",
+      "shares_delta": -3094000.0
+    }
+  ]
+}
