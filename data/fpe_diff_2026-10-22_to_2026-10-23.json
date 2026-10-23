@@ -1,0 +1,73 @@
+{
+  "added": [
+    {
+      "Security Name": "ALGONQUIN PWR & UTILITY Variable rate, due 01/18/2082",
+      "Identifier": "",
+      "CUSIP": "015857AH8",
+      "Shares / Quantity": "12,200,000",
+      "Market Value": "$12,169,500.00",
+      "Weighting": "0.21%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "AMERICAN ELECTRIC POWER Variable rate, due 03/15/2056",
+      "Identifier": "",
+      "CUSIP": "02557TAF6",
+      "Shares / Quantity": "10,889,000",
+      "Market Value": "$10,260,956.24",
+      "Weighting": "0.18%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -2001846.0
+    },
+    {
+      "key": "0778FPAQ2",
+      "name": "BELL CANADA Variable rate, due 09/15/2055",
+      "cusip": "0778FPAQ2",
+      "identifier": "",
+      "shares_delta": -1840000.0
+    },
+    {
+      "key": "775109DU2",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "cusip": "775109DU2",
+      "identifier": "",
+      "shares_delta": 1840000.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 7221.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": -6430.0
+    },
+    {
+      "key": "25401T504",
+      "name": "DigitalBridge Group, Inc., Series H, 7.125%",
+      "cusip": "25401T504",
+      "identifier": "DBRHP",
+      "shares_delta": 4036.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 3096.0
+    }
+  ]
+}

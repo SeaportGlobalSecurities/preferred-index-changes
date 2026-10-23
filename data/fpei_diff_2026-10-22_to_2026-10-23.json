@@ -1,0 +1,52 @@
+{
+  "added": [
+    {
+      "Security Name": "ALGONQUIN PWR & UTILITY Variable rate, due 01/18/2082",
+      "Identifier": "",
+      "CUSIP": "015857AH8",
+      "Shares / Quantity": "3,900,000",
+      "Market Value": "$3,890,250.00",
+      "Weighting": "0.21%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "AMERICAN ELECTRIC POWER Variable rate, due 03/15/2056",
+      "Identifier": "",
+      "CUSIP": "02557TAF6",
+      "Shares / Quantity": "18,072,000",
+      "Market Value": "$17,029,663.07",
+      "Weighting": "0.93%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 14131019.0
+    },
+    {
+      "key": "816851BT5",
+      "name": "SEMPRA Variable rate, due 10/01/2054",
+      "cusip": "816851BT5",
+      "identifier": "",
+      "shares_delta": -1000000.0
+    },
+    {
+      "key": "0778FPAQ2",
+      "name": "BELL CANADA Variable rate, due 09/15/2055",
+      "cusip": "0778FPAQ2",
+      "identifier": "",
+      "shares_delta": -580000.0
+    },
+    {
+      "key": "775109DU2",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "cusip": "775109DU2",
+      "identifier": "",
+      "shares_delta": 580000.0
+    }
+  ]
+}
