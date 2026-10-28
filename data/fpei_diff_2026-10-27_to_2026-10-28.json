@@ -1,0 +1,22 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "DOMINION ENERGY INC Variable rate, due 02/01/2055",
+      "Identifier": "",
+      "CUSIP": "25746UDT3",
+      "Shares / Quantity": "198,000",
+      "Market Value": "$200,892.98",
+      "Weighting": "0.01%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 723867.0
+    }
+  ]
+}
