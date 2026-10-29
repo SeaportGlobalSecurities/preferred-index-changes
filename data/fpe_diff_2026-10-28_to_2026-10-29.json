@@ -1,0 +1,83 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 34227934.0
+    },
+    {
+      "key": "842587EB9",
+      "name": "SOUTHERN CO Variable rate, due 03/15/2055",
+      "cusip": "842587EB9",
+      "identifier": "",
+      "shares_delta": -25000000.0
+    },
+    {
+      "key": "26441CCG8",
+      "name": "DUKE ENERGY CORP Variable rate, due 09/01/2054",
+      "cusip": "26441CCG8",
+      "identifier": "",
+      "shares_delta": -5515000.0
+    },
+    {
+      "key": "023608AT9",
+      "name": "AMEREN CORP Variable rate, due 03/15/2057",
+      "cusip": "023608AT9",
+      "identifier": "",
+      "shares_delta": -1800000.0
+    },
+    {
+      "key": "65473PAT2",
+      "name": "NISOURCE INC Variable rate, due 03/31/2055",
+      "cusip": "65473PAT2",
+      "identifier": "",
+      "shares_delta": -500000.0
+    },
+    {
+      "key": "00123Q831",
+      "name": "AGNC Investment Corp., Series H, 8.75%",
+      "cusip": "00123Q831",
+      "identifier": "AGNCZ",
+      "shares_delta": 41141.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 10448.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -2997.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -1765.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 617.0
+    },
+    {
+      "key": "064058845",
+      "name": "The Bank of New York Mellon Corporation, Series K, Variable Rate",
+      "cusip": "064058845",
+      "identifier": "BNY.K",
+      "shares_delta": -185.0
+    }
+  ]
+}

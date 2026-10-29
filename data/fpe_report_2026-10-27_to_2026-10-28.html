@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FPE Holdings — 2026-10-28</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:24px 36px;background:#0d0d0d;color:#e0e0e0;
+  font-family:"Courier New",Courier,monospace;font-size:13px;}
+h1{color:#f7a700;margin:0 0 4px 0;font-size:22px;letter-spacing:.5px;}
+h2{color:#f7a700;margin:24px 0 4px 0;font-size:18px;letter-spacing:.5px;
+  border-top:1px solid #333;padding-top:20px;}
+h2:first-of-type{border-top:none;padding-top:0;}
+.sub{color:#888;font-size:13px;margin:0 0 20px 0;}
+.stat-bar{display:flex;gap:24px;flex-wrap:wrap;padding:12px 16px;
+  background:#111827;border:1px solid #333;border-radius:6px;margin:0 0 20px 0;}
+.stat{font-size:12px}
+.stat-lbl{color:#888}
+.stat-val{font-weight:bold;margin-left:4px}
+.s-new .stat-val{color:#2ecc71}
+.s-rem .stat-val{color:#e74c3c}
+.s-chg .stat-val{color:#f7a700}
+.s-tot .stat-val{color:#e0e0e0}
+details{margin:8px 0;border:1px solid #444;border-radius:6px;}
+summary{cursor:pointer;background:#111827;color:#f7a700;font-size:14px;
+  font-weight:bold;padding:10px 14px;user-select:none;list-style:none;border-radius:6px;}
+summary::-webkit-details-marker{display:none}
+summary::before{content:'▶ ';font-size:10px}
+details[open]>summary::before{content:'▼ '}
+.sum-sub{color:#aaa;font-weight:normal;font-size:12px}
+.sec-body{padding:12px 14px 14px}
+.tbl-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:auto;font-size:12px;
+  font-family:"Courier New",Courier,monospace;color:#e0e0e0;}
+thead th{text-align:left;padding:4px 8px;border-bottom:2px solid #f7a700;
+  color:#f7a700;font-size:11px;text-transform:uppercase;
+  letter-spacing:.5px;white-space:nowrap;cursor:pointer;user-select:none;}
+thead th:last-child{text-align:right}
+tbody tr:hover{background:#1a1a2e}
+tbody td{padding:4px 8px;border-bottom:1px solid #252525;white-space:nowrap;}
+tbody td:last-child{text-align:right}
+.nm{white-space:normal;word-wrap:break-word;max-width:220px;}
+.pos{color:#2ecc71;font-weight:bold}
+.neg{color:#e74c3c;font-weight:bold}
+.muted{color:#555}
+.empty{color:#888;font-size:12px;padding:8px 0}
+</style>
+</head>
+<body>
+<script>
+function sortTable(id,col){
+  var t=document.getElementById(id),tb=t.querySelector('tbody');
+  var rows=Array.from(tb.querySelectorAll('tr'));
+  var ths=t.querySelectorAll('th'),th=ths[col];
+  var asc=th.getAttribute('data-dir')!=='asc';
+  ths.forEach(function(h){
+    h.setAttribute('data-dir','');
+    h.textContent=h.textContent.replace(/ [▲▼]$/,'');
+  });
+  th.setAttribute('data-dir',asc?'asc':'desc');
+  th.textContent+=(asc?' ▲':' ▼');
+  rows.sort(function(a,b){
+    var av=a.cells[col].getAttribute('data-sort')||a.cells[col].textContent.trim();
+    var bv=b.cells[col].getAttribute('data-sort')||b.cells[col].textContent.trim();
+    var an=parseFloat(av.replace(/[^0-9.\-+]/g,'')),bn=parseFloat(bv.replace(/[^0-9.\-+]/g,''));
+    if(!isNaN(an)&&!isNaN(bn)) return asc?an-bn:bn-an;
+    return asc?av.localeCompare(bv):bv.localeCompare(av);
+  });
+  rows.forEach(function(r){tb.appendChild(r);});
+}
+</script>
+<h2>FPE ETF Holdings Change Report</h2>
+<p class="sub">Comparing holdings as of: <strong>2026-10-27</strong> (264 holdings) &rarr; <strong>2026-10-28</strong> (264 holdings)</p>
+<div class="stat-bar"><div class="stat s-tot"><span class="stat-lbl">Prior holdings:</span><span class="stat-val">264</span></div><div class="stat s-tot"><span class="stat-lbl">Current holdings:</span><span class="stat-val">264</span></div><div class="stat s-new"><span class="stat-lbl">New:</span><span class="stat-val">0</span></div><div class="stat s-rem"><span class="stat-lbl">Removed:</span><span class="stat-val">0</span></div><div class="stat s-chg"><span class="stat-lbl">Changed:</span><span class="stat-val">11</span></div><div class="stat s-tot"><span class="stat-lbl">Data as of:</span><span class="stat-val">10/28/2026</span></div></div>
+<details><summary>New Positions <span class="sum-sub">— 0 added</span></summary><div class="sec-body"><p class="empty">No new positions.</p></div></details>
+<details><summary>Removed Positions <span class="sum-sub">— 0 removed</span></summary><div class="sec-body"><p class="empty">No removed positions.</p></div></details>
+<details open><summary>Changed Positions <span class="sum-sub">— 11 — sorted by |shares delta|</span></summary><div class="sec-body"><div class="tbl-wrap"><table id="tbl_1"><thead><tr><th onclick="sortTable('tbl_1',0)">CUSIP</th><th onclick="sortTable('tbl_1',1)">Security Name</th><th onclick="sortTable('tbl_1',2)">Identifier</th><th onclick="sortTable('tbl_1',3)">Delta</th></tr></thead><tbody><tr><td><span class="muted">—</span></td><td data-sort="US Dollar" class="nm">US Dollar</td><td data-sort="$USD">$USD</td><td data-sort="34227934.0"><span class="pos">+34,227,934</span></td></tr><tr><td data-sort="842587EB9">842587EB9</td><td data-sort="SOUTHERN CO Variable rate, due 03/15/2055" class="nm">SOUTHERN CO Variable rate, due 03/15/2055</td><td><span class="muted">—</span></td><td data-sort="-25000000.0"><span class="neg">-25,000,000</span></td></tr><tr><td data-sort="26441CCG8">26441CCG8</td><td data-sort="DUKE ENERGY CORP Variable rate, due 09/01/2054" class="nm">DUKE ENERGY CORP Variable rate, due 09/01/2054</td><td><span class="muted">—</span></td><td data-sort="-5515000.0"><span class="neg">-5,515,000</span></td></tr><tr><td data-sort="023608AT9">023608AT9</td><td data-sort="AMEREN CORP Variable rate, due 03/15/2057" class="nm">AMEREN CORP Variable rate, due 03/15/2057</td><td><span class="muted">—</span></td><td data-sort="-1800000.0"><span class="neg">-1,800,000</span></td></tr><tr><td data-sort="65473PAT2">65473PAT2</td><td data-sort="NISOURCE INC Variable rate, due 03/31/2055" class="nm">NISOURCE INC Variable rate, due 03/31/2055</td><td><span class="muted">—</span></td><td data-sort="-500000.0"><span class="neg">-500,000</span></td></tr><tr><td data-sort="00123Q831">00123Q831</td><td data-sort="AGNC Investment Corp., Series H, 8.75%" class="nm">AGNC Investment Corp., Series H, 8.75%</td><td data-sort="AGNCZ">AGNCZ</td><td data-sort="41141.0"><span class="pos">+41,141</span></td></tr><tr><td data-sort="04686J838">04686J838</td><td data-sort="Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064" class="nm">Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064</td><td data-sort="ATHS">ATHS</td><td data-sort="10448.0"><span class="pos">+10,448</span></td></tr><tr><td data-sort="97650W702">97650W702</td><td data-sort="Wintrust Financial Corporation, Series F, 7.875% Variable Rate" class="nm">Wintrust Financial Corporation, Series F, 7.875% Variable Rate</td><td data-sort="WTFCN">WTFCN</td><td data-sort="-2997.0"><span class="neg">-2,997</span></td></tr><tr><td data-sort="949746804">949746804</td><td data-sort="Wells Fargo &amp; Company, Series L, 7.500%" class="nm">Wells Fargo &amp; Company, Series L, 7.500%</td><td data-sort="WFC.L">WFC.L</td><td data-sort="-1765.0"><span class="neg">-1,765</span></td></tr><tr><td data-sort="29359U109">29359U109</td><td data-sort="Enstar Group Limited, Series D, 7.000%, Variable Rate" class="nm">Enstar Group Limited, Series D, 7.000%, Variable Rate</td><td data-sort="ESGRF">ESGRF</td><td data-sort="617.0"><span class="pos">+617</span></td></tr><tr><td data-sort="064058845">064058845</td><td data-sort="The Bank of New York Mellon Corporation, Series K, Variable Rate" class="nm">The Bank of New York Mellon Corporation, Series K, Variable Rate</td><td data-sort="BNY.K">BNY.K</td><td data-sort="-185.0"><span class="neg">-185</span></td></tr></tbody></table></div></div></details>
+</body>
+</html>
