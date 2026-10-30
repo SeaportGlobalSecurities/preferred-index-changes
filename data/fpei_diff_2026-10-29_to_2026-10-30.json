@@ -1,0 +1,38 @@
+{
+  "added": [
+    {
+      "Security Name": "CMS ENERGY CORP Variable rate, due 07/01/2057",
+      "Identifier": "",
+      "CUSIP": "125896CB4",
+      "Shares / Quantity": "4,870,000",
+      "Market Value": "$4,870,000.00",
+      "Weighting": "0.27%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "AMEREN CORP Variable rate, due 03/15/2057",
+      "Identifier": "",
+      "CUSIP": "023608AT9",
+      "Shares / Quantity": "2,900,000",
+      "Market Value": "$2,884,061.31",
+      "Weighting": "0.16%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "26441CCG8",
+      "name": "DUKE ENERGY CORP Variable rate, due 09/01/2054",
+      "cusip": "26441CCG8",
+      "identifier": "",
+      "shares_delta": -918000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -788772.0
+    }
+  ]
+}

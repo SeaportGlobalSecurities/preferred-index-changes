@@ -1,0 +1,117 @@
+{
+  "added": [
+    {
+      "Security Name": "CMS ENERGY CORP Variable rate, due 07/01/2057",
+      "Identifier": "",
+      "CUSIP": "125896CB4",
+      "Shares / Quantity": "15,270,000",
+      "Market Value": "$15,270,000.00",
+      "Weighting": "0.27%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "Aspen Insurance Holdings Limited, 5.625%",
+      "Identifier": "AHL.E",
+      "CUSIP": "G05384204",
+      "Shares / Quantity": "2,070,896",
+      "Market Value": "$35,060,269.28",
+      "Weighting": "0.61%"
+    },
+    {
+      "Security Name": "Aspen Insurance Holdings Limited, 5.625%",
+      "Identifier": "AHL.D",
+      "CUSIP": "G05384162",
+      "Shares / Quantity": "565,994",
+      "Market Value": "$9,610,578.12",
+      "Weighting": "0.17%"
+    },
+    {
+      "Security Name": "AMEREN CORP Variable rate, due 03/15/2057",
+      "Identifier": "",
+      "CUSIP": "023608AT9",
+      "Shares / Quantity": "7,400,000",
+      "Market Value": "$7,359,328.86",
+      "Weighting": "0.13%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 35985643.0
+    },
+    {
+      "key": "26441CCG8",
+      "name": "DUKE ENERGY CORP Variable rate, due 09/01/2054",
+      "cusip": "26441CCG8",
+      "identifier": "",
+      "shares_delta": -2890000.0
+    },
+    {
+      "key": "00123Q831",
+      "name": "AGNC Investment Corp., Series H, 8.75%",
+      "cusip": "00123Q831",
+      "identifier": "AGNCZ",
+      "shares_delta": 53782.0
+    },
+    {
+      "key": "035710821",
+      "name": "Annaly Capital Management, Inc., Series J, 8.875%",
+      "cusip": "035710821",
+      "identifier": "NLY.J",
+      "shares_delta": -14797.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 8202.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "cusip": "65339K829",
+      "identifier": "NEE.W",
+      "shares_delta": 6955.0
+    },
+    {
+      "key": "233331792",
+      "name": "DTE Energy Company, Series H, 6.25%, Due 10/01/2085",
+      "cusip": "233331792",
+      "identifier": "DTK",
+      "shares_delta": 6788.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 3767.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 2087.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "cusip": "98389B878",
+      "identifier": "XELLL",
+      "shares_delta": 1902.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -748.0
+    }
+  ]
+}
