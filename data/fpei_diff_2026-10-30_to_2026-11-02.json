@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 6943408.0
+    },
+    {
+      "key": "842587EB9",
+      "name": "SOUTHERN CO Variable rate, due 03/15/2055",
+      "cusip": "842587EB9",
+      "identifier": "",
+      "shares_delta": -6755000.0
+    },
+    {
+      "key": "26441CCG8",
+      "name": "DUKE ENERGY CORP Variable rate, due 09/01/2054",
+      "cusip": "26441CCG8",
+      "identifier": "",
+      "shares_delta": -214000.0
+    }
+  ]
+}

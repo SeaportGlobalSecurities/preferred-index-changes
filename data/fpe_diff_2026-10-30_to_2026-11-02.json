@@ -1,0 +1,170 @@
+{
+  "added": [
+    {
+      "Security Name": "Bank of America Corporation, Series HH, 5.875%",
+      "Identifier": "BAC.K",
+      "CUSIP": "060505195",
+      "Shares / Quantity": "1,340",
+      "Market Value": "$28,113.20",
+      "Weighting": "0.00%"
+    },
+    {
+      "Security Name": "Morgan Stanley, Series F, 6.875%, Variable Rate",
+      "Identifier": "MS.F",
+      "CUSIP": "61763E207",
+      "Shares / Quantity": "11,014",
+      "Market Value": "$261,692.64",
+      "Weighting": "0.00%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -4405920.0
+    },
+    {
+      "key": "26441CCG8",
+      "name": "DUKE ENERGY CORP Variable rate, due 09/01/2054",
+      "cusip": "26441CCG8",
+      "identifier": "",
+      "shares_delta": -672000.0
+    },
+    {
+      "key": "00123Q831",
+      "name": "AGNC Investment Corp., Series H, 8.75%",
+      "cusip": "00123Q831",
+      "identifier": "AGNCZ",
+      "shares_delta": 85709.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "cusip": "65339K829",
+      "identifier": "NEE.W",
+      "shares_delta": 25879.0
+    },
+    {
+      "key": "30190A203",
+      "name": "F&G Annuities & Life, Inc., 7.950%, Due 12/15/2053",
+      "cusip": "30190A203",
+      "identifier": "FGN",
+      "shares_delta": 24151.0
+    },
+    {
+      "key": "008252827",
+      "name": "Affiliated Managers Group, Inc., 6.75%, Due 03/30/2064",
+      "cusip": "008252827",
+      "identifier": "MGRE",
+      "shares_delta": 20632.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 20550.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 14815.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 11655.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "cusip": "98389B878",
+      "identifier": "XELLL",
+      "shares_delta": 10906.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "cusip": "872652102",
+      "identifier": "TPGXL",
+      "shares_delta": 10874.0
+    },
+    {
+      "key": "857477855",
+      "name": "State Street Corporation, Series G, 5.350%, Variable Rate",
+      "cusip": "857477855",
+      "identifier": "STT.G",
+      "shares_delta": 10374.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 9643.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "cusip": "842587867",
+      "identifier": "SOJF",
+      "shares_delta": 8218.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 4653.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 4378.0
+    },
+    {
+      "key": "008252835",
+      "name": "Affiliated Managers Group, Inc., 4.200%, Due 09/30/2061",
+      "cusip": "008252835",
+      "identifier": "MGRD",
+      "shares_delta": -2106.0
+    },
+    {
+      "key": "035710821",
+      "name": "Annaly Capital Management, Inc., Series J, 8.875%",
+      "cusip": "035710821",
+      "identifier": "NLY.J",
+      "shares_delta": -779.0
+    },
+    {
+      "key": "233331792",
+      "name": "DTE Energy Company, Series H, 6.25%, Due 10/01/2085",
+      "cusip": "233331792",
+      "identifier": "DTK",
+      "shares_delta": 671.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 490.0
+    },
+    {
+      "key": "94988U656",
+      "name": "Wells Fargo & Company, Series Y, 5.625%",
+      "cusip": "94988U656",
+      "identifier": "WFC.Y",
+      "shares_delta": 361.0
+    }
+  ]
+}
