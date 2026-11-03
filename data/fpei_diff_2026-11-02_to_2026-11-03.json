@@ -1,0 +1,39 @@
+{
+  "added": [
+    {
+      "Security Name": "WEC ENERGY GROUP INC Variable rate, due 08/04/2057",
+      "Identifier": "",
+      "CUSIP": "92939UAV8",
+      "Shares / Quantity": "5,265,000",
+      "Market Value": "$5,283,080.90",
+      "Weighting": "0.29%"
+    },
+    {
+      "Security Name": "WEC ENERGY GROUP INC Variable rate, due 08/04/2057",
+      "Identifier": "",
+      "CUSIP": "92939UAW6",
+      "Shares / Quantity": "3,900,000",
+      "Market Value": "$3,914,738.49",
+      "Weighting": "0.21%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "DUKE ENERGY CORP Variable rate, due 09/01/2054",
+      "Identifier": "",
+      "CUSIP": "26441CCG8",
+      "Shares / Quantity": "9,718,000",
+      "Market Value": "$9,654,928.23",
+      "Weighting": "0.53%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 2239056.0
+    }
+  ]
+}

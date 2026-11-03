@@ -1,0 +1,166 @@
+{
+  "added": [
+    {
+      "Security Name": "WEC ENERGY GROUP INC Variable rate, due 08/04/2057",
+      "Identifier": "",
+      "CUSIP": "92939UAV8",
+      "Shares / Quantity": "16,475,000",
+      "Market Value": "$16,531,577.95",
+      "Weighting": "0.29%"
+    },
+    {
+      "Security Name": "WEC ENERGY GROUP INC Variable rate, due 08/04/2057",
+      "Identifier": "",
+      "CUSIP": "92939UAW6",
+      "Shares / Quantity": "12,200,000",
+      "Market Value": "$12,246,105.02",
+      "Weighting": "0.21%"
+    }
+  ],
+  "removed": [
+    {
+      "Security Name": "DUKE ENERGY CORP Variable rate, due 09/01/2054",
+      "Identifier": "",
+      "CUSIP": "26441CCG8",
+      "Shares / Quantity": "14,798,000",
+      "Market Value": "$14,701,958.02",
+      "Weighting": "0.26%"
+    },
+    {
+      "Security Name": "DigitalBridge Group, Inc., Series I, 7.15%",
+      "Identifier": "DBRIP",
+      "CUSIP": "25401T405",
+      "Shares / Quantity": "598,173",
+      "Market Value": "$8,177,024.91",
+      "Weighting": "0.14%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -7885516.0
+    },
+    {
+      "key": "00123Q831",
+      "name": "AGNC Investment Corp., Series H, 8.75%",
+      "cusip": "00123Q831",
+      "identifier": "AGNCZ",
+      "shares_delta": 139045.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 55262.0
+    },
+    {
+      "key": "48128B655",
+      "name": "JPMorgan Chase & Co., Series DD, 5.750%",
+      "cusip": "48128B655",
+      "identifier": "JPM.D",
+      "shares_delta": 30375.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 21107.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 20078.0
+    },
+    {
+      "key": "48128B580",
+      "name": "JPMorgan Chase & Co., Series JJ, 4.550%",
+      "cusip": "48128B580",
+      "identifier": "JPM.K",
+      "shares_delta": 20021.0
+    },
+    {
+      "key": "61762V853",
+      "name": "Morgan Stanley, Series P, 6.500%",
+      "cusip": "61762V853",
+      "identifier": "MS.P",
+      "shares_delta": 19809.0
+    },
+    {
+      "key": "060505195",
+      "name": "Bank of America Corporation, Series HH, 5.875%",
+      "cusip": "060505195",
+      "identifier": "BAC.K",
+      "shares_delta": 18183.0
+    },
+    {
+      "key": "65339K829",
+      "name": "NextEra Energy Capital Holdings, Inc., Series Z, 6.500%, Due 04/15/2086",
+      "cusip": "65339K829",
+      "identifier": "NEE.W",
+      "shares_delta": 11450.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 9174.0
+    },
+    {
+      "key": "21871X208",
+      "name": "Corebridge Financial, Inc., 6.375%, Due 12/15/2064",
+      "cusip": "21871X208",
+      "identifier": "CRBD",
+      "shares_delta": 8440.0
+    },
+    {
+      "key": "842587867",
+      "name": "The Southern Company, 6.50%, Due 03/15/2085",
+      "cusip": "842587867",
+      "identifier": "SOJF",
+      "shares_delta": 4366.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 4087.0
+    },
+    {
+      "key": "872652102",
+      "name": "TPG Operating Group II, L.P., 6.950%, Due 03/15/2064",
+      "cusip": "872652102",
+      "identifier": "TPGXL",
+      "shares_delta": 1275.0
+    },
+    {
+      "key": "345370845",
+      "name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "cusip": "345370845",
+      "identifier": "F.B",
+      "shares_delta": 577.0
+    },
+    {
+      "key": "035710821",
+      "name": "Annaly Capital Management, Inc., Series J, 8.875%",
+      "cusip": "035710821",
+      "identifier": "NLY.J",
+      "shares_delta": -468.0
+    },
+    {
+      "key": "744320870",
+      "name": "Prudential Financial, Inc., 5.950%, Due 09/01/2062",
+      "cusip": "744320870",
+      "identifier": "PRH",
+      "shares_delta": 455.0
+    }
+  ]
+}
