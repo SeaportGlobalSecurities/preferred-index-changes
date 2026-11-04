@@ -1,0 +1,132 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -3550867.0
+    },
+    {
+      "key": "94988U656",
+      "name": "Wells Fargo & Company, Series Y, 5.625%",
+      "cusip": "94988U656",
+      "identifier": "WFC.Y",
+      "shares_delta": 34585.0
+    },
+    {
+      "key": "48128B655",
+      "name": "JPMorgan Chase & Co., Series DD, 5.750%",
+      "cusip": "48128B655",
+      "identifier": "JPM.D",
+      "shares_delta": 32945.0
+    },
+    {
+      "key": "125896852",
+      "name": "CMS Energy Corp., 5.875%, Due 10/15/2078",
+      "cusip": "125896852",
+      "identifier": "CMSC",
+      "shares_delta": -29170.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 27934.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 27192.0
+    },
+    {
+      "key": "61762V853",
+      "name": "Morgan Stanley, Series P, 6.500%",
+      "cusip": "61762V853",
+      "identifier": "MS.P",
+      "shares_delta": 21135.0
+    },
+    {
+      "key": "48128B580",
+      "name": "JPMorgan Chase & Co., Series JJ, 4.550%",
+      "cusip": "48128B580",
+      "identifier": "JPM.K",
+      "shares_delta": 20917.0
+    },
+    {
+      "key": "61763E207",
+      "name": "Morgan Stanley, Series F, 6.875%, Variable Rate",
+      "cusip": "61763E207",
+      "identifier": "MS.F",
+      "shares_delta": 14269.0
+    },
+    {
+      "key": "929089209",
+      "name": "Voya Financial, Inc., Series B, 5.350%, Variable Rate",
+      "cusip": "929089209",
+      "identifier": "VOYA.B",
+      "shares_delta": 11060.0
+    },
+    {
+      "key": "94988U151",
+      "name": "Wells Fargo & Company, Series Z, 4.75%",
+      "cusip": "94988U151",
+      "identifier": "WFC.Z",
+      "shares_delta": 7416.0
+    },
+    {
+      "key": "04686J861",
+      "name": "Athene Holding Ltd., Series A, 6.35% Variable Rate",
+      "cusip": "04686J861",
+      "identifier": "ATH.A",
+      "shares_delta": 5187.0
+    },
+    {
+      "key": "060505195",
+      "name": "Bank of America Corporation, Series HH, 5.875%",
+      "cusip": "060505195",
+      "identifier": "BAC.K",
+      "shares_delta": 4887.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 4718.0
+    },
+    {
+      "key": "G16258231",
+      "name": "Brookfield Renewable Partners LP, Series 17, 5.25%",
+      "cusip": "G16258231",
+      "identifier": "BEP.A",
+      "shares_delta": -2425.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -878.0
+    },
+    {
+      "key": "345370845",
+      "name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "cusip": "345370845",
+      "identifier": "F.B",
+      "shares_delta": 855.0
+    },
+    {
+      "key": "064058845",
+      "name": "The Bank of New York Mellon Corporation, Series K, Variable Rate",
+      "cusip": "064058845",
+      "identifier": "BNY.K",
+      "shares_delta": -80.0
+    }
+  ]
+}
