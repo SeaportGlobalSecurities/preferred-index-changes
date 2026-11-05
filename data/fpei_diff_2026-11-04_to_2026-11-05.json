@@ -1,0 +1,50 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "SOUTHERN CO Variable rate, due 03/15/2055",
+      "Identifier": "",
+      "CUSIP": "842587EB9",
+      "Shares / Quantity": "1,745,000",
+      "Market Value": "$1,708,062.01",
+      "Weighting": "0.09%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "65473PAT2",
+      "name": "NISOURCE INC Variable rate, due 03/31/2055",
+      "cusip": "65473PAT2",
+      "identifier": "",
+      "shares_delta": -1990000.0
+    },
+    {
+      "key": "92939UAW6",
+      "name": "WEC ENERGY GROUP INC Variable rate, due 08/04/2057",
+      "cusip": "92939UAW6",
+      "identifier": "",
+      "shares_delta": 1990000.0
+    },
+    {
+      "key": "0778FPAQ2",
+      "name": "BELL CANADA Variable rate, due 09/15/2055",
+      "cusip": "0778FPAQ2",
+      "identifier": "",
+      "shares_delta": -1950000.0
+    },
+    {
+      "key": "775109DU2",
+      "name": "ROGERS COMMUNICATIONS INC Variable rate, due 01/31/2057",
+      "cusip": "775109DU2",
+      "identifier": "",
+      "shares_delta": 1950000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 295243.0
+    }
+  ]
+}
