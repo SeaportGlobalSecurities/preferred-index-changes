@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 3437596.0
+    },
+    {
+      "key": "95002YAA1",
+      "name": "WELLS FARGO & COMPANY Variable rate",
+      "cusip": "95002YAA1",
+      "identifier": "",
+      "shares_delta": -2000000.0
+    }
+  ]
+}
