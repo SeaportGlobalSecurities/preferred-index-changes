@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 702059.0
+    },
+    {
+      "key": "035710821",
+      "name": "Annaly Capital Management, Inc., Series J, 8.875%",
+      "cusip": "035710821",
+      "identifier": "NLY.J",
+      "shares_delta": -31546.0
+    },
+    {
+      "key": "00123Q831",
+      "name": "AGNC Investment Corp., Series H, 8.75%",
+      "cusip": "00123Q831",
+      "identifier": "AGNCZ",
+      "shares_delta": 4206.0
+    }
+  ]
+}
