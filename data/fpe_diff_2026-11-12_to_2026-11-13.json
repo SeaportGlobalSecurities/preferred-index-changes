@@ -1,0 +1,64 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "LLOYDS BANKING GROUP PLC Variable rate",
+      "Identifier": "",
+      "CUSIP": "539439BF5",
+      "Shares / Quantity": "9,000,000",
+      "Market Value": "$8,765,559.90",
+      "Weighting": "0.15%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 5093039.0
+    },
+    {
+      "key": "59156RCQ9",
+      "name": "METLIFE INC Variable rate, due 03/15/2055",
+      "cusip": "59156RCQ9",
+      "identifier": "",
+      "shares_delta": -5000000.0
+    },
+    {
+      "key": "021361AD2",
+      "name": "ALTAGAS LTD Variable rate, due 10/15/2054",
+      "cusip": "021361AD2",
+      "identifier": "",
+      "shares_delta": -4000000.0
+    },
+    {
+      "key": "25746UEA3",
+      "name": "DOMINION ENERGY INC Variable rate, due 02/15/2056",
+      "cusip": "25746UEA3",
+      "identifier": "",
+      "shares_delta": -3000000.0
+    },
+    {
+      "key": "025537BA8",
+      "name": "AMERICAN ELECTRIC POWER 6.95%, due 12/15/2054",
+      "cusip": "025537BA8",
+      "identifier": "",
+      "shares_delta": -1500000.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -4458.0
+    },
+    {
+      "key": "035710821",
+      "name": "Annaly Capital Management, Inc., Series J, 8.875%",
+      "cusip": "035710821",
+      "identifier": "NLY.J",
+      "shares_delta": -323.0
+    }
+  ]
+}
