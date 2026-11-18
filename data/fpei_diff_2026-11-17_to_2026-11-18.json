@@ -1,0 +1,22 @@
+{
+  "added": [
+    {
+      "Security Name": "NEVADA POWER CO Variable rate, due 06/15/2057",
+      "Identifier": "",
+      "CUSIP": "641423CK2",
+      "Shares / Quantity": "9,000,000",
+      "Market Value": "$9,000,000.00",
+      "Weighting": "0.48%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 24328739.0
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "added": [
+    {
+      "Security Name": "NEVADA POWER CO Variable rate, due 06/15/2057",
+      "Identifier": "",
+      "CUSIP": "641423CK2",
+      "Shares / Quantity": "8,500,000",
+      "Market Value": "$8,500,000.00",
+      "Weighting": "0.15%"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -13070289.0
+    },
+    {
+      "key": "015857AH8",
+      "name": "ALGONQUIN PWR & UTILITY Variable rate, due 01/18/2082",
+      "cusip": "015857AH8",
+      "identifier": "",
+      "shares_delta": -5000000.0
+    },
+    {
+      "key": "780082AV5",
+      "name": "ROYAL BANK OF CANADA Variable rate, due 08/24/2085",
+      "cusip": "780082AV5",
+      "identifier": "",
+      "shares_delta": -2000000.0
+    },
+    {
+      "key": "025537BA8",
+      "name": "AMERICAN ELECTRIC POWER 6.95%, due 12/15/2054",
+      "cusip": "025537BA8",
+      "identifier": "",
+      "shares_delta": -2000000.0
+    },
+    {
+      "key": "693475BP9",
+      "name": "PNC FINANCIAL SERVICES Variable rate",
+      "cusip": "693475BP9",
+      "identifier": "",
+      "shares_delta": -1000000.0
+    },
+    {
+      "key": "30040WBD9",
+      "name": "EVERSOURCE ENERGY Variable rate, due 08/15/2056",
+      "cusip": "30040WBD9",
+      "identifier": "",
+      "shares_delta": -1000000.0
+    },
+    {
+      "key": "404280FJ3",
+      "name": "HSBC HOLDINGS PLC Variable rate",
+      "cusip": "404280FJ3",
+      "identifier": "",
+      "shares_delta": -1000000.0
+    },
+    {
+      "key": "65473PAT2",
+      "name": "NISOURCE INC Variable rate, due 03/31/2055",
+      "cusip": "65473PAT2",
+      "identifier": "",
+      "shares_delta": -1000000.0
+    },
+    {
+      "key": "30040WBC1",
+      "name": "EVERSOURCE ENERGY Variable rate, due 08/15/2056",
+      "cusip": "30040WBC1",
+      "identifier": "",
+      "shares_delta": -1000000.0
+    },
+    {
+      "key": "31959XAG8",
+      "name": "FIRST CITIZENS BANCSHARES Series D, Variable rate",
+      "cusip": "31959XAG8",
+      "identifier": "",
+      "shares_delta": -803000.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 22848.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -5017.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -1362.0
+    }
+  ]
+}
