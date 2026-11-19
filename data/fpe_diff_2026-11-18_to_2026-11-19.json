@@ -1,0 +1,57 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "ALGONQUIN PWR & UTILITY Variable rate, due 01/18/2082",
+      "Identifier": "",
+      "CUSIP": "015857AH8",
+      "Shares / Quantity": "7,200,000",
+      "Market Value": "$7,160,924.88",
+      "Weighting": "0.13%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 7104791.0
+    },
+    {
+      "key": "780082AV5",
+      "name": "ROYAL BANK OF CANADA Variable rate, due 08/24/2085",
+      "cusip": "780082AV5",
+      "identifier": "",
+      "shares_delta": -3000000.0
+    },
+    {
+      "key": "30040WBD9",
+      "name": "EVERSOURCE ENERGY Variable rate, due 08/15/2056",
+      "cusip": "30040WBD9",
+      "identifier": "",
+      "shares_delta": -3000000.0
+    },
+    {
+      "key": "693475BP9",
+      "name": "PNC FINANCIAL SERVICES Variable rate",
+      "cusip": "693475BP9",
+      "identifier": "",
+      "shares_delta": -2000000.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 1052.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -329.0
+    }
+  ]
+}

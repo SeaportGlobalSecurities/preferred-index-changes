@@ -1,0 +1,48 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -11387792.0
+    },
+    {
+      "key": "06055HAN3",
+      "name": "BANK OF AMERICA CORP Variable rate",
+      "cusip": "06055HAN3",
+      "identifier": "",
+      "shares_delta": 5004000.0
+    },
+    {
+      "key": "17327CBC6",
+      "name": "CITIGROUP INC Variable rate",
+      "cusip": "17327CBC6",
+      "identifier": "",
+      "shares_delta": 5000000.0
+    },
+    {
+      "key": "05946KAW1",
+      "name": "BANCO BILBAO VIZCAYA ARG Variable rate",
+      "cusip": "05946KAW1",
+      "identifier": "",
+      "shares_delta": 5000000.0
+    },
+    {
+      "key": "172967QJ3",
+      "name": "CITIGROUP INC Series HH, Variable rate",
+      "cusip": "172967QJ3",
+      "identifier": "",
+      "shares_delta": 3000000.0
+    },
+    {
+      "key": "D18190PH1",
+      "name": "DEUTSCHE BANK AG Variable rate",
+      "cusip": "D18190PH1",
+      "identifier": "",
+      "shares_delta": 1000000.0
+    }
+  ]
+}
