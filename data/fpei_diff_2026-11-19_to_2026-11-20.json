@@ -1,0 +1,34 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -11662933.0
+    },
+    {
+      "key": "0641598X7",
+      "name": "BANK OF NOVA SCOTIA Variable rate, due 04/27/2085",
+      "cusip": "0641598X7",
+      "identifier": "",
+      "shares_delta": 5000000.0
+    },
+    {
+      "key": "D18190PH1",
+      "name": "DEUTSCHE BANK AG Variable rate",
+      "cusip": "D18190PH1",
+      "identifier": "",
+      "shares_delta": 3600000.0
+    },
+    {
+      "key": "13607P7Y4",
+      "name": "CANADIAN IMPERIAL BANK Variable rate, due 10/28/2085",
+      "cusip": "13607P7Y4",
+      "identifier": "",
+      "shares_delta": 3000000.0
+    }
+  ]
+}

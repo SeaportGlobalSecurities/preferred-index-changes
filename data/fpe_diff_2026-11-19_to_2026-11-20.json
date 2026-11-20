@@ -1,0 +1,55 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "693475BP9",
+      "name": "PNC FINANCIAL SERVICES Variable rate",
+      "cusip": "693475BP9",
+      "identifier": "",
+      "shares_delta": -5000000.0
+    },
+    {
+      "key": "92343VJL9",
+      "name": "VERIZON COMMUNICATIONS Variable rate, due 02/15/2059",
+      "cusip": "92343VJL9",
+      "identifier": "",
+      "shares_delta": -4000000.0
+    },
+    {
+      "key": "31959XAG8",
+      "name": "FIRST CITIZENS BANCSHARES Series D, Variable rate",
+      "cusip": "31959XAG8",
+      "identifier": "",
+      "shares_delta": -2000000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -1270831.0
+    },
+    {
+      "key": "29359U109",
+      "name": "Enstar Group Limited, Series D, 7.000%, Variable Rate",
+      "cusip": "29359U109",
+      "identifier": "ESGRF",
+      "shares_delta": 1980.0
+    },
+    {
+      "key": "97650W702",
+      "name": "Wintrust Financial Corporation, Series F, 7.875% Variable Rate",
+      "cusip": "97650W702",
+      "identifier": "WTFCN",
+      "shares_delta": -1886.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -398.0
+    }
+  ]
+}
