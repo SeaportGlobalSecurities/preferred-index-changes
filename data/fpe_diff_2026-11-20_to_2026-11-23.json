@@ -1,0 +1,20 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": -18137307.0
+    },
+    {
+      "key": "021361AD2",
+      "name": "ALTAGAS LTD Variable rate, due 10/15/2054",
+      "cusip": "021361AD2",
+      "identifier": "",
+      "shares_delta": -11400000.0
+    }
+  ]
+}
