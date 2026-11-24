@@ -1,0 +1,71 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "ALTAGAS LTD Variable rate, due 10/15/2054",
+      "Identifier": "",
+      "CUSIP": "021361AD2",
+      "Shares / Quantity": "6,100,000",
+      "Market Value": "$6,109,345.20",
+      "Weighting": "0.11%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 29353260.0
+    },
+    {
+      "key": "404280FJ3",
+      "name": "HSBC HOLDINGS PLC Variable rate",
+      "cusip": "404280FJ3",
+      "identifier": "",
+      "shares_delta": -10000000.0
+    },
+    {
+      "key": "693475BP9",
+      "name": "PNC FINANCIAL SERVICES Variable rate",
+      "cusip": "693475BP9",
+      "identifier": "",
+      "shares_delta": -9000000.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": 10166.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 6857.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 4037.0
+    },
+    {
+      "key": "345370845",
+      "name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "cusip": "345370845",
+      "identifier": "F.B",
+      "shares_delta": 2184.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -1271.0
+    }
+  ]
+}
