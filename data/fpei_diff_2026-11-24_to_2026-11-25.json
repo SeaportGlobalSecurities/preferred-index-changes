@@ -1,0 +1,27 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "key": "606822DP6",
+      "name": "MITSUBISHI UFJ FIN GRP Variable rate",
+      "cusip": "606822DP6",
+      "identifier": "",
+      "shares_delta": -1200000.0
+    },
+    {
+      "key": "60687YEA3",
+      "name": "MIZUHO FINANCIAL GROUP Variable rate",
+      "cusip": "60687YEA3",
+      "identifier": "",
+      "shares_delta": 1200000.0
+    },
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 439894.0
+    }
+  ]
+}

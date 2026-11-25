@@ -1,0 +1,106 @@
+{
+  "added": [],
+  "removed": [
+    {
+      "Security Name": "DigitalBridge Group, Inc., Series J, 7.125%",
+      "Identifier": "DBRJP",
+      "CUSIP": "25401T306",
+      "Shares / Quantity": "365,690",
+      "Market Value": "$4,702,773.40",
+      "Weighting": "0.08%"
+    }
+  ],
+  "changed": [
+    {
+      "key": "$USD",
+      "name": "US Dollar",
+      "cusip": "",
+      "identifier": "$USD",
+      "shares_delta": 10525643.0
+    },
+    {
+      "key": "606822DP6",
+      "name": "MITSUBISHI UFJ FIN GRP Variable rate",
+      "cusip": "606822DP6",
+      "identifier": "",
+      "shares_delta": -3600000.0
+    },
+    {
+      "key": "60687YEA3",
+      "name": "MIZUHO FINANCIAL GROUP Variable rate",
+      "cusip": "60687YEA3",
+      "identifier": "",
+      "shares_delta": 3600000.0
+    },
+    {
+      "key": "125896845",
+      "name": "CMS Energy Corp., 5.875%, Due 03/01/2079",
+      "cusip": "125896845",
+      "identifier": "CMSD",
+      "shares_delta": 15359.0
+    },
+    {
+      "key": "025676859",
+      "name": "American National Group Inc., Series D, 7.375%",
+      "cusip": "025676859",
+      "identifier": "ANG.D",
+      "shares_delta": 11715.0
+    },
+    {
+      "key": "98389B878",
+      "name": "Xcel Energy Inc., 6.250%, Due 10/15/2085",
+      "cusip": "98389B878",
+      "identifier": "XELLL",
+      "shares_delta": 9560.0
+    },
+    {
+      "key": "04686J838",
+      "name": "Athene Holding Ltd., 7.250% Variable Rate, Due 03/30/2064",
+      "cusip": "04686J838",
+      "identifier": "ATHS",
+      "shares_delta": 9098.0
+    },
+    {
+      "key": "345370845",
+      "name": "Ford Motor Company, 6.20%, Due 06/01/2059",
+      "cusip": "345370845",
+      "identifier": "F.B",
+      "shares_delta": 8305.0
+    },
+    {
+      "key": "949746804",
+      "name": "Wells Fargo & Company, Series L, 7.500%",
+      "cusip": "949746804",
+      "identifier": "WFC.L",
+      "shares_delta": -4339.0
+    },
+    {
+      "key": "00123Q831",
+      "name": "AGNC Investment Corp., Series H, 8.75%",
+      "cusip": "00123Q831",
+      "identifier": "AGNCZ",
+      "shares_delta": 3369.0
+    },
+    {
+      "key": "61762V853",
+      "name": "Morgan Stanley, Series P, 6.500%",
+      "cusip": "61762V853",
+      "identifier": "MS.P",
+      "shares_delta": 2309.0
+    },
+    {
+      "key": "04686J507",
+      "name": "Athene Holding Ltd., Series E, 7.750% Variable Rate",
+      "cusip": "04686J507",
+      "identifier": "ATH.E",
+      "shares_delta": 1839.0
+    },
+    {
+      "key": "61762V606",
+      "name": "Morgan Stanley, Series K, 5.850%, Variable Rate",
+      "cusip": "61762V606",
+      "identifier": "MS.K",
+      "shares_delta": 1803.0
+    }
+  ]
+}
